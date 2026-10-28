@@ -759,8 +759,8 @@ The anarchists in Russia put the self-initiative of the masses in the foreground
 > **What are the practical and economic foundations of a society without a wage system**?
 >
 > *What to do the day after the revolution? **Anarchism will have to answer this question** ; it will have to learn the lesson of these last years if total failure is not to end in irreversible bankruptcy*.
-
-**The old anarchist slogans**, *however much truth they contain and* **however often they are repeated, do not solve any of the problems posed by real life.** ***In particular, they do not solve any of the problems posed by the social revolution of the working class***.« (p. 10)
+>
+> **The old anarchist slogans**, *however much truth they contain and* **however often they are repeated, do not solve any of the problems posed by real life.** ***In particular, they do not solve any of the problems posed by the social revolution of the working class***.« (p. 10)
 
 And Müller Lehning continues:
 

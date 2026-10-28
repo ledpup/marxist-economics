@@ -436,7 +436,9 @@ def classify(paras):
             p["kind"] = "h2"
             open_quote = 0
             continue
-        styled = max(italic, bold)
+        # a quote may mix the source's bold and italic emphasis, so count
+        # letters that are either, not the larger of the two shares
+        styled = sum(is_italic(c) or (is_bold(c) and not c.spaced) for c in chars) / max(len(chars), 1)
         if styled > 0.75 and (text[:1] in QUOTE_OPEN or open_quote > 0):
             p["kind"] = "quote"
             open_quote += text.count("»") - text.count("«")

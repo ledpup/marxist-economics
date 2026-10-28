@@ -683,7 +683,7 @@ q(lehning, "05", "e", "but one must also examine how it must be carried out.", "
 q(lehning, "05", "e", "but what this initiative had to be, what the masses had to do, today and tomorrow, everything remained blurred and little positive.", "as", "7", "")
 q(lehning, "05", "e", "Many manifestos may have appeared, but few could give a clear and unambiguous answer to the question of daily practice.", "as", "8", "")
 q(lehning, "05", "e", "We may say that the Russian Revolution once and forever asked the question: What are the practical and economic foundations of a society without a wage system? […] The old anarchist slogans, however much truth they contain and however often they are repeated, do not solve any of the problems posed by real life.",
-  "as", "10", "", "Emphasis by the GIC. The last paragraph of this quote has lost its `>` block-quote marker in the book file (conversion error).")
+  "as", "10", "", "Emphasis by the GIC.")
 q(lehning, "05", "e", "Without these practical realities, all propaganda remains negative, and all ideals remain utopias. This is the lesson anarchism has to learn from history, and it cannot be sufficiently repeated by the tragic development of the Russian revolution.", "as", "11", "")
 q(lehning, "05", "e", "The economic organizations have the goal of expropriating the state and capitalism. […] The basis must be the operation; the operating organization must form the nucleus for the new economic social organization.", "as", "18", "", "Emphasis by the GIC.")
 q(lehning, "05", "e", "The purpose of economic organizations is to expropriate the state and capitalism.", "as", "18", "", "Repeats the previous quote in another wording.")
