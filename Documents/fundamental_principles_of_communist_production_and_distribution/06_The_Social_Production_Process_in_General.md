@@ -21,7 +21,7 @@ Through its production apparatus, humanity has created an organ to meet its dive
 
 ## b. Capitalist production
 
-It is precisely in the laws of movement of this constant renewal, in the laws of movement of reproduction, that capitalism presents itself as an uncontrolled and revolutionary system. It knows no standstill. It is constantly pulled from its old foundations to find a new balance at a higher level, with a higher capacity. It *must* create more and more and bigger companies, it must reproduce production on an ever-larger scale, or to put it capitalistically: Capital <u>must</u> *accumulate* constantly.
+It is precisely in the laws of movement of this constant renewal, in the laws of movement of reproduction, that capitalism presents itself as an uncontrolled and revolutionary system. It knows no standstill. It is constantly pulled from its old foundations to find a new balance at a higher level, with a higher capacity. It *must* create more and more and bigger companies, it must reproduce production on an ever-larger scale, or to put it capitalistically: Capital <ins>must</ins> *accumulate* constantly.
 
 Because the profitability of capital is the purpose of capitalist production, and therefore *profit* is the driving power. And because only the living labor power can generate *surplus value*, every capitalist must strive to employ as many workers as possible, that is, to produce as much as possible.
 

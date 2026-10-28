@@ -337,7 +337,7 @@ def render(toks, headline=False):
         if attr == 2:
             return styled(group, 2, "**", "**")
         if attr == 3:
-            return styled(group, 3, "<u>", "</u>")
+            return styled(group, 3, "<ins>", "</ins>")
         return "".join(x[0] for x in group)
 
     md = text(items, 1)

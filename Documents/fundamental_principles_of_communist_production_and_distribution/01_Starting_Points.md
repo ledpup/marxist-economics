@@ -39,7 +39,7 @@ The most important, most positive thing that the revolutionary period of 1917-23
 
 In addition to the factory organization, the second starting point for the fundamental principles of communist economic life is the Marxist explanation of the **domination** and **exploitation** of the working class in capitalist society. It is not primarily an interpretation of "Marx quotations", but rather the general train of thought, the essence of his analysis.
 
-Domination and exploitation are extraordinarily simple in their causes and immediately comprehensible for everyone: they are enclosed in the fact that the worker is separated from the means of production. The capitalist is the owner of the means of production - the worker owns only his labor power; - the capitalist owns the conditions under which the worker must work. Thus, the worker is *economically* completely without rights (even if political democracy is carried out to the extreme), he is dependent on capital. With the **right of disposal** over the means of production, the possessing class also has the disposal over the labor power; that is, **<u>it rules</u> the working class**.
+Domination and exploitation are extraordinarily simple in their causes and immediately comprehensible for everyone: they are enclosed in the fact that the worker is separated from the means of production. The capitalist is the owner of the means of production - the worker owns only his labor power; - the capitalist owns the conditions under which the worker must work. Thus, the worker is *economically* completely without rights (even if political democracy is carried out to the extreme), he is dependent on capital. With the **right of disposal** over the means of production, the possessing class also has the disposal over the labor power; that is, **<ins>it rules</ins> the working class**.
 
 *The right of disposal over the means of production, exercised by the ruling class, brings the working class into a relationship of dependence on capital*.
 
@@ -55,7 +55,7 @@ As simple as the basis for the domination of the working class is, as simple is 
 
 *That is the essence of communist production*.
 
-Of course, this can no longer be done in the way that the craftsman used to have his tools and work product at his disposal. Today's society does not know anymore "individual" work on its own; it has gone over to social production, to the socialized work process, where everyone is only a cog in the big whole. That is why the workers must now possess the means of production *collectively*. <u>But common possession, which does not at the same time include the right of disposal over it, misses its purpose</u>.
+Of course, this can no longer be done in the way that the craftsman used to have his tools and work product at his disposal. Today's society does not know anymore "individual" work on its own; it has gone over to social production, to the socialized work process, where everyone is only a cog in the big whole. That is why the workers must now possess the means of production *collectively*. <ins>But common possession, which does not at the same time include the right of disposal over it, misses its purpose</ins>.
 
 Common ownership is not an **end in itself**. It is only the **means** to make possible the right of disposal over the means of production for the workers, to abolish the separation of work and product of labor, to abolish wage labor.
 

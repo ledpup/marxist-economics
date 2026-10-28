@@ -95,7 +95,7 @@ The connection of the individual operational units to *industrial branches* appe
 
 *Together the operational units have socially average productivity*.
 
-Precisely *because* the social average is calculated from all these operational units, the under- and overproductivities must balance each other out. The downward and upward deviations are therefore always zero. If <u>all</u> operational units, both under- and over-productive, pass on their products to society according to the *social* production time, the bookkeeping of the industrial sector must *always* be "balanced".
+Precisely *because* the social average is calculated from all these operational units, the under- and overproductivities must balance each other out. The downward and upward deviations are therefore always zero. If <ins>all</ins> operational units, both under- and over-productive, pass on their products to society according to the *social* production time, the bookkeeping of the industrial sector must *always* be "balanced".
 
 The elimination of the contradiction between the actual work carried out in each individual operational unit, and the social average is, therefore, a matter which is resolved *within* the sector. It is a question of accounting. *How* these accounts are kept does not fall within the framework of general theoretical considerations since this processing varies according to the type of operational unit. There are many ways of achieving this.
 

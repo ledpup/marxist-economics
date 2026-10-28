@@ -27,7 +27,7 @@ Then, however, the laws of motion for individual consumption must absolutely *ne
 
 Only – the transition to "common ownership of the means of production" – does not necessarily lead to the communist operational life!
 
-<u>There is an undeniable urge to state capitalism, and with its implementation, consumption is regulated by the laws of movement of state capitalism</u>!
+<ins>There is an undeniable urge to state capitalism, and with its implementation, consumption is regulated by the laws of movement of state capitalism</ins>!
 
 ## b. The task of the revolution
 
@@ -85,15 +85,15 @@ As we know, Marx's economy knows three categories of capitalist production in re
 
 3\. The relative wages.
 
-<u>The nominal wage</u> is the *money price* of labor power. In nutritional communism, this would be the amount of money a worker receives for a week’s work, i.e. for a 40 hour week.
+<ins>The nominal wage</ins> is the *money price* of labor power. In nutritional communism, this would be the amount of money a worker receives for a week’s work, i.e. for a 40 hour week.
 
-<u>The real wage</u> is the quantity of product that can be realized for the nominal wage. Although the nominal wage can remain the same, the real wage becomes higher when the prices of the products fall. For example, falling prices in an economic crisis act as a wage increase for those with "fixed income". Although their wages remain the same, their real wages increase. With the start of a new production cycle, prices usually rise again, thus reducing the real wages of those with "fixed income".
+<ins>The real wage</ins> is the quantity of product that can be realized for the nominal wage. Although the nominal wage can remain the same, the real wage becomes higher when the prices of the products fall. For example, falling prices in an economic crisis act as a wage increase for those with "fixed income". Although their wages remain the same, their real wages increase. With the start of a new production cycle, prices usually rise again, thus reducing the real wages of those with "fixed income".
 
 In Leichter's "vision of society", the central management pursues a "price policy", naturally (!) in the interest of the consumers. But this does not change the fact that in reality, IT determines the real wage, despite all "collective agreements," which can only refer to the nominal wage. Producers and consumers may have a say in this pricing policy through "democracy", but the actual conditions, the real pricing policy, are nevertheless determined by the masters of "statistics".
 
-<u>The relative wage</u> is the ratio of the real wage to the entrepreneurial profit. Thus, for example, the real wage may remain the same, while the relative wage decreases because of the profit increases.
+<ins>The relative wage</ins> is the ratio of the real wage to the entrepreneurial profit. Thus, for example, the real wage may remain the same, while the relative wage decreases because of the profit increases.
 
-In his "social image," Leichter places the greatest emphasis on the rationalization of the operational units, i.e., on more productivity, i.e., the creation of more products in <u>the same</u> or shorter working hours. The socially average time required to manufacture products is thus constantly decreasing. However: the factual relationship between producer and product is not fixed in things for Leichter. Leichter only knows working machines with intelligence that are nourished on a nutritional-physiological basis, which does not need to be fed extra calories as the product mass they create increases. Perhaps the workers also receive some of the greater wealth, but there is not the slightest security for this.
+In his "social image," Leichter places the greatest emphasis on the rationalization of the operational units, i.e., on more productivity, i.e., the creation of more products in <ins>the same</ins> or shorter working hours. The socially average time required to manufacture products is thus constantly decreasing. However: the factual relationship between producer and product is not fixed in things for Leichter. Leichter only knows working machines with intelligence that are nourished on a nutritional-physiological basis, which does not need to be fed extra calories as the product mass they create increases. Perhaps the workers also receive some of the greater wealth, but there is not the slightest security for this.
 
 Thus, it is shown that the introduction of the category of socially average working hours in operational life is pointless if we do not, at the same time, take it as a basis for consumption. If the relationship of producers to the product is directly fixed in the things themselves, then there is no room for "price policy", then the result of every improvement of the production apparatus directly falls **automatically** to all consumers, without anyone **assigning** anything.
 
@@ -133,7 +133,7 @@ We will look at this "principle solution" later. We will only point out now that
 
 No doubt, Varga wants this pricing policy to be **class politics**, privileging the working class, why he wants to tax the products that are of primary importance to the workers, such as bread and sugar, little, but the "luxury" products highly. However, he attaches more propagandistic than economic importance to this difference in taxation, because he knows very well that the enormous sums which the state devours must ultimately come from the masses, i.e., from the proletariat.
 
-**This class politics**, however well-intentioned it may be, **reveals the whole rottenness of the state-communist distribution**. *It demonstrates very clearly* that *the producer*, <u>with his work</u>, has **not** at the same time determined his share of the social product, but that this share is determined in the "higher regions" by personal decision.
+**This class politics**, however well-intentioned it may be, **reveals the whole rottenness of the state-communist distribution**. *It demonstrates very clearly* that *the producer*, <ins>with his work</ins>, has **not** at the same time determined his share of the social product, but that this share is determined in the "higher regions" by personal decision.
 
 *Thus, the old political struggle for government posts is continued in a new form*.
 

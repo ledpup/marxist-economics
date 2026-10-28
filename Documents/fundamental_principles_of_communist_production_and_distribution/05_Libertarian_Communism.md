@@ -45,7 +45,7 @@ The regulation of operational life is understood here in the usual social democr
 
 While this summary of production in state communism is carried out by the authority of the state, in Faure it is created by »*the free and fraternal agreement*« (p. 6). But Faure is against any "authority". Therefore he says of these manifold connections in the life of the operation: »*This whole organization is based on the animating principle of free cooperation*« (p. 213 of the Dutch translation).
 
-Here the phrase replaces the economic reality. We are still of the opinion that an economic system is based on *economic laws* and not on some kind of inspiring principle. This cannot be *the basis* for a production and reproduction process. If the producers want to have their rights secured, with or without the "animating principle", then the whole organization must be on a very <u>material</u> basis, then at least for the time being, the working time must be the *measure* for the share in social consumption. This seems quite clear to us.
+Here the phrase replaces the economic reality. We are still of the opinion that an economic system is based on *economic laws* and not on some kind of inspiring principle. This cannot be *the basis* for a production and reproduction process. If the producers want to have their rights secured, with or without the "animating principle", then the whole organization must be on a very <ins>material</ins> basis, then at least for the time being, the working time must be the *measure* for the share in social consumption. This seems quite clear to us.
 
 ## c. The free agreement
 
@@ -73,7 +73,7 @@ The production will work for the demand, and
 
 > »*it is, therefore, necessary above all to determine the total of the need and the quantity of each need*.« (p. 215).
 
-This is done by each municipality reporting needs by population to the "<u>main administration office of the nation</u>", where officials get an overview of the total needs of the whole population. Then each municipality publishes a second list with the indication of how much it can produce, whereby the "<u>main administration</u>" now knows the productive forces of the "<u>nation</u>".
+This is done by each municipality reporting needs by population to the "<ins>main administration office of the nation</ins>", where officials get an overview of the total needs of the whole population. Then each municipality publishes a second list with the indication of how much it can produce, whereby the "<ins>main administration</ins>" now knows the productive forces of the "<ins>nation</ins>".
 
 The solution is very clear. The top officials should now determine what part of the production falls on each community, and »*what part of the production they can keep for themselves*.« (S. 216)
 
@@ -85,7 +85,7 @@ Where the "libertarian-communist" part of the system now lies, we completely mis
 
 > »… *all decisions as to method, place, quantity, and available tools involved in the production of new goods are made by … the local regional or national commissars of the socialist society. (With the) knowledge of the requirements of their society by means of comprehensively organized statistics of production and consumption … they can thus shape, with conscious foresight, the whole economic life of the communities of which they are the appointed representatives and leaders in accordance with the needs of the members*.«[^40]
 
-As long as our readers have not solved the mystery for us, we find that the **right of disposal** over the production apparatus is assigned to those who are familiar with the tricks of <u>statistics</u>. And perhaps we have learned so much from the political economy that it gives them *power* in society.
+As long as our readers have not solved the mystery for us, we find that the **right of disposal** over the production apparatus is assigned to those who are familiar with the tricks of <ins>statistics</ins>. And perhaps we have learned so much from the political economy that it gives them *power* in society.
 
 This "main administration" **must** obtain the means to assert itself, i.e., it **must create a state vis-à-vis the workers who are "animated" by another principle**,
 
@@ -97,7 +97,7 @@ Nor does it matter whether the dish is served with the sauce of "free agreements
 
 One cannot blame Faure for forging the whole economy into one. But this synthesis is a *development process* that the producers have to carry out *themselves* within the operations. Therefore, the first requirement is that there is a basis on which they can do this *themselves*, i.e., *the introduction of the working time account is the first requirement*!
 
-Then no "<u>main administration</u>" has to <u>assign</u> anything anymore.
+Then no "<ins>main administration</ins>" has to <ins>assign</ins> anything anymore.
 
 ## e. Anarcho-Syndicalism
 
@@ -175,7 +175,7 @@ And the French report on the C.N.T. Congress also states:
 
 And to clear up misunderstandings about the socialization plans of the anarcho-syndicalist trade union movement, the "Syndicalist" reported on August 29, 1931:
 
-> »*There are several militants in the National Committee of the C.N.T. who do not believe that the C.N.T. in its present condition is ready to <u>take over production</u>*.«
+> »*There are several militants in the National Committee of the C.N.T. who do not believe that the C.N.T. in its present condition is ready to <ins>take over production</ins>*.«
 
 What a misunderstanding about the fundamental problems of the social revolution!
 

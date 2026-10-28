@@ -17,7 +17,7 @@ next: 03_The_Unit_of_Account_in_Communism.md
 
 The radical social democracy (Bolsheviks) and the reformist have both revised the Marxist doctrine precisely in the decisive point of the "association of free and equal producers". In the Marxist sense, the socialization of the working process is nothing other than the fact that the "production of commodities" becomes the dominant mode of production in the course of development. More and more circles of producers work exclusively for the market. Everyone produces what he does not consume himself, and the manufactured product is for others; - everyone thereby does social work, everyone works for society. Capitalism itself is the great revolutionary who, in the course of development, tore producers away from their old mode of production and threw them into the service of capital in a working process that abolished the old patriarchal working conditions that broke every relationship with the person or family. Capitalism brought everyone into a state that everyone, stripped of all possessions, has nothing but his naked labor power to participate in the socialized labor process.
 
-Social democracy did (and does) something completely different about the process of the socialization of production. It saw the constant progress of social production in the continuous growth of trust, syndicate, and cartel formation. It saw socialization in the form in which the social mode of production *organizes itself*. In reality, this is nothing other than the form in which the private-capitalist (or collective-capitalist) *right of disposal* over the means of production, over social work and over the social product *is organized and concentrated*. <u>Social democracy confuses the specific capitalist forms of organization of the</u> *<u>domination</u>* <u>of social work with social work itself</u>!
+Social democracy did (and does) something completely different about the process of the socialization of production. It saw the constant progress of social production in the continuous growth of trust, syndicate, and cartel formation. It saw socialization in the form in which the social mode of production *organizes itself*. In reality, this is nothing other than the form in which the private-capitalist (or collective-capitalist) *right of disposal* over the means of production, over social work and over the social product *is organized and concentrated*. <ins>Social democracy confuses the specific capitalist forms of organization of the</ins> *<ins>domination</ins>* <ins>of social work with social work itself</ins>!
 
 This confusion also occurs among the Bolsheviks, who see communism as a "national economy" modeled on modern state-owned enterprises such as railways and postal services.
 
@@ -113,7 +113,7 @@ It was by no means the absence of the world revolution, nor was the individual p
 
 When trying to redirect the Russian economy, it was right to start from a predetermined plan. The individual operations made their budget plans, which were then processed by the central trust management into a general trust plan. The compilation of all trust plans gave the Supreme National Economic Council an overview of the entire production apparatus combined in the state, from which a general production plan for the entire state industry could be composed.
 
-All these plans were <u>based on the calculation in rubles</u>. And why not on the calculation in "Natura"? Because you can't add up kilos of iron and tons of steel. However, the value of the ruble quickly decreased, and the prices of the products rose just as quickly. The budgets were, therefore, only on paper - they had no value for the real production process.
+All these plans were <ins>based on the calculation in rubles</ins>. And why not on the calculation in "Natura"? Because you can't add up kilos of iron and tons of steel. However, the value of the ruble quickly decreased, and the prices of the products rose just as quickly. The budgets were, therefore, only on paper - they had no value for the real production process.
 
 Varga, who acknowledges the merits of the "inflation method", finds its biggest downside in this. He says:
 
@@ -121,7 +121,7 @@ Varga, who acknowledges the merits of the "inflation method", finds its biggest 
 
 This is one of the practical reasons why the Soviet state had to refrain from destroying "stable money". Already in 1919, it was stated that »*the calculation of the value of the product becomes more necessary every day*« so that the 2nd Economic Congress (1919) already decided to »*calculate the most important state expenditures according to the value of the products*«. (Goldschmidt, p. 133). Of course, this is only possible if all production is based on value. The general stabilization of money, therefore, had to follow.
 
-<u>The stabilization of the ruble</u>, therefore, meant that state capitalism, which was organized immediately during the implementation of the revolution, stabilized its own laws of movement in the course of its development.
+<ins>The stabilization of the ruble</ins>, therefore, meant that state capitalism, which was organized immediately during the implementation of the revolution, stabilized its own laws of movement in the course of its development.
 
 In the Russian economy, the means of industrial production passed into the hands of the state. The decision about it as well as about work (and thus about the workers) and about the work product lies in the hands of the Supreme National Economic Council.
 
@@ -167,11 +167,11 @@ Basically, the workers want to rearrange their relationship to the social produc
 
 For the proletarian, the goal of social revolution can be no other than to determine through his **work** at the same time his relationship to the social product. This means:
 
-**Abolition of <u>wage labor</u>**!
+**Abolition of <ins>wage labor</ins>**!
 
-**<u>Work</u> is the measure of consumption**!
+**<ins>Work</ins> is the measure of consumption**!
 
-It is the only condition for putting the <u>management</u> and <u>administration</u> of social production in the hands of the workers themselves.
+It is the only condition for putting the <ins>management</ins> and <ins>administration</ins> of social production in the hands of the workers themselves.
 
 When the Russians began to operate production based on value, they proclaimed the expropriation of the workers from the means of production, and they proclaimed that there was no direct connection between the wealth of the goods to be produced and the share of the workers in the social product.
 
@@ -241,7 +241,7 @@ April-June 1928 - 10%.
 
 The number of accidents, therefore, rose by around 1% each quarter. In the metal industry, the number of accidents in the same period was 6.8%,**7**.1%, and 7.9%, respectively. Here, too, there was a regular increase.
 
-<u>This is the regulating function of value and surplus-value</u>!
+<ins>This is the regulating function of value and surplus-value</ins>!
 
 We want to leave it at that. For us, it is only a matter of seeing these things from a certain perspective. And here it is that in Russia this procedure cannot be attributed to the malice of the Russian state administrators, but that it is a necessary consequence of a production in which the labor power appears as a commodity, regardless of whether a state buys this labor power or a private entrepreneur. Nor does it have anything to do with whether the surplus-value is created for private individuals or for the state. **The value** performs its function of order. And then you have to say with Lenin:
 

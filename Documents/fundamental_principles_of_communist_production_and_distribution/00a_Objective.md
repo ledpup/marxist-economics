@@ -19,7 +19,7 @@ Increasing impoverishment and growing insecurity of existence force the working 
 
 The GIC sees the essential progress of the workers' movement in the development of workers' self-confidence. Therefore, it confronts the leading politics of the parliamentary parties and the trade union movement with the slogan:
 
-**<u>All power to the workers' councils</u>**
+**<ins>All power to the workers' councils</ins>**
 
 **Production in the hands of the enterprise organizations**
 
