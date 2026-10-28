@@ -18,6 +18,7 @@ This repository collects texts on the economics of the first phase of communism:
 | --- | --- |
 | [Sources quoted in the *Fundamental Principles*](fundamental_principles-sources/README.md) | Everyone the GIC quotes in the book: 125 quotations from 22 authors, plus congresses and periodicals. Each author has a short biography, the works cited with their dates, and a table of quotations linking to the book and to the original text online. |
 | [Reception of the *Fundamental Principles*](notes-opus5_5/fundamental-principles-reception.md) | How the book was answered, and by whom: from the groups of the communist left in the 1930s to the reprints from the 1970s onward. A research note compiled from secondary sources by Claude (Opus 5.5); points marked *unverified* still need checking. |
+| [General social work and productive work](notes-opus5_5/general-social-work.md) | What the GIC's split between free "public" and certificate-paying "productive" units rests on. Covers the 2026 German debate on paying certificates for home care work, plus digital goods and AI. A research note by Claude (Opus 5.5). |
 | [Patrick's quotes from the *Fundamental Principles*](notes-pat/fundamental_principles-quotes.md) | Passages from the book collected by Patrick, with page numbers. |
 
 The original PDFs the texts were converted from are in [PDFs/](PDFs/).
