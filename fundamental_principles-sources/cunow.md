@@ -18,8 +18,8 @@ Quotes longer than two sentences are shortened; `[…]` marks a cut made here, w
 
 | Chapter | Section | Links | Quote | Source | Notes |
 | --- | --- | --- | --- | --- | --- |
-| 2 | b. "Nationalizing" and "Socializing" | [This book](../Documents/fundamental_principles_of_communist_production_and_distribution/02_The_Social_Democratic_Revision_of_Marxism.md#b-nationalizing-and-socializing) | not by the state, but through the connection of the free associations of a socialist society. | *Marx's theory of history, society and the state, vol. 1*, p. 309 (fn 7) | Cunow's account of Marx's view. Emphasis in the book. |
-| 2 | b. "Nationalizing" and "Socializing" | [This book](../Documents/fundamental_principles_of_communist_production_and_distribution/02_The_Social_Democratic_Revision_of_Marxism.md#b-nationalizing-and-socializing) | Accordingly, the party congress declared itself against nationalization; for social democracy and state socialism are “irreconcilable opposites”. | *Marx's theory of history, society and the state, vol. 1*, p. 340 (fn 8) | Follows the Liebknecht quote, which Cunow also supplies. |
+| 2 | b. "Nationalizing" and "Socializing" | [This book](../Documents/fundamental_principles/02_The_Social_Democratic_Revision_of_Marxism.md#b-nationalizing-and-socializing) | not by the state, but through the connection of the free associations of a socialist society. | *Marx's theory of history, society and the state, vol. 1*, p. 309 (fn 7) | Cunow's account of Marx's view. Emphasis in the book. |
+| 2 | b. "Nationalizing" and "Socializing" | [This book](../Documents/fundamental_principles/02_The_Social_Democratic_Revision_of_Marxism.md#b-nationalizing-and-socializing) | Accordingly, the party congress declared itself against nationalization; for social democracy and state socialism are “irreconcilable opposites”. | *Marx's theory of history, society and the state, vol. 1*, p. 340 (fn 8) | Follows the Liebknecht quote, which Cunow also supplies. |
 
 ---
 

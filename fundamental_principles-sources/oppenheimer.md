@@ -18,7 +18,7 @@ Quotes longer than two sentences are shortened; `[…]` marks a cut made here, w
 
 | Chapter | Section | Links | Quote | Source | Notes |
 | --- | --- | --- | --- | --- | --- |
-| 2 | b. "Nationalizing" and "Socializing" | [This book](../Documents/fundamental_principles_of_communist_production_and_distribution/02_The_Social_Democratic_Revision_of_Marxism.md#b-nationalizing-and-socializing) | From Marx's point of view, this is ... pure nonsense. For him, a socialist society can only be “ripe” as a whole. | Contribution to the anthology *Ways and goals of socialisation*, ed. H. Beck, p. 16/17 | No footnote; the source is named in the text. On the Bolshevik idea of “ripe” enterprises. |
+| 2 | b. "Nationalizing" and "Socializing" | [This book](../Documents/fundamental_principles/02_The_Social_Democratic_Revision_of_Marxism.md#b-nationalizing-and-socializing) | From Marx's point of view, this is ... pure nonsense. For him, a socialist society can only be “ripe” as a whole. | Contribution to the anthology *Ways and goals of socialisation*, ed. H. Beck, p. 16/17 | No footnote; the source is named in the text. On the Bolshevik idea of “ripe” enterprises. |
 
 ---
 

@@ -8,7 +8,7 @@ Cover: Niki Bong
 mail@bongolai.de  
 ISBN:9798615430794
 
-The whole book is also available as a single file: [fundamental_principles_of_communist_production_and_distribution.md](../fundamental_principles_of_communist_production_and_distribution.md).
+The whole book is also available as a single file: [fundamental_principles.md](../fundamental_principles.md).
 
 ---
 

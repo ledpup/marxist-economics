@@ -18,7 +18,7 @@ Quotes longer than two sentences are shortened; `[…]` marks a cut made here, w
 
 | Chapter | Section | Links | Quote | Source | Notes |
 | --- | --- | --- | --- | --- | --- |
-| 2 | b. "Nationalizing" and "Socializing" | [This book](../Documents/fundamental_principles_of_communist_production_and_distribution/02_The_Social_Democratic_Revision_of_Marxism.md#b-nationalizing-and-socializing) | The more bourgeois society realizes that in the long run, it cannot defend itself against the onslaught of socialist ideas, the closer we are to the moment when state socialism will be proclaimed in full earnestness, and the last struggle that social democracy will have to fight will be fought out under the battle cry: “Here social democracy-- There state socialism”. | *Speech on bringing railways, coal mines and large industry into state administration* | No footnote of its own; the next footnote (8) cites Cunow, p. 340. See [Cunow](cunow.md). |
+| 2 | b. "Nationalizing" and "Socializing" | [This book](../Documents/fundamental_principles/02_The_Social_Democratic_Revision_of_Marxism.md#b-nationalizing-and-socializing) | The more bourgeois society realizes that in the long run, it cannot defend itself against the onslaught of socialist ideas, the closer we are to the moment when state socialism will be proclaimed in full earnestness, and the last struggle that social democracy will have to fight will be fought out under the battle cry: “Here social democracy-- There state socialism”. | *Speech on bringing railways, coal mines and large industry into state administration* | No footnote of its own; the next footnote (8) cites Cunow, p. 340. See [Cunow](cunow.md). |
 
 ---
 

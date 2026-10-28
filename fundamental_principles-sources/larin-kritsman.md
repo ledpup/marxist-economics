@@ -22,7 +22,7 @@ Quotes longer than two sentences are shortened; `[…]` marks a cut made here, w
 
 | Chapter | Section | Links | Quote | Source | Notes |
 | --- | --- | --- | --- | --- | --- |
-| 14 | c. Worker Control among the Bolsheviks | [This book](../Documents/fundamental_principles_of_communist_production_and_distribution/14a_The_Control_of_Operational_Life.md#c-worker-control-among-the-bolsheviks) | However, workers' control proved to be a half-measure and, therefore, not feasible. As a slogan, workers' control signified the growing and at the same time still insufficient power of the proletariat, that is, it was an expression of the movement's weakness, which has not yet been overcome. | *Economic life and the economic construction in Soviet Russia, 1917 to 1920* (fn 95) | Second-hand: quoted from Rosenberg, p. 114. |
+| 14 | c. Worker Control among the Bolsheviks | [This book](../Documents/fundamental_principles/14a_The_Control_of_Operational_Life.md#c-worker-control-among-the-bolsheviks) | However, workers' control proved to be a half-measure and, therefore, not feasible. As a slogan, workers' control signified the growing and at the same time still insufficient power of the proletariat, that is, it was an expression of the movement's weakness, which has not yet been overcome. | *Economic life and the economic construction in Soviet Russia, 1917 to 1920* (fn 95) | Second-hand: quoted from Rosenberg, p. 114. |
 
 ---
 

@@ -18,7 +18,7 @@ Quotes longer than two sentences are shortened; `[…]` marks a cut made here, w
 
 | Chapter | Section | Links | Quote | Source | Notes |
 | --- | --- | --- | --- | --- | --- |
-| 2 | a. The social work and the organizational forms in which the capit … | [This book](../Documents/fundamental_principles_of_communist_production_and_distribution/02_The_Social_Democratic_Revision_of_Marxism.md#a-the-social-work-and-the-organizational-forms-in-which-the-capital-dominates-this-work-are-confused) | how easy the transition from large-scale industry to state production can be. | *The State, Industry and Socialism*, p. 112 (fn 5) |  |
+| 2 | a. The social work and the organizational forms in which the capit … | [This book](../Documents/fundamental_principles/02_The_Social_Democratic_Revision_of_Marxism.md#a-the-social-work-and-the-organizational-forms-in-which-the-capital-dominates-this-work-are-confused) | how easy the transition from large-scale industry to state production can be. | *The State, Industry and Socialism*, p. 112 (fn 5) |  |
 
 ---
 

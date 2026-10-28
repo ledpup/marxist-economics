@@ -18,7 +18,7 @@ Quotes longer than two sentences are shortened; `[…]` marks a cut made here, w
 
 | Chapter | Section | Links | Quote | Source | Notes |
 | --- | --- | --- | --- | --- | --- |
-| 12 | a. With the Bolsheviks: The Supreme Economic Council distributes t … | [This book](../Documents/fundamental_principles_of_communist_production_and_distribution/12_The_Abolition_of_the_Market.md#a-with-the-bolsheviks-the-supreme-economic-council-distributes-the-product-of-society) | If the value of money is falling in Russia, it is certainly very difficult for us to bear... […] We're heading for the complete abolition of money. | *Twelve Days in Germany*, p. 74 (fn 79) | Second-hand: quoted from Pollock, *Die planwirtschaftlichen Versuche*, p. 73. Written after the USPD's Halle congress of October 1920. |
+| 12 | a. With the Bolsheviks: The Supreme Economic Council distributes t … | [This book](../Documents/fundamental_principles/12_The_Abolition_of_the_Market.md#a-with-the-bolsheviks-the-supreme-economic-council-distributes-the-product-of-society) | If the value of money is falling in Russia, it is certainly very difficult for us to bear... […] We're heading for the complete abolition of money. | *Twelve Days in Germany*, p. 74 (fn 79) | Second-hand: quoted from Pollock, *Die planwirtschaftlichen Versuche*, p. 73. Written after the USPD's Halle congress of October 1920. |
 
 ---
 

@@ -18,7 +18,7 @@ Quotes longer than two sentences are shortened; `[…]` marks a cut made here, w
 
 | Chapter | Section | Links | Quote | Source | Notes |
 | --- | --- | --- | --- | --- | --- |
-| 2 | d. Distribution of means of production and consumer goods in kind … | [This book](../Documents/fundamental_principles_of_communist_production_and_distribution/02_The_Social_Democratic_Revision_of_Marxism.md#d-distribution-of-means-of-production-and-consumer-goods-in-kind-as-a-bolshevik-ideal10) | Notes are fabricated ... You can't print enough notes. […] | *The Economic Organization of Soviet Russia*, p. 138 (fn 11) | On the deliberate inflation meant to abolish money. Goldschmidt is also the source for two congress quotes: see [Organisations and periodicals](organisations-and-periodicals.md). |
+| 2 | d. Distribution of means of production and consumer goods in kind … | [This book](../Documents/fundamental_principles/02_The_Social_Democratic_Revision_of_Marxism.md#d-distribution-of-means-of-production-and-consumer-goods-in-kind-as-a-bolshevik-ideal10) | Notes are fabricated ... You can't print enough notes. […] | *The Economic Organization of Soviet Russia*, p. 138 (fn 11) | On the deliberate inflation meant to abolish money. Goldschmidt is also the source for two congress quotes: see [Organisations and periodicals](organisations-and-periodicals.md). |
 
 ---
 

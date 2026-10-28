@@ -18,7 +18,7 @@ Quotes longer than two sentences are shortened; `[…]` marks a cut made here, w
 
 | Chapter | Section | Links | Quote | Source | Notes |
 | --- | --- | --- | --- | --- | --- |
-| 2 | d. Distribution of means of production and consumer goods in kind … | [This book](../Documents/fundamental_principles_of_communist_production_and_distribution/02_The_Social_Democratic_Revision_of_Marxism.md#d-distribution-of-means-of-production-and-consumer-goods-in-kind-as-a-bolshevik-ideal10) | The doctrine of the socialist economy knows only one single producer-distributor-society - who, without profit or loss account, without circulation of money - be it metal money or labor money - organizes production based on an economic plan, and distributes the standard of living according to socialist rules, without foundation of any unit of account. | *Economic Plan and Calculation in Kind*, p. 84 (fn 13) | Emphasis on “without … any unit of account” in the book. |
+| 2 | d. Distribution of means of production and consumer goods in kind … | [This book](../Documents/fundamental_principles/02_The_Social_Democratic_Revision_of_Marxism.md#d-distribution-of-means-of-production-and-consumer-goods-in-kind-as-a-bolshevik-ideal10) | The doctrine of the socialist economy knows only one single producer-distributor-society - who, without profit or loss account, without circulation of money - be it metal money or labor money - organizes production based on an economic plan, and distributes the standard of living according to socialist rules, without foundation of any unit of account. | *Economic Plan and Calculation in Kind*, p. 84 (fn 13) | Emphasis on “without … any unit of account” in the book. |
 
 ---
 

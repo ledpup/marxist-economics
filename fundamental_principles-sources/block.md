@@ -18,7 +18,7 @@ Quotes longer than two sentences are shortened; `[…]` marks a cut made here, w
 
 | Chapter | Section | Links | Quote | Source | Notes |
 | --- | --- | --- | --- | --- | --- |
-| 12 | d. With the bourgeois economists. The market as a measure of needs | [This book](../Documents/fundamental_principles_of_communist_production_and_distribution/12_The_Abolition_of_the_Market.md#d-with-the-bourgeois-economists-the-market-as-a-measure-of-needs) | If the individual exchange is abolished, the production is necessarily social, so the products are necessarily social as well. […] As long as it cannot be shown how the market mechanism is to be replaced, an economic calculation in the common economy, i.e., rational socialism, is unthinkable. | *The Marxian theory of money*, p. 121–122 (fn 83) |  |
+| 12 | d. With the bourgeois economists. The market as a measure of needs | [This book](../Documents/fundamental_principles/12_The_Abolition_of_the_Market.md#d-with-the-bourgeois-economists-the-market-as-a-measure-of-needs) | If the individual exchange is abolished, the production is necessarily social, so the products are necessarily social as well. […] As long as it cannot be shown how the market mechanism is to be replaced, an economic calculation in the common economy, i.e., rational socialism, is unthinkable. | *The Marxian theory of money*, p. 121–122 (fn 83) |  |
 
 ---
 

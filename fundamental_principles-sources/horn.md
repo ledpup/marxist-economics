@@ -18,7 +18,7 @@ Quotes longer than two sentences are shortened; `[…]` marks a cut made here, w
 
 | Chapter | Section | Links | Quote | Source | Notes |
 | --- | --- | --- | --- | --- | --- |
-| 4 | a. Communism as a "negative system" | [This book](../Documents/fundamental_principles_of_communist_production_and_distribution/04_Progress_in_the_Formulation_of_the_Problem.md#a-communism-as-a-negative-system) | a negative system | *The economic limits of the communal economy*, p. 3 (fn 31) |  |
+| 4 | a. Communism as a "negative system" | [This book](../Documents/fundamental_principles/04_Progress_in_the_Formulation_of_the_Problem.md#a-communism-as-a-negative-system) | a negative system | *The economic limits of the communal economy*, p. 3 (fn 31) |  |
 
 ---
 
