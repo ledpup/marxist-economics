@@ -15,7 +15,7 @@ Four things follow from the text:
 
   FIC = (L − (F<sub>p</sub> + C<sub>p</sub>)) / (L + L<sub>p</sub>)
 
-  GIC's uses the following example for the equation: (600 − 58) / (600 + 50) = 542 / 650 = 0.83. The numbers are used below when explaining the variables.
+  The GIC's example, in millions of working hours, is (600 − 58) / (600 + 50) = 542 / 650 = 0.83. The figures in brackets below come from this example.
 
   The letters follow the production equation (f + c) + l ([ch. 7 d](../Documents/fundamental_principles/07_The_Communist_Production.md#d-communist-reproduction)). Capitals are totals across all units, and the index p marks the public (GSW) units ([ch. 10 b](../Documents/fundamental_principles/10_The_General_Social_Work.md#b-the-gsw-budget)):
 
