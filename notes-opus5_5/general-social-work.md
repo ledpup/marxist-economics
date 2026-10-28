@@ -15,7 +15,20 @@ Four things follow from the text:
 
   FIC = (L − (F<sub>p</sub> + C<sub>p</sub>)) / (L + L<sub>p</sub>)
 
-  With the GIC's figures: (600 − 58) / (600 + 50) = 542 / 650 = 0.83. Teachers and nurses add nothing to the stock of consumer goods, yet they are paid like everyone else. The cost falls on "living labor power" as a whole ([ch. 10 g](../Documents/fundamental_principles/10_The_General_Social_Work.md#g-the-payout-factor)).
+  GIC's users the following example for the equation: (600 − 58) / (600 + 50) = 542 / 650 = 0.83. They're used below when explaining the variables.
+
+  The letters follow the production equation (f + c) + l ([ch. 7 d](../Documents/fundamental_principles/07_The_Communist_Production.md#d-communist-reproduction)). Capitals are totals across all units, and the index p marks the public (GSW) units ([ch. 10 b](../Documents/fundamental_principles/10_The_General_Social_Work.md#b-the-gsw-budget)):
+
+  - **L**: hours worked in the productive units (600 million). After those units replace their own used means of production and raw materials, L is also what is left of the product mass.
+  - **F<sub>p</sub>**: "fixed" means of production (machines, buildings) used up by the public units (8 million).
+  - **C<sub>p</sub>**: "circulating" means of production (raw materials, consumables) used up by the public units (50 million).
+  - **L<sub>p</sub>**: hours worked in the public units (50 million): the teachers, nurses and so on.
+
+  So the top line is the product left for individual consumption, and the bottom line is all hours worked, in both kinds of unit.
+
+  **Watch the letters in ch. 10 g.** The book writes the productive units' budget as "(F + P) + L = product mass" (100 million + 600 million + 600 million). P there means raw materials and consumables, the same thing it calls c (and C<sub>p</sub>) everywhere else; it has nothing to do with the index p for "public". Read it as (F + C) + L ([ch. 10 g](../Documents/fundamental_principles/10_The_General_Social_Work.md#g-the-payout-factor)).
+
+  Teachers and nurses add nothing to the stock of consumer goods, yet they are paid like everyone else. The cost falls on "living labor power" as a whole ([ch. 10 g](../Documents/fundamental_principles/10_The_General_Social_Work.md#g-the-payout-factor)).
 - **It is meant to move.** The GSW sector is expected to grow into food supply, personal transport and housing. The payout factor "becomes smaller and smaller as communism grows" ([ch. 10 h](../Documents/fundamental_principles/10_The_General_Social_Work.md#h-the-growth-process-of-communism)). A branch switches over when it runs "smoothly", and "all calculations in these companies remain the same".
 - **Interdependence is handled by "mixed operational units".** A power station is free for households but must charge its electricity to factories as raw material. And "the transport of goods should never be included in the 'take as needed' category" ([ch. 10 i](../Documents/fundamental_principles/10_The_General_Social_Work.md#i-mixed-operational-units)). A road would be a mixed unit: its freight use goes into product costs, its personal use is free.
 
