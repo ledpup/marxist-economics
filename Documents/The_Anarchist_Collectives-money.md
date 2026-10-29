@@ -3,7 +3,7 @@ title: "The Anarchist Collectives (extract on money and exchange)"
 book: "The Anarchist Collectives: Workers' Self-management in the Spanish Revolution (1936-1939)"
 editor: Sam Dolgoff
 publisher: "Free Life Editions, New York, 1974"
-pdf: "../PDFs/THE ANARCHIST COLLECTIVES.pdf"
+source: "../PDFs/THE ANARCHIST COLLECTIVES.pdf"
 extract: "\"Money and Exchange\" (S.D.), ch. 5, pp. 70, 73-76; H. E. Kaminski, \"Libertarian Communism in Alcora\", ch. 10, pp. 143-146. Pages 71-72 (a statistics panel and a photograph) fall inside the first section and are left out."
 ---
 
