@@ -241,7 +241,7 @@ One correction of attribution: the IPCC does not make policy. It was set up in 1
 - **Who measures fugitive emissions?** The IEA's estimate for coal methane is twice another study's. Satellites now detect large leaks, but routine measurement at every mine and field is a large job, and it is itself labour.
 - **Wood and biofuel.** Burning them releases CO<sub>2</sub> that plants took up recently. Conventions treat it as neutral; critics disagree. Record it as its own fuel type and decide later.
 - **Workers' food.** The European Cyclists' Federation counts about 16 g CO<sub>2</sub>e per km for the extra food a cyclist eats (2011). In the GIC's scheme a worker's consumption is not an input to the product, so counting it in the delivery would count it twice. It belongs in the consumption account. Is that right?
-- **Imports from a capitalist world.** Goods arriving without a record would need estimates, for example from input-output tables.
+- **Imports from a capitalist world.** Goods arriving without a record would need estimates, for example from input-output tables. Patrick asked what capitalist world this assumes: see [LETS, Parecon and the GIC: what capitalist world?](lets-parecon-and-one-country.md#what-capitalist-world-the-outside-in-time)
 - **Did any council communist write on this?** Pannekoek, Mattick, the later *Rätekorrespondenz*: nothing was found, but nothing was searched for specifically.
 - **What did Broistedt and Hofmann's 2022 reader say on ecology?** And who wrote "Faires Arbeiten"?
 - **Should the carbon budget enter the payout factor?** In this sketch it doesn't: carbon constrains what is produced, not how products are shared out. Is a budget enough without any charge on the product?
