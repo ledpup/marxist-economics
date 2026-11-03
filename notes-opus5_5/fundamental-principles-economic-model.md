@@ -21,7 +21,7 @@ This is a research note by Claude (Opus 5.5), written from a brief by Patrick. P
 - **Your counts are right.** "Historical materialism" appears once, in the [Foreword to the second edition](../Documents/fundamental_principles/00d_Foreword_to_the_Second_Edition.md). "Dialectical materialism", and "dialectic" in any form, never appear.
 - **Two acronyms belong to the model:** GSW (general social work) and FIC (factor of individual consumption, also called the payout factor). GIC/GIK is the authors' own name. The others (SEC, OVWR, CPR, NEP) belong to the Russian chapters.
 - **Not "fixed, variable and labour".** The production equation is (f + c) + l: **fixed** means of production (machines, buildings), **circulating** means of production (raw materials, consumables), and **labour**. "Variable" never appears as a category. The GIC's split is not Marx's constant and variable capital (see [below](#the-production-equation-is-not-marxs-constant-and-variable-capital)).
-- **The shoe example is one factory, not a chain.** The book uses one shoe factory throughout (ch. 7, 10, 11, 13, 17) and three shoe factories side by side to get the social average (ch. 8). The chain of units, each passing its product on to the next, is stated only in general terms; the book never follows a shoe through it with figures. The section [Following a shoe through the chain](#following-a-shoe-through-the-chain) builds one, marked as an illustration.
+- **The shoe example is one factory, not a chain.** The book uses one shoe factory throughout (ch. 7, 10, 11, 13, 17) and three shoe factories side by side to get the social average (ch. 8). The chain of units, each passing its product on to the next, is stated only in general terms; the book never follows a shoe through it with figures. The section [Following a shoe through the chain](#following-a-shoe-through-the-chain) builds one, from the cattle farm and the ore mine to the consumer cooperative's store, marked as an illustration.
 - **On unskilled labour the GIC is blunt:** one hour is one hour, whoever works it. It meets the case for paying skilled work more by making training a social cost, paid out of the GSW budget, rather than a debt the skilled worker recovers through higher pay.
 
 ## Which chapters to read
@@ -299,39 +299,91 @@ The book never runs the shoe through the chain with figures. The 61,250 hours of
 
 ### Following a shoe through the chain
 
-*My illustration*, built to fit the book's figures. The tannery and supplier numbers are invented; the shoe factory's are the book's.
+*My illustration*, built to fit the book's figures. Only the shoe factory's totals (f 1,250, c 61,250, l 62,500, 40,000 pairs, branch average 3.18) are the book's. Every other unit and number is invented. The figures for each supplier are the share of its output that goes into this batch of 40,000 pairs, not its whole year.
+
+#### Upstream: what goes into the factory
+
+Even a plain leather shoe draws on many branches. Each arrow below is a transfer recorded at the giro. Each "→" between two places is also a freight leg: a transport unit with its own (f + c) + l.
 
 ```
- Cattle farm, slaughterhouse ─► hides ─────────────┐
- Chemical works ─────────────► tanning agents ─────┤
-                                                   ▼
-                                    TANNERY  f 250 + c 30,000 + l 20,000
-                                             = 50,250 hours of leather
-                                                   │ transfer (giro entry)
- Rubber, thread, glue, nails, boxes ─► 11,000 hours│
-                                                   ▼
-                    SHOE FACTORY  f 1,250 + c 61,250 + l 62,500
-                                  = 125,000 hours = 40,000 pairs
-                                  (passes on at the branch average, 3.18 h a pair)
-                                                   │ transfer
-                                                   ▼
-                    FREIGHT TRANSPORT  adds its own f + c + l
-                    (always charged, never free: 10 i)
-                                                   │ transfer
-                                                   ▼
-                    CONSUMER COOPERATIVE  adds its own f + c + l
-                                                   │
-                                                   ▼
-                    Worker hands over consumption money equal to the
-                    shoe's production time at the point of sale
+UPPER LEATHER    cattle farm → slaughterhouse → tannery ─────────────────────┐
+                 (tanning agents, dyes: mine/refinery → chemical works ──► tannery)
+LINING           cotton farm → gin → spinning mill → weaving mill ───────────┤
+SOLES            oil field → refinery → synthetic rubber plant               │
+                   → sole moulding works ────────────────────────────────────┤
+THREAD           cotton or polyester → spinning mill → thread works ─────────┤
+ADHESIVE         refinery → chemical works ──────────────────────────────────┤
+EYELETS, RIVETS  ore mine → smelter → rolling mill → stamping works ─────────┤
+LACES            spinning mill → braiding works ─────────────────────────────┤
+SHOE BOXES       forest → pulp mill → cardboard works → box works ───────────┤
+ELECTRICITY      coal mine or dam → power station (a mixed unit: charged     │
+                   to factories, free to households, 10 i) ──────────────────┤
+                                                                             ▼
+                                                                SHOE FACTORY
 ```
 
-Points the illustration brings out:
+Machines (sewing, lasting and cutting machines) come from machine-building works with chains of their own. They enter the shoe as f, only as the wear on them in this period: 1,250 hours.
 
-- **Each box keeps the same equation.** The tannery does not know how many hours went into the cattle; it takes the hides' production time from the giro record and adds its own work.
-- **What passes on is the social average, not the unit's own figure.** The shoes go on at 3.18 hours a pair, not this factory's 3.125. The same holds for leather: the tannery's leather goes on at the leather branch's average.
-- **Transport and distribution are operational units too**, and their hours are part of what the consumer pays ([8 c](../Documents/fundamental_principles/08_Average_Working_Hour_as_Basis_of_Production.md#c-the-progress): "including transport and other ancillary activities").
-- **The chain is a network, not a ladder.** "Lower" and "higher" units are a fair picture for one product, but the tannery also supplies upholsterers, and the shoe factory also takes electricity from a mixed unit. Each unit is just a node: inputs in, product out, both recorded in hours.
+The shoe factory's c of 61,250 hours, broken down:
+
+| Input | Hours | Comes from |
+| --- | --- | --- |
+| Upper leather | 30,000 | tannery |
+| Soles | 14,000 | sole moulding works |
+| Lining fabric | 4,000 | weaving mill |
+| Shoe boxes | 2,500 | box works |
+| Electricity and heat | 2,500 | power station (mixed unit) |
+| Adhesive | 2,000 | chemical works |
+| Inbound freight | 2,000 | transport units, for all the deliveries above |
+| Eyelets and rivets | 1,500 | stamping works |
+| Laces | 1,500 | braiding works |
+| Thread | 1,250 | thread works |
+| **c, total** | **61,250** | |
+
+One step further back, the tannery's own books:
+
+| | Hours |
+| --- | --- |
+| f: wear on drums, vats, building | 1,000 |
+| c: hides from the slaughterhouse | 14,000 |
+| c: tanning agents and dyes from the chemical works | 5,000 |
+| c: freight in (hides, chemicals) | 1,500 |
+| c: energy and water | 1,000 |
+| l: hours worked | 7,500 |
+| **Leather passed on** | **30,000** |
+
+The slaughterhouse in turn charges hides at a production time that already contains the cattle farm's feed, buildings and work, and the freight between them. No unit needs to know any of that history. Each one reads the production time of its inputs off the giro record and adds its own f, c and l.
+
+#### Downstream: from the factory to the worker
+
+| Step | Hours per pair | Running total |
+| --- | --- | --- |
+| Shoe factory, at the branch social average (the factory's own figure is 3.125) | 3.18 | 3.18 |
+| Freight to a regional distribution centre | 0.05 | 3.23 |
+| Distribution centre (a warehouse: storage, sorting, handling) | 0.10 | 3.33 |
+| Freight to the store | 0.05 | 3.38 |
+| Consumer cooperative's store: its share of the store's f + c + l | 0.20 | **3.58** |
+
+The worker hands over 3.58 hours of consumption money for the pair. At FIC = 0.83, a 40-hour week gives 33.2 hours of certificates, enough for about nine pairs.
+
+#### What "cooperative" means here
+
+In the book, "cooperative" means a **consumer cooperative**. It does two jobs:
+
+- **It is the shop.** "Consumers receive their products in their cooperative for consumption money and have complete freedom in the choice of goods" ([12 e](../Documents/fundamental_principles/12_The_Abolition_of_the_Market.md#e-the-abolition-of-the-market-in-the-marxist-sense)). So it is a general store or shopping centre stocking shoes, bread, books and the rest, not a shoe shop.
+- **It is the consumers' organisation.** "In these cooperatives, the individual wishes of the consumers are expressed jointly … the 'middlemen' disappear and the cooperatives are directly linked to the operational units" ([12 g](../Documents/fundamental_principles/12_The_Abolition_of_the_Market.md#g-the-cooperatives-and-the-benchmark-of-needs)). Its orders are how needs reach production.
+
+The book says distribution is done by "all kinds of cooperatives" but goes no further. Warehouses, distribution centres and wholesale are not mentioned; how the organisations connect "cannot be examined in advance" ([17 d](../Documents/fundamental_principles/17_Final_Considerations.md#d-utopism)). *My reading*: a distribution centre would be an operational unit of its own, keeping the same books, and the store would be a second one run by (or for) the consumers' cooperative.
+
+#### What the fuller chain brings out
+
+- **Each box keeps the same equation.** That is the whole of the GIC's answer to Kautsky, who thought only a central statistical office could total the labour in a finished pair of shoes ([8 c](../Documents/fundamental_principles/08_Average_Working_Hour_as_Basis_of_Production.md#c-the-progress)).
+- **What passes on is the branch's social average, not the unit's own figure.** The shoes go on at 3.18 hours a pair, not this factory's 3.125. The same holds for leather, soles and rivets, each at its own branch's average.
+- **Transport is everywhere, and never free.** Freight sits between almost every pair of units and is part of what the consumer pays. The book is firm that "the transport of goods should never be included in the 'take as needed' category, as a final product is a consumable only at its destination" ([10 i](../Documents/fundamental_principles/10_The_General_Social_Work.md#i-mixed-operational-units)).
+- **The chain is a network, not a ladder.** The tannery also supplies upholsterers and bag makers. The chemical works supplies the tannery *and* the shoe factory. The power station supplies everyone. "Lower" and "higher" units are a fair picture for one product only.
+- **Two accounting problems the book does not discuss** (*my reading*):
+  - **Joint products.** A slaughterhouse produces meat and hides in one process. How its hours are split between them decides how many hours the leather carries. Capitalist cost accounting splits joint costs by convention; the GIC would need a convention too.
+  - **Shared overheads.** A store or distribution centre handles thousands of products. Its hours must be spread across them by some rule (per item, per volume, per shelf-day). The GIC praises capitalist cost accounting for already handling "expenses and expenditures that are not directly included in the exchangeable end product" ([8 b](../Documents/fundamental_principles/08_Average_Working_Hour_as_Basis_of_Production.md#b-leichters-answer)), and seems to assume the same methods carry over.
 
 ## Unskilled and skilled labour
 
@@ -373,7 +425,7 @@ And in 9 i the conclusion: "all functions in social life, whether mental or manu
 | **Public (GSW) unit** | Provides free services within a budget set in advance. |
 | **Mixed unit** | Free to households, charged to other units. |
 | **Industrial branch** | Pools the accounts of like units to find the social average; asks units well above it to explain. |
-| **Consumer cooperative** | Distributes consumer goods; passes consumers' wishes directly to the producing units. |
+| **Consumer cooperative** | Both the consumers' organisation and their store: a general store for all consumer goods, where consumption money is spent. Passes consumers' wishes directly to the producing units. |
 | **Giro office (general social accounting)** | Records every transfer between units. Computes the social averages and the FIC as by-products. Has "*not* the leadership, *not* the administration, *not* the power of control". |
 | **Congress of workers' councils** | Sets the general rules: the expansion ceiling, the GSW budget, large projects, the general fund, the production plan's framework. |
 
