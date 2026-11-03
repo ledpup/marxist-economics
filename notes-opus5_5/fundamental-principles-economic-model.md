@@ -382,8 +382,56 @@ The book says distribution is done by "all kinds of cooperatives" but goes no fu
 - **Transport is everywhere, and never free.** Freight sits between almost every pair of units and is part of what the consumer pays. The book is firm that "the transport of goods should never be included in the 'take as needed' category, as a final product is a consumable only at its destination" ([10 i](../Documents/fundamental_principles/10_The_General_Social_Work.md#i-mixed-operational-units)).
 - **The chain is a network, not a ladder.** The tannery also supplies upholsterers and bag makers. The chemical works supplies the tannery *and* the shoe factory. The power station supplies everyone. "Lower" and "higher" units are a fair picture for one product only.
 - **Two accounting problems the book does not discuss** (*my reading*):
-  - **Joint products.** A slaughterhouse produces meat and hides in one process. How its hours are split between them decides how many hours the leather carries. Capitalist cost accounting splits joint costs by convention; the GIC would need a convention too.
+  - **Joint products.** A slaughterhouse produces meat and hides in one process. How its hours are split between them decides how many hours the leather carries. See the next section.
   - **Shared overheads.** A store or distribution centre handles thousands of products. Its hours must be spread across them by some rule (per item, per volume, per shelf-day). The GIC praises capitalist cost accounting for already handling "expenses and expenditures that are not directly included in the exchangeable end product" ([8 b](../Documents/fundamental_principles/08_Average_Working_Hour_as_Basis_of_Production.md#b-leichters-answer)), and seems to assume the same methods carry over.
+
+#### Joint products: meat, milk and hides
+
+Patrick's question: some cattle are bred for meat, some for dairy; are some bred for leather? And can a slaughterhouse be split into sub-units, so that leather is charged only with the hours that go into it?
+
+**Where hides come from.** Cattle are not bred for leather. Hides come from beef cattle at slaughter and from dairy cows culled from the herd, and calfskin from the male calves of dairy herds. The exceptions are exotic leathers: crocodiles, alligators and ostriches are farmed largely for their skins. Nothing much of the animal is wasted: what people don't eat goes to pet food and rendering (tallow, bone meal, gelatin).
+
+The hide is a small and shrinking part of the animal's value. In the US hides have historically been about 6–8 % of the value of beef cattle, and about half the value of the by-products. By 2020 they were reported at little more than 1 % of the animal's value. The Leather and Hide Council of America (an industry body) estimated that about 5.5 million US hides went to landfill in 2019, and about 16 % of all US hides in 2020, because no one would buy them. A study by Brester and Swanser found that hide prices have no direct influence on cattle numbers: nobody raises more cattle because leather is dear. (Industry sources; treat the exact figures with caution.)
+
+**Why this is a problem for the GIC.** One process, raising and killing an animal, yields meat, milk, calves, hides, tallow and bone at once. The book's rule is that every product carries its production time, but it says nothing about how a unit that turns out several products at once divides its hours between them. Production time is supposed to be a fact read off the books. For joint products it is partly a decision.
+
+**Splitting the unit into sub-units.** The GIC's own method points this way. "The producers determine the working time for each sub-process" ([8 e](../Documents/fundamental_principles/08_Average_Working_Hour_as_Basis_of_Production.md#e-the-progress-of-technology)), and the book praises capitalist cost accounting for finding the cost "of each individual operation … in which of several workshops … on which of several machines" ([8 b](../Documents/fundamental_principles/08_Average_Working_Hour_as_Basis_of_Production.md#b-leichters-answer)). A slaughterhouse and the farms behind it could keep books by stage:
+
+| Stage | What it produces | How its hours can be charged |
+| --- | --- | --- |
+| Raising the animal (farm) | meat, hide, and on dairy farms milk and calves | joint |
+| Stunning, killing, bleeding | everything | joint |
+| Dehiding | needed for both: the carcass can't be cut until the hide is off | joint |
+| Butchering, chilling, packing | meat | meat only |
+| Fleshing, salting, storing, loading hides | hide | hide only |
+| Rendering | tallow, bone meal | their own |
+
+Sub-units work up to what accountants call the **split-off point**, the moment hide and carcass are separate. After it, every hour can be charged directly. Before it, no amount of subdivision helps, because those hours produced both products at once. A cow's two years of feed and care cannot be divided between its meat and its skin by asking who did the work. And the joint part is mostly upstream: the farm's feed, buildings and labour are far larger than the few minutes of killing. Sub-units shrink the problem but leave its largest part.
+
+**The conventions available.** Capitalist cost accounting has three standard ways to divide joint costs:
+
+| Method | How it divides joint costs | Usable by the GIC? |
+| --- | --- | --- |
+| Sales value or net realisable value | In proportion to what each product sells for, less its costs after split-off | **No.** There are no prices independent of hours; using production time to set production time is circular. |
+| Physical measure | By weight, volume or count at split-off | **Yes.** But by weight a hide would carry a large share of the animal's hours. |
+| By-product method | The minor product carries only its own costs after split-off (or its sale value is deducted from the main product's cost); all joint costs go to the main product | **Yes,** in an hours-only form: the hide carries only its post-split-off hours, and all joint hours go to meat (and milk). |
+
+International accounting practice treats most by-products this way: "Most by-products, by their nature, are immaterial. When this is the case, they are often measured at net realisable value and this value is deducted from the cost of the main product" (IAS 2, *Inventories*, para. 14).
+
+**What the choice changes** (*my calculation*). The shoe chain above charges the tannery 14,000 hours for hides, which assumes the hides carry a share of the joint hours. Under the by-product convention they might carry only the slaughterhouse's post-split-off hours, say 2,000. The tannery's leather would then go on at 18,000 hours instead of 30,000, and the 40,000 pairs would carry 12,000 hours less: about 0.3 hours a pair, 3.28 at the counter instead of 3.58. A worker's week would buy ten pairs instead of nine. Nothing about the shoe has changed except an accounting convention.
+
+**Which convention fits** (*my reading*). The by-product convention matches the facts while hides are surplus. If hides are being landfilled, an extra hide costs society almost nothing beyond salting and handling, and leather should be cheap. It stops fitting if leather demand grows beyond the hides that meat and dairy supply. Extra cattle would then be raised partly for their hides, and leather would really be costing feed and care. The by-product convention would hide that cost. The question the books need to answer is what an *extra* hide costs, and that depends on whether hides are in surplus. So the convention would need setting and reviewing, by the industry's units or by the congress of workers' councils, much as the congress sets the 10 % expansion ceiling ([13 c](../Documents/fundamental_principles/13_The_Expansion_of_Production.md#c-the-general-rule-for-the-expansion-of-the-operational-unit)). Each unit's books would also need to state which convention its figures rest on, so that the public record shows where production time is measured and where it is agreed.
+
+**The theory: Steedman's *Marx after Sraffa*.** Ian Steedman's *Marx after Sraffa* (1977), building on his 1975 *Economic Journal* article, is a critique of the labour theory of value. Much of it concerns the transformation problem: Marx's account in *Capital* vol. 3 of how values become prices of production. That part does not touch the GIC, which has no prices, no profit rate and no surplus value. But the book also takes up joint production, and that argument doesn't involve prices. Steedman works out labour values directly from physical inputs and hours. Where one process yields two products, a product's labour can only be found by treating several processes as a set of simultaneous equations, and the solution can give negative labour values, even with positive profits. Morishima and Wolfstetter replied that Steedman had applied Marx's definition to a case Marx did not consider. An unpublished 1978 paper by Hengstenberg and Fay, "Joint production and 'negative values': The weakness of Steedman's attack on the labour theory of value", argues the same side.
+
+*My reading*: the GIC does not calculate labour values as a system of equations. Each unit adds up the hours it actually used, so it cannot produce Steedman's negative values. The price is that, for joint products, the split between products is a convention rather than a measurement. Steedman's argument shows why no measurement can settle it.
+
+**Worth investigating:**
+
+- How Soviet and Comecon planners costed joint products (meat and hides, oil refining, coke and gas) in their material balances.
+- Whether Cockshott and Cottrell, who compute labour values from input-output tables, discuss joint production, and which convention they use.
+- Morishima's alternative definition of labour values (the minimum labour needed, found by linear programming) and whether it suits a GIC-style system.
+- Other joint products, starting with one the book names: the sugar factory ([7 d](../Documents/fundamental_principles/07_The_Communist_Production.md#d-communist-reproduction)), which yields sugar, molasses and beet pulp. Oil refining is the large modern case.
 
 ## Unskilled and skilled labour
 
@@ -492,4 +540,7 @@ The GIC says outright that some things fall outside its "fundamental principles"
 
 - GIC, *[Fundamental Principles of Communist Production and Distribution](../Documents/fundamental_principles/README.md)* (1930, 2nd ed. 1935), ed. and trans. Hermann Lueer (2020); [single-file version](../Documents/fundamental_principles.md)
 - Karl Marx, [*Capital*, vol. 1, ch. 1](https://www.marxists.org/archive/marx/works/1867-c1/ch01.htm) (on simple and complex labour)
+- Ian Steedman, *Marx after Sraffa* (London: New Left Books, 1977); "Positive profits with negative surplus value", *Economic Journal* 85 (1975). On the debate: [Wikipedia, *Marx after Sraffa*](https://en.wikipedia.org/wiki/Marx_after_Sraffa); [SciELO, "Understanding and overcoming the 'positive profits with negative surplus-value' paradox"](https://new.scielo.br/j/rep/a/gBqckZqZ4YZXK6LSzFd7sgf/?lang=en); [Hengstenberg and Fay (1978)](https://digitalcommons.bard.edu/as_archive/455)
+- Hides: [Leatherbiz, "'Staggering decline' in the hide's share of cattle value"](https://leatherbiz.com/News/154398); [Leatherbiz, "US hides are still going into landfill"](https://leatherbiz.com/News/155419); [Drovers, "Weak hide values impacting cattle prices"](https://www.drovers.com/news/weak-hide-values-impacting-cattle-prices); [Brester and Swanser, hide staff paper](https://ageconsearch.umn.edu/record/309621/files/Hide_StaffPaperFinal.pdf)
+- Joint and by-product costing: [OpenTuition, CIMA P1 joint product costing](https://opentuition.com/cima/cima-p1/notes/cima-p1-6-joint-product-costing/); [ICMAI, Cost Accounting Standard 19](https://icmai.in/upload/CASB/CAS-19.pdf); IFRS, IAS 2 *Inventories*, para. 14
 - Related notes: [General social work and productive work](general-social-work.md); [Reception of the *Fundamental Principles*](fundamental-principles-reception.md); [Patrick's quotes](../notes-pat/fundamental_principles-quotes.md)
