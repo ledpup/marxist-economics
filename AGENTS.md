@@ -86,6 +86,10 @@ Notes are separate from the source texts and loosely follow Zettelkasten practic
 - **Idea notes** hold one idea per file, written in Patrick's own words, with a kebab-case name such as `labour-certificates.md` or `average-social-working-hour.md`. Each one links to the source passages it rests on and to related idea notes. Connections between texts (Marx → GIC → later writers) are recorded in these links.
 - Don't move or reword notes Patrick has written. Ask first.
 
+## Recorded prompts
+
+When a document records a prompt (as the research notes in `notes-opus5_5/` do), you can correct its spelling and grammar. Keep his British spelling, and don't change what they asked.
+
 ## Adding a new text
 
 1. Put the PDF (if there is one) in `PDFs/`.
