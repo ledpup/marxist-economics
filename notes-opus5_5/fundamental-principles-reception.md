@@ -1,3 +1,7 @@
+[↑ Notes and research](../README.md#on-the-fundamental-principles)
+
+---
+
 # Reception of the *Fundamental Principles*
 
 How the *[Fundamental Principles of Communist Production and Distribution](../Documents/fundamental_principles/README.md)* (German 1930, Dutch 1935) was answered, and by whom. In short: none of the authors the GIC criticises seems to have replied. The responses came from the small groups of the communist left around the GIC, and then from the reprints of the 1970s onward.
@@ -81,3 +85,7 @@ Pannekoek, the GIC's closest theoretical ally, was at first sceptical. According
 - Jasper Bernes, [Communism Is an Open Book](https://jasperbernes.substack.com/p/communism-is-an-open-book)
 - workers.coop, [Thoughts on the Fundamental Principles](https://www.workers.coop/thoughts-on-the-fundamental-principles-of-communist-production-and-distribution-long-read/)
 - LabourNet, [review of the German re-edition](https://www.labournet.de/politik/gw/geschichte/rezension-grundlagen-kommunistischer-produktion-und-verteilung-ein-vergessener-klassiker-der-gruppe-internationaler-kommunisten-gik/)
+
+---
+
+[↑ Notes and research](../README.md#on-the-fundamental-principles)

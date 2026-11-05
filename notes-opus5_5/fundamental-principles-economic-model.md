@@ -1,3 +1,7 @@
+[↑ Notes and research](../README.md#on-the-fundamental-principles)
+
+---
+
 # The economic model of the *Fundamental Principles*
 
 A guide to the GIC's proposal for an economy run on labour time, drawn out of the *[Fundamental Principles of Communist Production and Distribution](../Documents/fundamental_principles/README.md)* without the historical and polemical material. It sorts the chapters, defines the Marxist terms and acronyms, collects every equation with its terms, follows the shoe example through the book, and sets out what the book says about unskilled labour. The last section puts it together as a conceptual model.
@@ -543,3 +547,7 @@ The GIC says outright that some things fall outside its "fundamental principles"
 > Identify the Marxist terms. I believe "historical materialism" was mentioned once and "dialectical materialism" was mentioned no times. "Operational units" is a common term used outside of Marxism that they use. They have used acronyms. GSW is one, I believe. They need to be defined and explained. Find the commentary on unskilled labour. Find the use of equations. Reference them in the research document and define their terms. I believe they have shoe manufacturing as their main example relating to fixed, variable and labour costs. Each part of the production process goes from a lower operational unit to a higher one as the shoe is brought together as a final product.
 >
 > The goal is to be able to create a conceptual model from this document to explain their proposal without having to read all of the historical context.
+
+---
+
+[↑ Notes and research](../README.md#on-the-fundamental-principles)

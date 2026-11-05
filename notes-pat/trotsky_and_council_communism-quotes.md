@@ -1,0 +1,1 @@
+- Bolshevik theory obviously sees no difference between the state and society. To them, control of social life by the state is the same as control of social life by the producers and consumers. In this field, too, Leninism or Trotskyism has not yet got through to Marxism.

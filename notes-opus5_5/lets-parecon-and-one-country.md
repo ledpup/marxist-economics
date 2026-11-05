@@ -1,3 +1,7 @@
+[↑ Notes and research](../README.md#comparisons-and-extensions)
+
+---
+
 # LETS, Parecon and the GIC: what capitalist world?
 
 Two schemes that are often put forward as alternatives to capitalist money, set beside the GIC's *Fundamental Principles*: local exchange trading systems (LETS) and participatory economics (Parecon). The question that runs through all three is what each assumes lies *outside* it. That question came from the [carbon note](carbon-and-labour-time.md#open-questions), which asked how goods "from a capitalist world" would enter the books. This note also looks at the "socialism in one country" thinking behind that question, and at Patrick's answer: the outside that matters is in time, not in space.
@@ -210,3 +214,7 @@ For both, the key number method serves: a one-off estimate, replaced by real rec
 - Human origins: [phys.org, "Earliest fossil of genus Homo"](https://phys.org/news/2015-03-earliest-fossil-genus-homo-dates.pdf) (Ledi-Geraru); [Max Planck Institute for Evolutionary Anthropology, press release on Jebel Irhoud](https://www.eva.mpg.de/fileadmin/content_files/human_evolution/Homo_Sapiens_presskit/pdf/English_PressRelease_Irhoud.pdf) (2017)
 - UNEP, ["Environmental damage in Gaza Strip harming human health, threatening long-term food, water security"](https://www.unep.org/news-and-stories/press-release/environmental-damage-gaza-strip-harming-human-health-threatening) (23 September 2025)
 - Related notes: [Carbon and labour time](carbon-and-labour-time.md); [Money and labour certificates in the Spanish Revolution](spanish-revolution-money.md); [General social work and productive work](general-social-work.md)
+
+---
+
+[↑ Notes and research](../README.md#comparisons-and-extensions)

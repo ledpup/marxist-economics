@@ -1,3 +1,7 @@
+[↑ Notes and research](../README.md#on-the-fundamental-principles)
+
+---
+
 # General social work and productive work
 
 What the GIC's split between "productive" and "public" operational units in [chapter 10](../Documents/fundamental_principles/10_The_General_Social_Work.md) actually rests on, where it has been taken up since, and three places where it gets harder today: unpaid domestic and care work, digital goods, and AI.
@@ -159,3 +163,7 @@ Two cautions (*my reading*):
 - Hermann Lueer, ["Gesellschaftliche versus private Reproduktionsarbeit"](https://arbeiterstimmen.wordpress.com/2026/02/07/gesellschaftliche-versus-private-reproduktionsarbeit/) (2026)
 - Fredo Corvo, ["Drei Beiträge zur Sozialisierung der privaten Haus- und Sorgearbeit"](https://arbeiterstimmen.wordpress.com/2026/02/07/drei-beitrage-zur-sozialisierung-der-privaten-haus-und-sorgearbeit/) (2026)
 - Related note: [Reception of the *Fundamental Principles*](fundamental-principles-reception.md)
+
+---
+
+[↑ Notes and research](../README.md#on-the-fundamental-principles)

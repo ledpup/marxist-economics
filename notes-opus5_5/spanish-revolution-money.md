@@ -1,3 +1,7 @@
+[↑ Notes and research](../README.md#comparisons-and-extensions)
+
+---
+
 # Money and labour certificates in the Spanish Revolution
 
 Did the Spanish anarchists abolish money in 1936–39, or did they make a new one? Did they, or anyone else in the Republican camp, propose anything like Marx's labour certificates? This note answers from Sam Dolgoff's collection [*The Anarchist Collectives*](../Documents/The_Anarchist_Collectives-money.md) (1974) and from the CNT's own programme. It compares both with the GIC's *Fundamental Principles*, and ends with a table of the factions in the war.
@@ -205,3 +209,7 @@ The text is quoted from Manuel Azaretto's transcription in *Las pendientes resba
 - CNT–UGT *Programa de unidad de acción* (18 March 1938): Spanish text in Manuel Azaretto, [*Las pendientes resbaladizas (Los anarquistas en España)*](https://libcom.org/article/las-pendientes-resbaladizas-los-anarquistas-en-espana) (Montevideo, 1939), pp. 29–31; [French translation](https://vivelemaoisme.org/programme-d-unite-d-action-de-l-u-g-t-et-de-la-c-n-t-%E2%88%92-1938/); background in Francisco Alía Miranda, ["El poder desde abajo: los comités de enlace y la unidad sindical"](https://revistas.uva.es/index.php/invehisto/es/article/view/456)
 - [Joan Comorera](https://en.wikipedia.org/wiki/Joan_Comorera) (Wikipedia)
 - Related notes: [Reception of the *Fundamental Principles*](fundamental-principles-reception.md); [General social work and productive work](general-social-work.md)
+
+---
+
+[↑ Notes and research](../README.md#comparisons-and-extensions)

@@ -1,3 +1,7 @@
+[↑ Notes and research](../README.md#comparisons-and-extensions)
+
+---
+
 # Carbon and labour time
 
 Patrick's proposal: record fuel and emissions alongside labour time through the whole chain of production, as public bookkeeping for community decisions. This note sets out the proposal, checks its factual claims, surveys what Marxists and other planners have written on the question, and sketches how the GIC's books could carry the record.
@@ -267,3 +271,7 @@ One correction of attribution: the IPCC does not make policy. It was set up in 1
 - Global Carbon Project, ["Fossil fuel CO2 emissions hit record high in 2025"](https://globalcarbonbudget.org/fossil-fuel-co2-emissions-hit-record-high-in-2025/) (2025)
 - European Cyclists' Federation, [life-cycle emissions of cycling](https://ecf.com/node/573) (2011)
 - Related notes: [General social work and productive work](general-social-work.md); [Reception of the *Fundamental Principles*](fundamental-principles-reception.md)
+
+---
+
+[↑ Notes and research](../README.md#comparisons-and-extensions)
