@@ -45,4 +45,10 @@ The *Fundamental Principles* set beside other systems and experiments, or carrie
 | [Money and labour certificates in the Spanish Revolution](notes-opus5_5/spanish-revolution-money.md) | Whether the Spanish anarchists abolished money in 1936–39 or made a new one, drawn from Dolgoff's *The Anarchist Collectives*. Covers the CNT's 1936 "producer's card", which recorded labour in working days, set against Marx and the GIC; the council communists' 1937 verdict; the socialist UGT's pay by output, which the CNT signed up to in 1938; and a table of the war's factions and what each said (mostly nothing) on certificates. | 2026-10-29 | Claude (Opus 5.5) |
 | [Carbon and labour time](notes-opus5_5/carbon-and-labour-time.md) | Patrick's proposal to record fuel burned and gases released alongside labour time through the whole chain of production, as public bookkeeping, not trade. Checks the claims about CO<sub>2</sub>e, methane and fugitive emissions, surveys Marxist and planning work on the question (Cockshott and Cottrell, Neurath's heirs, Technocracy), and sketches how the GIC's books could carry the record. | 2026-10-29 | Claude (Opus 5.5) |
 
+## Plans
+
+| Area | What it holds | Date | Author |
+| --- | --- | --- | --- |
+| [A simulation of production in labour time](plans/simulator/README.md) | Plans for a web simulation of the GIC's model, seen from above like SimCity, starting with the shoe chain: the gaps in the brief, the data model, the books, the engine, the interface, technology options and internationalisation (English and Spanish). Mostly stubs. | 2026-11-09 | Claude (Opus 5.5), from Patrick's brief |
+
 The original PDFs the texts were converted from are in [PDFs/](PDFs/).
