@@ -129,6 +129,13 @@ TABLES = {
 # Inline maths that the line-by-line rendering garbles: exact replacements in
 # the finished Markdown, each of which must match exactly once.
 TEXT_FIXES = {
+    # p. iv: the preface is signed on four lines, two for each author
+    " Paul Cockshott Glasgow, Scotland, July 2000 Allin Cottrell Winston-Salem, North Carolina, July 2000\n":
+    "\n\nPaul Cockshott<br>\nGlasgow, Scotland, July 2000\n\n"
+    "Allin Cottrell<br>\nWinston-Salem, North Carolina, July 2000\n",
+    # p. 109: the PDF itself prints a LaTeX label, "conc1", as a section (also
+    # in its Contents) after "Conclusion". An editorial fix, not a conversion one
+    "## Conclusion\n\n## conc1\n\n": "## Conclusion\n\n",
     # p. 15: s/v and 4,000/2,000 are set as stacked fractions
     "ratio *<sub>v</sub><sup>s</sup>*.": "ratio *s*/*v*.",
     "be *<sub>v</sub><sup>s</sup>* = <sup>4</sup><sub>2</sub>*<sup>,</sup><sub>,</sub>*<sup>0</sup><sub>0</sub>"
@@ -211,7 +218,7 @@ def footnote_rule(page):
 def extract(doc):
     """Return (body lines, {label: [note lines]}, {(page, n): label})."""
     body, notes, starts = [], {}, {}
-    chapter, last, after_chapter_line = "front", None, False
+    chapter, last, title_page = "front", None, None
     for pno in range(len(doc)):
         if pno in SKIP_PAGES:
             continue
@@ -220,13 +227,12 @@ def extract(doc):
                  if 110 < l.y0 and not (l.y0 > 680 and is_page_number(l.text))]
         rule = footnote_rule(page)
         for l in lines:
-            if l.size >= 13:
+            # Only the first large line of a page names the chapter: the rest
+            # is its title, which can run over two lines ("... Budgetary / Policy")
+            if l.size >= 13 and pno != title_page:
                 m = re.match(r"\s*Chapter (\d+)", l.text)
-                if m:
-                    chapter = m.group(1)
-                elif not after_chapter_line:
-                    chapter = norm(l.text.split()[0])
-                after_chapter_line = bool(m)
+                chapter = m.group(1) if m else norm(l.text.split()[0])
+                title_page = pno
             if rule is None or l.y0 < rule:
                 body.append(l)
                 continue

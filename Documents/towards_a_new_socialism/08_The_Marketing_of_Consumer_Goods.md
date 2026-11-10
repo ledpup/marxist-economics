@@ -81,8 +81,6 @@ Apart from its applicability in the absence of factor markets, the adjustment al
 
 ## Conclusion
 
-## conc1
-
 The arguments presented in this chapter, while not worked out in full detail, support the point that a socialist planned economy need not be unresponsive to consumer demand. We have outlined a mechanism which is capable of adjusting the pattern of output of consumer goods in conformity with a changing pattern of demand. While this mechanism relies on a market of sorts, it is quite distinct from the capitalist mechanism—it depends neither on private property in the means of production, nor on the formation of market prices for the inputs to the production process.
 
 Having established our basic points, let us consider Alec Nove’s (1983) critique of the use of labour values in socialist planning. Nove, in company with many other economists, argues that whatever merits the Marxian labour theory of value may have in the analysis of capitalism, it is irrelevant to the planning of a socialist system. Suppose that labour values provide an adequate measure of the social cost of production—even then, says Nove, they are misleading, since they totally fail to take account of the valuation of different commodities by consumers.

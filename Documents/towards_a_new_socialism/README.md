@@ -63,7 +63,6 @@ The whole book is also available as a single file: [towards_a_new_socialism.md](
   - [Consumer goods and the macro plan](08_The_Marketing_of_Consumer_Goods.md#consumer-goods-and-the-macro-plan)
   - [Comparison with capitalist markets](08_The_Marketing_of_Consumer_Goods.md#comparison-with-capitalist-markets)
   - [Conclusion](08_The_Marketing_of_Consumer_Goods.md#conclusion)
-  - [conc1](08_The_Marketing_of_Consumer_Goods.md#conc1)
 - [Chapter 9: Planning and Information](09_Planning_and_Information.md)
   - [Information and property](09_Planning_and_Information.md#information-and-property)
   - [Requirements of a statistical service](09_Planning_and_Information.md#requirements-of-a-statistical-service)

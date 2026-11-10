@@ -20,7 +20,13 @@ In other ways, our “new socialism” may seem further removed from reality tod
 
 Although it is hard to predict the timing and nature of the next crisis that could put thought of alternatives back on history’s agenda, we can identify various background conditions that have motivated us, and others, to explore and promote alternatives even in “good times” for the present system. We have updated the statistical material on inequality in chapters 1 and 2: the story is essentially the same as it was a decade earlier. The prosperity of the 1990s has been shared just as unequally as that of earlier decades of growth, if not more so. And while the Club of Rome’s warnings of environmental catastrophe in the 1970s may have been premature, the early twenty-first century faces global warming as a daily reality. It is difficult to see how anything other than a socially planned response could be efficacious.
 
-Anyway, we are very grateful to Anders Axelsson for proposing a Swedish edition of *Towards a New Socialism*, and giving us the opportunity to update some of our points. We have the impression that the book, while it has not exactly been a best-seller, has found some thoughtful and enthusiastic readers. We hope the new edition will help recruit more such readers, and to broaden the discussion among socialists of what exactly it is that we hope to achieve. Paul Cockshott Glasgow, Scotland, July 2000 Allin Cottrell Winston-Salem, North Carolina, July 2000
+Anyway, we are very grateful to Anders Axelsson for proposing a Swedish edition of *Towards a New Socialism*, and giving us the opportunity to update some of our points. We have the impression that the book, while it has not exactly been a best-seller, has found some thoughtful and enthusiastic readers. We hope the new edition will help recruit more such readers, and to broaden the discussion among socialists of what exactly it is that we hope to achieve.
+
+Paul Cockshott<br>
+Glasgow, Scotland, July 2000
+
+Allin Cottrell<br>
+Winston-Salem, North Carolina, July 2000
 
 ---
 
