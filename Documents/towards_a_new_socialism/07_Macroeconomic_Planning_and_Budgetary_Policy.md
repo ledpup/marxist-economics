@@ -110,9 +110,9 @@ In a planned economy, on the other hand, there is no reason why the resources re
 
 These points on saving and credit can be brought into the context of our flow of funds accounting, developed in the first section of this chapter. There we noted that net household saving (Net Savings) appeared as a use of funds on the part of the household sector, and as a source of funds to the state. We can now unpack the details of net saving. Gross saving is the sum of the household sector’s gross acquisition of retirement assets (Retirement Asset Acquisition) and its gross acquisition of consumer saving deposits (Saving Deposit Acquisition). To derive net saving, we must subtract the disbursements which households receive from their retirement assets (Retirement Asset Disbursement), the withdrawals they make from their consumer saving deposits (Withdrawals), and the net amount of new consumer credits extended (New Credit). In equation form we have
 
-Net Savings = Retirement Asset Acquisition + Saving Deposit Acquisition −
+Net Savings = Retirement Asset Acquisition + Saving Deposit Acquisition − Retirement Asset Disbursement − Withdrawals − New Credit.
 
-Retirement Asset Disbursement − Withdrawals − New Credit. Or, bracketing together the terms dealing with retirement assets and the terms dealing with consumer deposits and credits:
+Or, bracketing together the terms dealing with retirement assets and the terms dealing with consumer deposits and credits:
 
 Net Savings = (Retirement Asset Acquisition − Retirement Asset Disbursement) + (Saving Deposit Acquisition − Withdrawals − New Credit).
 

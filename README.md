@@ -36,6 +36,14 @@ The book itself: what it says, where its arguments come from, and how it was rec
 | [Sources quoted in the *Fundamental Principles*](fundamental_principles-sources/README.md) | Everyone the GIC quotes in the book: 125 quotations from 22 authors, plus congresses and periodicals. Each author has a short biography, the works cited with their dates, and a table of quotations linking to the book and to the original text online. | 2026-10-28 | Claude (Opus 5.5) |
 | [Patrick's quotes from the *Fundamental Principles*](notes-pat/fundamental_principles-quotes.md) | Passages from the book collected by Patrick, with page numbers. | 2026-10-27 | Patrick |
 
+### On *Towards a New Socialism*
+
+Cockshott and Cottrell's proposal for a computer-planned economy run on labour time.
+
+| Area | What it holds | Research date | Author |
+| --- | --- | --- | --- |
+| [The economic model of *Towards a New Socialism*](notes-opus5_5/towards-a-new-socialism-economic-model.md) | A guide to the book's proposal without the history. Sorts the chapters into model and polemic, defines the Marxist terms and the book's own vocabulary (Planning, projects, the eight names for the labour token), and sets out every equation with its terms: labour values, the input–output plan, the harmony algorithm, the labour-time national accounts, the flat tax and the marketing rule. Collects what the book says on unskilled labour, unemployment, dismissal, students, youth, retirement, illness and disability, and child care. Asks whether its case for computerised central planning opens a back door to Leninism, and ends with a conceptual model: actors, units, rules, flows and control loops. | 2026-11-10 | Claude (Opus 5.5) |
+
 ### Comparisons and extensions
 
 The *Fundamental Principles* set beside other systems and experiments, or carried into questions it doesn't address.

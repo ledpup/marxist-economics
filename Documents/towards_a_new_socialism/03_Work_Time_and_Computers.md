@@ -175,7 +175,7 @@ The idea here is that as a first approximation we ignore all inputs to the produ
 
 The time order complexity of this algorithm[^6] is proportional to the number of products times the average number of inputs per product, times the desired accuracy of the result in digits.
 
-Assume 10[^6] products each requiring on average 1000 inputs. This requires 10<sup>9</sup> steps per iteration. If each of these steps requires perhaps 10 arithmetic operations[^7] then each iteration would require some 10 billion arithmetic operations. Experience with the use of such algorithms teaches us that less than 20 iterations are required to achieve accurate results.
+Assume 10<sup>6</sup> products each requiring on average 1000 inputs. This requires 10<sup>9</sup> steps per iteration. If each of these steps requires perhaps 10 arithmetic operations[^7] then each iteration would require some 10 billion arithmetic operations. Experience with the use of such algorithms teaches us that less than 20 iterations are required to achieve accurate results.
 
 On our previous assumptions about server performance in the year 2000 this could be computed on a fast machine in a couple of seconds, rather than the years required for Gaussian elimination.[^8]
 

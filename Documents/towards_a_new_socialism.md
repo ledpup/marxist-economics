@@ -744,7 +744,7 @@ The idea here is that as a first approximation we ignore all inputs to the produ
 
 The time order complexity of this algorithm[^3-6] is proportional to the number of products times the average number of inputs per product, times the desired accuracy of the result in digits.
 
-Assume 10[^3-6] products each requiring on average 1000 inputs. This requires 10<sup>9</sup> steps per iteration. If each of these steps requires perhaps 10 arithmetic operations[^3-7] then each iteration would require some 10 billion arithmetic operations. Experience with the use of such algorithms teaches us that less than 20 iterations are required to achieve accurate results.
+Assume 10<sup>6</sup> products each requiring on average 1000 inputs. This requires 10<sup>9</sup> steps per iteration. If each of these steps requires perhaps 10 arithmetic operations[^3-7] then each iteration would require some 10 billion arithmetic operations. Experience with the use of such algorithms teaches us that less than 20 iterations are required to achieve accurate results.
 
 On our previous assumptions about server performance in the year 2000 this could be computed on a fast machine in a couple of seconds, rather than the years required for Gaussian elimination.[^3-8]
 
@@ -1285,9 +1285,9 @@ In a planned economy, on the other hand, there is no reason why the resources re
 
 These points on saving and credit can be brought into the context of our flow of funds accounting, developed in the first section of this chapter. There we noted that net household saving (Net Savings) appeared as a use of funds on the part of the household sector, and as a source of funds to the state. We can now unpack the details of net saving. Gross saving is the sum of the household sector’s gross acquisition of retirement assets (Retirement Asset Acquisition) and its gross acquisition of consumer saving deposits (Saving Deposit Acquisition). To derive net saving, we must subtract the disbursements which households receive from their retirement assets (Retirement Asset Disbursement), the withdrawals they make from their consumer saving deposits (Withdrawals), and the net amount of new consumer credits extended (New Credit). In equation form we have
 
-Net Savings = Retirement Asset Acquisition + Saving Deposit Acquisition −
+Net Savings = Retirement Asset Acquisition + Saving Deposit Acquisition − Retirement Asset Disbursement − Withdrawals − New Credit.
 
-Retirement Asset Disbursement − Withdrawals − New Credit. Or, bracketing together the terms dealing with retirement assets and the terms dealing with consumer deposits and credits:
+Or, bracketing together the terms dealing with retirement assets and the terms dealing with consumer deposits and credits:
 
 Net Savings = (Retirement Asset Acquisition − Retirement Asset Disbursement) + (Saving Deposit Acquisition − Withdrawals − New Credit).
 

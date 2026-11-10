@@ -140,6 +140,11 @@ TEXT_FIXES = {
     "ratio *<sub>v</sub><sup>s</sup>*.": "ratio *s*/*v*.",
     "be *<sub>v</sub><sup>s</sup>* = <sup>4</sup><sub>2</sub>*<sup>,</sup><sub>,</sub>*<sup>0</sup><sub>0</sub>"
     "<sup>0</sup><sub>0</sub><sup>0</sup><sub>0</sub> or 200%.": "be *s*/*v* = 4,000/2,000 or 200%.",
+    # p. 49: the exponent of 10<sup>6</sup> is read as a footnote marker
+    "Assume 10[^3-6] products": "Assume 10<sup>6</sup> products",
+    # p. 96–97: a page break splits the Net Savings equation across two blocks
+    "Saving Deposit Acquisition −\n\nRetirement Asset Disbursement − Withdrawals − New Credit. Or, bracketing":
+    "Saving Deposit Acquisition − Retirement Asset Disbursement − Withdrawals − New Credit.\n\nOr, bracketing",
     # p. 39 and p. 76 (a note): an exponent of −1
     "(1-R<sub>0</sub>SP)*<sup>−</sup>*<sup>1</sup>TH": "(1-R<sub>0</sub>SP)<sup>−1</sup>TH",
     "(I − A)<sup>−</sup>*<sup>1</sup>*f*": "(I − A)<sup>−1</sup>f*",
