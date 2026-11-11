@@ -23,7 +23,7 @@ The view is aerial, 2D and on a grid, a bit like SimCity. Goods are animated as 
 | [Data model](data-model.md) | The abstract model: definitions, the world, the books, policies | Draft |
 | [Shoe scenario](shoe-scenario.md) | The first scenario: units, buildings, functions, recipes and figures | Draft |
 | [Accounting](accounting.md) | The books: direct transfers, social average, labour certificates, payout factor, by-product method, invariants | Draft |
-| [Simulation engine](simulation-engine.md) | The clock, the daily cycle, the systems that run each tick, random numbers and determinism | Stub |
+| [Simulation engine](simulation-engine.md) | The clock, the daily cycle, the systems that run each tick, random numbers and determinism, dishonesty | Stub |
 | [User interface](user-interface.md) | The map, zoom, selection panels, time controls, views of the hours | Stub |
 | [Technology](technology.md) | Options for the web stack and a recommendation | Draft |
 | [Internationalisation](internationalisation.md) | English and Spanish from the start; translatable data | Stub |
@@ -50,6 +50,9 @@ Patrick's answers on the gaps (2026-11-09) settled more. The details are in [Gap
 - **Housing is out of scope** (2026-11-10): existing homes, outside the books.
 - **People who do not work** (2026-11-10): retirement is a choice from 65, credited 20 hours a week on top of any work, up to a full week; part-time work is open at any age; the ill and injured are credited their usual hours until fit. Children consume out of the adults' certificates, with nothing extra per child. Their credited hours lower the payout factor.
 - **A 32-hour week** (2026-11-10): four days of 8 hours. Units run at capacity Monday to Friday; each full-timer's day off can fall on any weekday, and some may choose five days. Part-time is a 4-hour morning or afternoon shift.
+- **Repeatable runs** (2026-11-11): one seeded generator; the same build, scenario and seed give the same run. Runs from different builds need not match.
+- **Internationalisation** (2026-11-11): names in the data are translation keys; Spanish roles are named by trade or activity; numbers and dates are formatted by the browser's `Intl`; the Spanish terms stay provisional until checked against Spanish editions of the GIC and Marx.
+- **The simulation** (2026-11-11): a tick is one simulated minute, and play starts at real time; certificates weekly, books closed monthly and yearly. Hours are integer seconds, with remainders carried so the books balance exactly. Goods move in batches. Runs can be saved and loaded, and the books exported as CSV. Dishonesty (theft, cooking the books, shirking) comes soon after the first builds, but from phase 1 the engine keeps what happened apart from what was reported, and the books are written only from reports.
 
 ## Phases
 

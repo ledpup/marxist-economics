@@ -4,7 +4,7 @@
 
 # Internationalisation
 
-*Stub.* English and Spanish from the start, switchable without a reload. Terms are in the [glossary](glossary.md).
+*Stub.* English and Spanish from the start, switchable without a reload. Terms are in the [glossary](glossary.md). Translation keys, Spanish role names and number formats were decided on 2026-11-11 ([gaps 39 to 42](gaps-in-the-brief.md#decided)).
 
 ## Rules
 

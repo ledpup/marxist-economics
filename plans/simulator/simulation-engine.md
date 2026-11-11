@@ -16,7 +16,7 @@
 
 - One tick is one simulated minute.
 - The day, week, and accounting period (month, year) are set in the scenario.
-- Speeds: paused, 1 tick a frame, up to whole days a frame. At high speed nothing is animated; only totals update.
+- The tick sets the resolution of simulated time, not the speed of play. Speed is a multiple of real time, set in the user interface ([Time](user-interface.md#time)): from paused and 1× (real time, the default) up to as fast as the engine can run. At 1× a tick passes every real minute, and the map interpolates movement between ticks so people and vehicles still move smoothly. At high speed nothing is animated; only totals update.
 - Step controls: one hour, one day, to the end of the period.
 
 ## Systems, in order each tick
@@ -55,11 +55,21 @@
 
 ## Random numbers and determinism
 
-- One seed in the scenario. From it, **one random stream per system** (schedule, production, breakdowns, households …), so a change in one system doesn't shift the numbers drawn by the others.
-- A small, fast generator with a known algorithm (for example PCG32 or xoshiro128**), the same in every language the engine might be ported to.
+The same build, scenario and seed give the same run. Runs from different builds need not match ([gap 35](gaps-in-the-brief.md#decided)).
+
+- One seed in the scenario, and **one seeded generator** for the whole engine, with a fixed algorithm (for example PCG32 or xoshiro128\*\*).
 - People, units and buildings are always processed in id order. No iteration over hash maps whose order can vary.
-- The books use integers ([Accounting](accounting.md#numbers)). Floating point is allowed only for positions on screen.
-- Test: the same scenario and seed give the same hash of the state after a year ([Testing](testing.md)).
+- Integers in the books ([Accounting](accounting.md#numbers)) and in everything that feeds them: pace in thousandths, durations in whole minutes. No `Math.random`, `Math.log`, `Math.exp` or `Math.pow` in the engine; their last digits can differ between browsers. Floating point is allowed only for positions on screen.
+- The engine never reads the real clock. Play speed changes how often the interface calls `step`, not what a step does. Commands given during a run are logged with their tick.
+- Test: the same scenario and seed give the same hash of the state after a year ([Testing](testing.md#determinism)).
+
+## Dishonesty
+
+*Later, soon after the first builds* ([gap 45](gaps-in-the-brief.md#decided)). Theft, cooking the books and shirking, each a policy, off by default.
+
+- **From phase 1**, the engine keeps what happened (goods in each place, minutes actually worked) apart from what is reported, and the books are written only from reports. With dishonesty off, the two always agree; a test checks it.
+- A person's opportunism, drawn from the seed, and the chance of being seen decide whether they take an opportunity.
+- Detection: a stocktake at the end of each period, each unit's production time against its branch's average, and each public unit against its budget ([14 b](../../Documents/fundamental_principles/14b_The_Control_of_Operational_Life_II.md#b-control-under-communism)).
 
 ## Performance
 
@@ -69,7 +79,7 @@
 
 ## Saving
 
-- Save: scenario, current state, books. Load restores the run exactly, including the random streams.
+- Save: scenario, current state, books. Load restores the run exactly, including the generator's state and the log of commands given during the run.
 - Export the books as CSV.
 
 ---

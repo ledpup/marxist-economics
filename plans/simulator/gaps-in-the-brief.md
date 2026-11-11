@@ -6,8 +6,8 @@
 
 What the [brief](README.md#patricks-brief) leaves out, gets at odds with the GIC's model, or needs to settle before code is written. Gaps keep their numbers when they move from Open to Decided.
 
-**Decided: 17.** 1, 2, 3, 4, 6, 8, 9, 10, 11, 12, 16, 18, 19, 31, 36, 43, 44.
-**Open: 27.** Each has a proposal that stands as the default until overruled.
+**Decided: 27.** 1, 2, 3, 4, 6, 8, 9, 10, 11, 12, 16, 18, 19, 31, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45.
+**Open: 18.** Each has a proposal that stands as the default until overruled.
 
 ## Open
 
@@ -34,21 +34,6 @@ What the [brief](README.md#patricks-brief) leaves out, gets at odds with the GIC
 - **29. Buildings missing from the shoe example.** *Proposal:* add the shoe factory, the consumer cooperative's store, the components works (thread, laces, soles), a freight depot, a school and a child care centre. → [Shoe scenario](shoe-scenario.md)
 - **30. Location.** Latitude and longitude don't fit a grid. *Proposal:* a grid cell (x, y) and a footprint; latitude and longitude optional. → [Data model](data-model.md#location)
 - **32. "What they are doing".** *Proposal:* each person has a current activity (at home, travelling, cutting uppers, at school, at the child care centre, caring, shopping). → [Data model](data-model.md#person)
-
-### The simulation
-
-- **33. Time scale.** *Proposal:* a tick of one simulated minute; certificates weekly; books closed monthly and yearly. → [Simulation engine](simulation-engine.md#the-clock)
-- **34. Hours must balance exactly.** The branch's books "must *always* be 'balanced'" ([8 d](../../Documents/fundamental_principles/08_Average_Working_Hour_as_Basis_of_Production.md#d-the-difference-in-company-productivity)). *Proposal:* integer micro-hours, with a stated rounding rule for divisions. → [Accounting](accounting.md#numbers)
-- **35. A seed alone does not make a run repeatable.** *Proposal:* one random stream per system, ordered iteration, integer arithmetic in the books. Random: absence, breakdowns, each person's pace, household demand. → [Simulation engine](simulation-engine.md#random-numbers-and-determinism)
-- **37. Batches, not items.** *Proposal:* 160 pairs a day move as eight crates, not 160 sprites. → [Simulation engine](simulation-engine.md#production)
-- **38. Saving and exporting.** *Proposal:* scenarios as files; save and load a run; export the books as CSV. → [Data model](data-model.md#scenario-and-policies)
-
-### Internationalisation
-
-- **39. Names in the data must be translatable.** *Proposal:* the data holds a key (`role.cordwainer`); translations live in language files. People's names are not translated. → [Internationalisation](internationalisation.md)
-- **40. Spanish job titles have gender.** *Zapatero* / *zapatera*; *el* / *la electricista*. With no gender in the model (gap 31), the proposal is to name roles in Spanish by trade or activity (*Zapatería*, *Docencia*) and keep job nouns out of sentences about a person. → [Internationalisation](internationalisation.md#job-titles)
-- **41. Number formats.** 3.18 hours is "3,18 horas" in Spanish. *Proposal:* the browser's `Intl` formatting. → [Internationalisation](internationalisation.md)
-- **42. Spanish terms for the GIC's concepts.** *Proposal:* check against Spanish editions of the book and of Marx before fixing them. → [Glossary](glossary.md)
 
 ## Decided
 
@@ -82,9 +67,40 @@ What the [brief](README.md#patricks-brief) leaves out, gets at odds with the GIC
 - **18. Shoes last a year.** **Decision:** a pair of shoes lasts **one year** in use. At the start, everyone has one pair, of a random age drawn from the seed, so pairs wear out on different days and demand is spread over the year, not bunched at the start. When a pair wears out, its owner buys a new one at the cooperative store with the household's certificates. Everything else a household needs comes as a daily basket from the rest of the economy ([gap 4](#decided)), as proposed. *Why:* worn-out shoes are what drive demand for the chain's product. At one pair a year each, the shoe scenario's 120 or so people buy a pair about every three days; 10,000 people ([gap 36](#decided)) buy about 27 a day, against the factory's 160. → [Data model](data-model.md#household), [Shoe scenario](shoe-scenario.md#people-and-the-day)
 - **19. Expansion, large projects, the disaster fund are out of scope for now.** **Decision:** the scenario is simple reproduction. Expansion (a), special accumulation and the disaster fund keep their place in the payout factor ([E10](../../notes-opus5_5/fundamental-principles-economic-model.md#e10-the-payout-factor-with-expansion)) but are zero until a later phase. *Why:* following the shoe through the chain doesn't need them. → [Accounting](accounting.md#the-payout-factor), [Shoe scenario](shoe-scenario.md#later-versions)
 - **31. No gender; age from a birth date.** **Decision:** gender is removed from the model: it plays no part in this. A person has a birth date, and their age (young child under 6, at school from 6, a paid student from 12, working age, retired) is derived from the simulation's date. No role depends on gender: anyone can do any work, child care and teaching included. *Why:* in the GIC's model one hour is one hour, whoever works it. In Spanish, roles are therefore named by trade or activity (gap 40). → [Data model](data-model.md#person)
+- **33. Time scale.** **Decision:** a tick is one simulated minute. Play starts at real time (1×), with a speed slider and faster and slower buttons, up to as fast as the engine can run. Certificates are issued weekly; the books are closed monthly and yearly. *Why:* a minute is fine enough for shifts, journeys and batches, and keeps every duration a whole number ([gap 35](#decided)). → [Simulation engine](simulation-engine.md#the-clock), [User interface](user-interface.md#time)
+- **34. Hours must balance exactly.** The branch's books "must *always* be 'balanced'" ([8 d](../../Documents/fundamental_principles/08_Average_Working_Hour_as_Basis_of_Production.md#d-the-difference-in-company-productivity)). **Decision:** hours are held as integer seconds. A division (a social average, wear per hour, a payout factor) rounds to the nearest second and carries the remainder to the next entry, so totals balance exactly. A rate per item is kept as a fraction, seconds over quantity, so goods made in bulk don't round to nothing. *Why:* sums of fractional hours drift, and the books would never quite balance; a minute is a whole number of seconds, so recording work never rounds. → [Accounting](accounting.md#numbers)
+- **35. Runs repeat within the same build.** **Decision:** the same build, scenario and seed give the same run, with any commands given during it replayed at the same tick. Runs from different builds need not match: a new module may change how an old seed plays out. A seed is necessary, not sufficient. A run also needs:
+  - **One seeded generator** with a fixed algorithm (for example PCG32 or xoshiro128\*\*) for the whole engine.
+  - **Ordered iteration.** People, units and buildings are always processed in id order.
+  - **Integers** in the books and in everything that feeds them: pace in thousandths, durations in whole minutes. No `Math.random`, `Math.log`, `Math.exp` or `Math.pow` in the engine: the same build runs in different browsers, and their last digits can differ.
+  - **Nothing from outside the run.** The engine never reads the real clock: play speed only changes how often the interface calls `step`, never what a step does. Commands given during a run (a policy switched mid-year) are logged with their tick.
+  - Random: absence, breakdowns, each person's pace, household demand, and later dishonesty ([gap 45](#decided)).
+
+  *Why:* replay within a build is what's needed for now. A separate stream per system, or draws keyed by person and day, would keep old seeds stable across builds, and keep unrelated draws unchanged when one policy is switched on; neither is needed yet. The cost: two runs with the same seed and different policies also differ by chance (different people fall ill), so a comparison needs several seeds, not one. → [Simulation engine](simulation-engine.md#random-numbers-and-determinism), [Testing](testing.md#determinism)
 - **36. Scale.** The brief asks for "a large amount of data". **Decision:** about **10,000 people**, every one an agent: a town, not a region. The shoe scenario's 120 or so people are the first step ([Shoe scenario](shoe-scenario.md#scale)); 10,000 is what the engine and the map must handle. Aggregate mode (a crew as a count, not people) is kept for anything larger and is not built for now. *Why:* every person stays visible and clickable, as the brief wants, and the scale fits the chosen technology: TypeScript holds tens of thousands of agents in typed arrays, and PixiJS draws that many sprites. → [Technology](technology.md#decision), [Simulation engine](simulation-engine.md#performance)
+- **37. Batches, not items.** **Decision:** goods are made and moved in batches: the factory's 160 pairs a day move as eight crates of 20, not 160 sprites. A batch carries its production time as a whole. *Why:* with 10,000 people on the map ([gap 36](#decided)), every pair as well would be too much to draw and to track, and the books post whole batches anyway ([gap 34](#decided)). → [Simulation engine](simulation-engine.md#production)
+- **38. Saving and exporting.** **Decision:** scenarios are files. A run can be saved and loaded: the scenario, the current state and the books, with the generator's state and the log of commands, so a loaded run carries on as it would have ([gap 35](#decided)). The books can be exported as CSV. → [Data model](data-model.md#scenario-and-policies), [Simulation engine](simulation-engine.md#saving)
+- **39. Names in the data are translation keys.** **Decision:** the data holds a key (`role.cordwainer`), and the translations live in language files. People's names, and units' proper names, are not translated. *Why:* the brief asks for languages to switch easily, which can't happen if names are fixed in the data. → [Internationalisation](internationalisation.md#rules), [Data model](data-model.md)
+- **40. Spanish roles are named by trade or activity.** Spanish job titles have gender: *zapatero* / *zapatera*, *el* / *la electricista*. **Decision:** in Spanish a role is named by its trade or activity (*Zapatería*, *Docencia*, *Cuidado infantil*), and sentences about a person keep the job noun out ("Ana · Zapatería · corte", "trabaja en el corte"). *Why:* the model holds no gender ([gap 31](#decided)), so it can't choose between the two forms, and a person must be addressed correctly. → [Internationalisation](internationalisation.md#job-titles), [Glossary](glossary.md#roles)
+- **41. Numbers and dates follow the language.** **Decision:** the browser's `Intl` formats them for the current language: 3.18 hours in English is "3,18 horas" in Spanish. *Why:* it is built into every browser, and FormatJS uses it ([Technology](technology.md#decision)). → [Internationalisation](internationalisation.md#rules)
+- **42. Spanish terms for the GIC's concepts.** **Decision:** the Spanish in the glossary stays provisional until it is checked against a Spanish edition of the *Fundamental Principles* and the usual Spanish translations of Marx's *Critique of the Gotha Programme*. *Why:* the terms should be the ones Spanish readers of the book and of Marx already know. → [Glossary](glossary.md)
 - **43. Housing is out of scope.** **Decision:** the simulation uses existing housing. Dwellings are there from the start; no unit runs them, and they carry no hours and no wear in the books. *Why:* the book does not say how housing is provided, and it isn't needed to follow the shoe. → [Shoe scenario](shoe-scenario.md#units-buildings-and-functions), [Data model](data-model.md#building)
 - **44. The working week.** Not in the brief. **Decision:** a full-time week is **32 hours**: four days of 8 hours. Units, the shoe factory included, run 8 hours a day, five days a week, Monday to Friday. The factory runs at capacity every day, so each full-timer's day off can fall on any weekday, spread evenly across the week: about four-fifths of a crew is at work every day. Some may choose to work all five days, and are credited for every hour. Part-time work is a 4-hour shift, morning or afternoon; part-timers may also work a fifth day. *Why:* the 40-hour week belongs to capitalist societies, where much of the work is useless. Without that work, the same production needs fewer hours each. With the book's figures, the shoe factory's 62,500 hours a year need about 39 people instead of 31. → [Shoe scenario](shoe-scenario.md#scale), [Data model](data-model.md#scenario-and-policies)
+- **45. People are not always honest.** Not in the brief. People are lazy and opportunistic, and the simulation shouldn't assume otherwise. Wanted soon after the first builds, not in them. The kinds:
+  - **Theft** of consumer goods from warehouses, distribution centres, the store, and vehicles in transit.
+  - **Cooking the books.** A unit reports more hours than were worked, or less output than was made; a person claims hours not worked; care at home is recorded but not given (the weak point of [gap 8](#decided)); a stock count hides a loss.
+  - **Shirking.** Feigned illness, credited at the usual hours ([gap 9](#decided)); working below one's pace while credited the full hour.
+
+  The GIC's answer is that control "is guided by the public registration of the factual course of operational life. That is, production is controlled by reproduction" ([14 b](../../Documents/fundamental_principles/14b_The_Control_of_Operational_Life_II.md#b-control-under-communism)): a unit whose production time is well above its branch's average shows up in the books. It also admits that the control of public units "does not offer so many forms of automatic control": only their budget can be checked. The simulation can test both claims: what the books catch, how soon, and what they miss.
+
+  **Decision:**
+  - **Two records from phase 1.** The engine keeps what happened (the goods in each place, the minutes each person actually worked) apart from what was reported, and the books are written only from reports. Until dishonesty is switched on, the two agree. Adding the split later would mean reworking every system that writes the books.
+  - **Opportunism.** Each person has a level drawn from the seed: most take small chances when they are unlikely to be seen, a few take large ones, some take none. Each kind of dishonesty is a policy with its own rate, off by default.
+  - **Detection by the GIC's own means first:** a stocktake at the end of each period (book stock against what is there), each unit's production time against its branch's average, and each public unit against its budget. Inspectors and other bodies come later, if those miss too much.
+  - **In the books,** goods found missing at a stocktake are written off as a loss, recorded against the unit so its figures show it. The loss is product no longer there for certificates to claim, so it comes off the top of the payout factor and lowers it for everyone.
+  - What happens to someone caught is left open.
+
+  → [Simulation engine](simulation-engine.md#dishonesty), [Data model](data-model.md#scenario-and-policies)
 
 ## Patrick's answers
 
@@ -207,6 +223,38 @@ His answers as he gave them, grouped by topic. A short note before each says wha
 > 3. Yes, it comes out of an adult's income. It is "a great injustice" though not as much as neo-Nazi trillionaires.
 
 *Outcome:* the ill and injured are credited their usual hours. Children consume from the adults' certificates, with nothing extra per child, as in the book.
+
+### 2026-11-11: internationalisation (gaps 39 to 42)
+
+*Context:* the four proposals were translation keys in the data, Spanish roles named by trade or activity, the browser's `Intl` for numbers and dates, and Spanish terms checked against Spanish editions before they are fixed.
+
+> Internationalisation: accept the 4 proposals
+
+*Outcome:* all four are decided as proposed. Which Spanish to use (Spain's or a Latin American one) is still open in [Internationalisation](internationalisation.md#rules).
+
+### 2026-11-11: repeatable runs (gap 35) and dishonesty (gap 45)
+
+*Context:* gap 35's proposal was "one random stream per system, ordered iteration, integer arithmetic in the books", with absence among the random events.
+
+> 35. A seed alone does not make a run repeatable: what does "one random stream per system" mean? A seed may not be sufficient but it is necessary. I think we have everything else for this point, right?
+>
+> You mention "absence". We will want to build-in theft of consumer items from warehouses and distribution centres, people trying to cook the books, etc. It does not need to be in the first builds, but we'll want it sooner than later. Humans are inherently lazy and opportunistic. Capitalists and other socialists are idealistic about that, but we don't need to be.
+
+*Outcome:* gap 35's proposal now keys each draw by system, person and day, which goes further than one stream per system, and adds two conditions the list was missing: no browser maths functions in the engine, and nothing read from outside the run (the real clock, or unlogged commands). Dishonesty is a new open gap, 45. Its first consequence comes in phase 1: what happened and what was reported are kept apart from the start.
+
+*Context for the next answer:* Claude explained that one shared stream lets a new module shift every later draw, and proposed going further than one stream per system: each draw keyed by system, person and day, so old seeds keep their other draws when modules or policies are added.
+
+> One stream per system: you may have gone too far there. If we add a new module to the simulation, I don't care if the simulation plays out differently with an old seed. I only care about replay within the same build - at least for now.
+
+*Outcome:* gap 35 is decided: one seeded generator for the whole engine, repeatable within the same build. The other conditions stay: ordered iteration, integers, no browser maths functions, nothing from outside the run. Claude pointed out the cost: comparing two policies needs several seeds, since with one stream a policy also changes who falls ill.
+
+### 2026-11-11: the simulation (gaps 33, 34, 37, 38 and 45)
+
+*Context:* the proposals under "The simulation": a one-minute tick with play starting at real time; integer seconds in the books, with a rounding rule; goods moved in batches; saving, loading and CSV export; and for dishonesty, two records (what happened and what was reported) from phase 1, opportunism drawn from the seed, and detection by the GIC's own means.
+
+> Accept all proposals in "The simulation". That is: 33, 34, 37, 38, 45
+
+*Outcome:* all five are decided as proposed. Dishonesty itself still comes after the first builds, but the two records are built in phase 1. What happens to someone caught is still open.
 
 ---
 

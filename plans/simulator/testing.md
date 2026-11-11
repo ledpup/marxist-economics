@@ -26,8 +26,13 @@
 
 ## Determinism
 
+Within one build ([gap 35](gaps-in-the-brief.md#decided)):
+
 - The same scenario and seed give the same hash of the state and books after a simulated year.
 - Saving and loading mid-run, then continuing, gives the same hash as running straight through.
+- Running at a different play speed gives the same hash.
+- Replaying a run with commands given mid-run gives the same hash.
+- With dishonesty off, what happened and what the books say agree after every tick ([gap 45](gaps-in-the-brief.md#decided)).
 
 ## Other
 

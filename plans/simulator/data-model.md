@@ -15,7 +15,7 @@ The abstract model the simulation runs over. It is independent of language and s
   - *Policies*: the rules a scenario chooses (payout factor timing, who is paid, joint-product method).
 - **Ids** are stable strings in scenario files (`role.cordwainer`, `bld.tannery`) and small integers at run time.
 - **Names are translation keys** for anything defined by the scenario (`role.cordwainer` → "Cordwainer" / "Zapatero"). People's names are plain text. See [Internationalisation](internationalisation.md).
-- **Hours are fixed-point** (integer micro-hours), never floating point. See [Accounting](accounting.md#numbers).
+- **Hours are integer seconds**, never floating point. See [Accounting](accounting.md#numbers).
 - **Every quantity of hours keeps its split** into f, c and l, so the screen can always show where a product's hours came from.
 
 ## Overview
@@ -92,7 +92,7 @@ From the brief ("braiding works", "thread works"), with the recipe it was missin
 | id, nameKey | `mt.sewing-machine` |
 | productionHours | Hours embodied in one machine |
 | lifeHours | Hours of use before it is worn out. f per hour of use = productionHours ÷ lifeHours |
-| breakdownRate | Chance per hour of use; uses the random stream for breakdowns |
+| breakdownRate | Chance per hour of use, drawn from the seed |
 
 ### VehicleType
 
@@ -186,6 +186,7 @@ From the brief.
 | employments | List of [Employment](#employment). Replaces "employer(s)" |
 | activity | What they are doing now: `home`, `travelling`, `working` (with function), `shopping`, `studying`, `atChildCare` (a child under 6 at the centre), `caring`, `absent`. For the selection panel |
 | position | Building, or a grid position while travelling |
+| opportunism | *Later* ([gap 45](gaps-in-the-brief.md#decided)). How readily they take a dishonest chance; drawn from the seed |
 
 ### Skill
 
@@ -195,7 +196,7 @@ From the brief.
 | --- | --- |
 | person, role | |
 | level | Which functions a person may do |
-| pace | How fast they work by hand, as a multiple of the average (from about 0.6 to 1.6), drawn from the seed; it can rise with experience. A slower crew raises the unit's production time. **Never** changes certificates: see [gap 10](gaps-in-the-brief.md#decided) |
+| pace | How fast they work by hand, as a multiple of the average (from about 0.6 to 1.6, held as an integer in thousandths: 600 to 1,600), drawn from the seed; it can rise with experience. A slower crew raises the unit's production time. **Never** changes certificates: see [gap 10](gaps-in-the-brief.md#decided) |
 
 ### Employment
 
@@ -262,7 +263,7 @@ A scenario is one file (JSON or YAML) holding the definitions, the starting worl
 
 | Field | Notes |
 | --- | --- |
-| seed | For the random streams |
+| seed | For the engine's one random generator ([Simulation engine](simulation-engine.md#random-numbers-and-determinism)) |
 | startDate, clock | Tick length, working day, week, accounting period |
 | definitions, world | As above |
 | policies.payoutFactor | `fixed` (a value), or `previousPeriod` (computed and reconciled) |
@@ -272,6 +273,7 @@ A scenario is one file (JSON or YAML) holding the definitions, the starting worl
 | policies.nonWorkers | Default ([gap 9](gaps-in-the-brief.md#decided)): children through child care, school and their household; retirement a choice from age 65, credited 20 hours a week on top of any hours worked, up to a full week (32) in all; the ill and injured credited their usual hours; anyone permanently unable to work, a full week. Nothing extra per child. Each can be switched off |
 | policies.childCare | Under 1: the primary carer is a full-time child carer, credited a full working week; the centre takes the child part-time only, up to the hours a week set here. From 1: the centre full-time, or a carer at home. From 6: school ([gap 8](gaps-in-the-brief.md#decided)) |
 | policies.commuting | `notCosted` in phase 1 |
+| policies.dishonesty | *Later* ([gap 45](gaps-in-the-brief.md#decided)). Per kind (theft, false reports, feigned illness, shirking): on or off, and a rate. Off by default |
 | keyNumber | Optional: converts a scenario's money figures to hours ([E11](../../notes-opus5_5/fundamental-principles-economic-model.md#e11-the-key-number-converting-money-to-hours)) |
 
 Runs can be saved (scenario plus current state plus books) and the books exported as CSV.

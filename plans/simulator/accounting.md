@@ -8,9 +8,11 @@ The books are the point of the simulation: they are where the hours accumulate. 
 
 ## Numbers
 
-- Hours are held as **integer micro-hours** (millionths of an hour). In JavaScript, integers are exact up to about 9 × 10<sup>15</sup>, which holds the book's whole economy (1,408 million hours, [E2](../../notes-opus5_5/fundamental-principles-economic-model.md#e2-the-whole-economy)) with room to spare. Past that, 64-bit integers.
-- Divisions (a social average, wear per hour, a payout factor) round to the nearest micro-hour. The remainder is carried to the next entry, so totals balance exactly.
-- The screen rounds to two decimals: 3.18 hours.
+- Hours are held as **integer seconds**. Work is logged by the minute (one tick) and machine time by the second, so recording never rounds. A decimal unit such as the micro-hour would not do this: a minute is 16,666⅔ micro-hours.
+- In JavaScript, integers are exact up to about 9 × 10<sup>15</sup>. The book's whole economy (1,408 million hours, [E2](../../notes-opus5_5/fundamental-principles-economic-model.md#e2-the-whole-economy)) is about 5 × 10<sup>12</sup> seconds, so there is room to spare. Past that, 64-bit integers.
+- Divisions (a social average, wear per hour, a payout factor) round to the nearest second. The remainder is carried to the next entry, so totals balance exactly.
+- A rate per item is kept as a fraction, seconds over quantity (a crate of 20 pairs: 228,960 seconds), not as seconds per item. Cheap goods made in bulk take less than a second each: 10 million nails in 1,000 hours is 0.36 seconds a nail, which would round to nothing. Entries post whole batches or whole issues, so only their totals have to be whole seconds.
+- The screen shows hours to two decimals: 3.18 hours.
 
 ## A unit's books
 

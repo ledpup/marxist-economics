@@ -28,7 +28,9 @@ Click a building, vehicle, crate or person. A side panel shows:
 
 ## Time
 
-- Pause, play, faster, slower; step an hour, a day, to the end of the period.
+- Pause and play. The run starts at real time (1×).
+- Speed: a range slider on a logarithmic scale, with faster and slower buttons that move it one stop. Stops: 1×, 10×, 60× (a minute a second), 600×, 3,600× (an hour a second), 86,400× (a day a second), and maximum. The current multiple is shown beside the slider.
+- Step an hour, a day, to the end of the period.
 - The date and time; the seed, with a button to restart from it or a new one.
 
 ## Views of the hours
