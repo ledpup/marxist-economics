@@ -158,6 +158,18 @@ From the brief.
 | hoursUsed | Running total. Wear charged so far = hoursUsed × productionHours ÷ lifeHours |
 | state | `idle`, `working`, `broken`, `worn out` |
 
+### Design
+
+*New* ([gap 14](gaps-in-the-brief.md#decided)). A mainline design: fixed means of production made by the unit that uses it, and worn by the pair, not by the hour. Boutique designs are not recorded this way: their designer's hours are l on the run.
+
+| Field | Notes |
+| --- | --- |
+| id, product, unit | The mainline product it is for, and the unit that made it and uses it |
+| productionHours | The designer's hours on it, split into f, c and l like any product's |
+| lifeUnits | The run's planned number of pairs |
+| unitsMade | Running total. Wear charged so far = unitsMade × productionHours ÷ lifeUnits |
+| state | `in design`, `in use`, `worn out`, `written off` |
+
 ### Batch
 
 *New.* A quantity of one product in one place. Replaces the brief's "consumables" list on buildings.
@@ -252,7 +264,7 @@ Append-only. See [Accounting](accounting.md) for what each one means.
 | Account | Owner (unit or household), balances: withdrawn from the community, transferred to the community, certificates held |
 | WorkLog | Person, unit, function, start, minutes worked |
 | Transfer | Direct transfer between units: date, from, to, batch, quantity, hours (f/c/l) |
-| WearEntry | Machine or building, unit, date, hours of f charged |
+| WearEntry | Machine, building or design, unit, date, hours of f charged |
 | CertificateIssue | Person, household, period, hours worked, hours credited without work and why (retired, ill), payout factor, certificates issued |
 | Purchase | Household, store, product, quantity, hours |
 | PeriodClose | Period, branch social averages, each unit's over or under, payout factor |

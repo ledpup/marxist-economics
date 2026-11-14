@@ -52,6 +52,7 @@ The giro office becomes the **public accounting office**, from the book's own "g
 | Rest of the economy | resto de la economía | The aggregate unit at the map's edge |
 | Batch, crate | lote, caja | |
 | Function | función | |
+| Recipe | receta | What a function needs and makes for one batch: inputs, outputs (main or by-product), crew, machines, machine and hand time, power. The standard term in batch manufacturing |
 | Freight | transporte de mercancías | |
 | Household | hogar | |
 | Child care unit | unidad de cuidado infantil | The public unit that runs the child care centre and records child carers' hours |

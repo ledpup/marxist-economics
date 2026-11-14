@@ -30,10 +30,10 @@ Every unit, productive or public, keeps (f + c) + l ([E1](../../notes-opus5_5/fu
 When a function finishes a batch, the new batch's hours are, from the point of view of the unit that made it:
 
 - **c**: the hours of every input batch used, in full (whatever f/c/l split they had upstream becomes c here), plus electricity and freight.
-- **f**: wear on the machines used, for the minutes used, plus a share of the building's wear.
-- **l**: the crew's minutes on the batch. A slower crew takes more minutes on the hand work, so its batches carry more hours, and the unit shows "under" against its branch. Each worker is still credited one hour for each hour worked.
+- **f**: wear on the machines used, for the minutes used, plus a share of the building's wear, plus the design's share for a mainline pair ([gap 14](gaps-in-the-brief.md#decided)).
+- **l**: the crew's minutes on the batch, and on a boutique run the designer's minutes on it. A slower crew takes more minutes on the hand work, so its batches carry more hours, and the unit shows "under" against its branch. Each worker is still credited one hour for each hour worked.
 
-Time not spent on any one batch (setting up, cleaning, the designer's work, idle time) is pooled for the period and spread over the period's output in proportion to labour minutes. This is the "shared overheads" problem in the [shoe chain note](../../notes-opus5_5/fundamental-principles-economic-model.md#what-the-fuller-chain-brings-out); the rule used should be shown in the unit's books.
+Time not spent on any one batch (setting up, cleaning, idle time) is pooled for the period and spread over the period's output in proportion to labour minutes. This is the "shared overheads" problem in the [shoe chain note](../../notes-opus5_5/fundamental-principles-economic-model.md#what-the-fuller-chain-brings-out); the rule used should be shown in the unit's books.
 
 Separately from f/c/l, a batch can keep its **sources**: its hours broken down by the branch they originated in (leather, rubber, electricity …). This is for display only. The GIC's point is that no unit *needs* this history ([8 c](../../Documents/fundamental_principles/08_Average_Working_Hour_as_Basis_of_Production.md#c-the-progress)).
 
@@ -89,6 +89,7 @@ The power station meters each consumer ([E8](../../notes-opus5_5/fundamental-pri
 - **Machines:** productionHours ÷ lifeHours per hour of use, charged to the batch the machine was used on.
 - **Buildings:** productionHours ÷ (lifeYears × working days a year) per day, charged to the unit's pooled time for the period.
 - **Vehicles:** per hour driven, charged to the freight leg.
+- **Designs:** a mainline design is made in the shoe factory before its run ([gap 14](gaps-in-the-brief.md#decided)). While it is being made, the designer's hours are posted to the design, not to the period's output; they are still hours worked, credited and in L. Once the run starts, productionHours ÷ lifeUnits per pair, charged to each batch. If the line stops before lifeUnits, what is left is written off against the unit. On a boutique run the designer's hours are l on the run instead.
 - When a machine reaches its life, it is worn out and must be replaced. In phase 1 a replacement arrives from the rest of the economy.
 
 ## Joint products: the by-product method

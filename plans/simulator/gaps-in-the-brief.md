@@ -6,8 +6,8 @@
 
 What the [brief](README.md#patricks-brief) leaves out, gets at odds with the GIC's model, or needs to settle before code is written. Gaps keep their numbers when they move from Open to Decided.
 
-**Decided: 27.** 1, 2, 3, 4, 6, 8, 9, 10, 11, 12, 16, 18, 19, 31, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45.
-**Open: 18.** Each has a proposal that stands as the default until overruled.
+**Decided: 30.** 1, 2, 3, 4, 6, 8, 9, 10, 11, 12, 13, 14, 16, 18, 19, 31, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46.
+**Open: 16.** Each has a proposal that stands as the default until overruled.
 
 ## Open
 
@@ -15,8 +15,6 @@ What the [brief](README.md#patricks-brief) leaves out, gets at odds with the GIC
 
 - **5. Where the chain starts.** Hides, synthetic rubber, cotton, chemicals and fuel come from outside. They need a production time on arrival. *Proposal:* the scenario gives one per product, taken from the [shoe illustration](../../notes-opus5_5/fundamental-principles-economic-model.md#following-a-shoe-through-the-chain) or converted from money with the key number ([E11](../../notes-opus5_5/fundamental-principles-economic-model.md#e11-the-key-number-converting-money-to-hours)). → [Shoe scenario](shoe-scenario.md)
 - **7. Setting the payout factor during a period.** The book never says how a running factor is set before the year's totals exist ([What the book leaves open](../../notes-opus5_5/fundamental-principles-economic-model.md#what-the-book-leaves-open)). With child care and the school (gap 8) the factor is below 1 from phase 1; a clinic comes in phase 5. *Proposal:* the factor in use is the last period's, reconciled at the end of each period. → [Accounting](accounting.md#the-payout-factor)
-- **13. Joint products inside the chain.** The by-product method is chosen. The hide comes from the slaughterhouse, outside the chain at first, so the scenario applies the method through the hides' arrival figure. Inside the chain, cutting leaves leather offcuts and sole moulding leaves flash. *Proposal:* recipes mark each output as *main* or *by-product*. → [Accounting](accounting.md#joint-products-the-by-product-method)
-- **14. The designer's work is not used up in one pair.** *Proposal:* the designer's hours are part of the factory's l, like any other worker's (simplest, and true to the book). A design as fixed means of production, spread over a run like a machine, is an option for later. → [Shoe scenario](shoe-scenario.md)
 - **15. The mixed unit.** The power station charges factories and supplies homes free ([E8](../../notes-opus5_5/fundamental-principles-economic-model.md#e8-the-payout-factor-with-mixed-units)). *Proposal:* metering per consumer and a split of its books. → [Accounting](accounting.md#the-mixed-unit)
 - **17. What decides how much to make?** The book leaves the production plan open. *Proposal:* the cooperative store orders when its stock falls below a target, and each unit upstream does the same for its inputs (a pull system). When the store runs short, first come, first served. → [Simulation engine](simulation-engine.md#demand-and-orders)
 - **20. Day one.** Stocks, machines and buildings have no recorded hours at the start. *Proposal:* the scenario sets them; the key number is the method if a scenario starts from money figures. → [Shoe scenario](shoe-scenario.md)
@@ -63,6 +61,14 @@ What the [brief](README.md#patricks-brief) leaves out, gets at odds with the GIC
 - **10. Pay never depends on skill or speed; production time does.** **Decision:** one hour worked is one hour credited, whoever works it ([Unskilled and skilled labour](../../notes-opus5_5/fundamental-principles-economic-model.md#unskilled-and-skilled-labour)). Skill level decides which functions a person may do. Each person also has a **pace** of their own, drawn from the seed, and some are much faster than others. A slower crew raises the unit's production time, and the simulation should show it. But very few are faster than a machine: a recipe splits its time into machine time, which runs at the machine's pace whoever tends it, and hand time, which runs at the worker's. *Why:* the book does not discuss speed within a unit. → [Data model](data-model.md#skill), [Simulation engine](simulation-engine.md#production)
 - **11. Machines and buildings carry hours and wear.** **Decision:** both have production hours and a working life; f per hour of use = production hours ÷ working life. New technology (moral wear and tear) is out of scope. → [Accounting](accounting.md#wear-and-tear-f)
 - **12. Who makes the machines?** **Decision:** machines and buildings exist at the start, with hours given by the scenario. Replacement machines come through the gate from the rest of the economy (gap 4) at fixed production times. Machine-building is a later chain. *Why:* it isn't part of the shoe chain, and following the shoe doesn't need it. → [Shoe scenario](shoe-scenario.md#the-rest-of-the-economy)
+- **13. Joint products inside the chain.** **Decision:** a function's recipe marks each output as *main* or *by-product*. Inside the chain, cutting leaves leather offcuts and sole moulding leaves flash, both by-products. The hide comes from the slaughterhouse, outside the chain at first, so the by-product method is applied through the hides' arrival figure. *Why:* the brief chooses the by-product method, and the recipe is where a function's outputs are listed. → [Accounting](accounting.md#joint-products-the-by-product-method)
+- **14. The designer works in the factory, and the mainline design is fixed means of production.** **Decision:** the designer is one of the shoe factory's workers, not in a design office elsewhere. The factory makes two kinds of line, and the designer's hours are booked differently in each:
+  - **The mainline** is a strong, durable shoe for everyday use, most people's shoe and most of the factory's output. Its design is done up front, before the run. The finished **design** is a fixed means of production made in the factory: it carries the designer's hours on it, and passes them on as f, a share to each pair, like a machine's wear. Its life is the run's planned number of pairs. If the line stops before then, what is left is written off against the unit.
+  - **Boutique lines** are small runs ([gap 46](#decided)). The designer keeps changing the design during the run, so their hours go straight into the run's l, as they are spent.
+  - The designer is credited each week for their hours like anyone else ([gap 10](#decided)). Their hours on a mainline design are in L when worked, and reach the pairs later, as the design wears. In a steady year a new design replaces the old one, so the two even out, as with machines.
+  - *Why:* a design is not used up in one pair, and it is made before the shoes it is for. Pooling the designer's hours with setting-up and cleaning would hide that.
+
+  → [Accounting](accounting.md#wear-and-tear-f), [Data model](data-model.md#design), [Shoe scenario](shoe-scenario.md#units-buildings-and-functions)
 - **16. Transport is a shared service, and freight is never free.** **Decision:** freight is a service any unit can call on, on demand. A unit with goods to send puts a shipment in a single queue shared by all units, and the freight unit serves it first come, first served, as its vehicles come free. The freight unit owns the vehicles and keeps books like any productive unit: each leg passes its hours (f, c and l) to the receiving unit ([10 i](../../Documents/fundamental_principles/10_The_General_Social_Work.md#i-mixed-operational-units)). The brief's "operator" is the person driving, employed by the freight unit. Commuting is not costed, and how people get to work (on foot, by bike, scooter, motorbike, car, bus or train) doesn't matter: the screen shows them moving along the grid, but the journey is not counted. *Why:* the queue is the simplest scheme that lets several units share the vehicles; the book says nothing about getting people to work. → [Data model](data-model.md#vehicle), [Simulation engine](simulation-engine.md#logistics), [Accounting](accounting.md#direct-transfers)
 - **18. Shoes last a year.** **Decision:** a pair of shoes lasts **one year** in use. At the start, everyone has one pair, of a random age drawn from the seed, so pairs wear out on different days and demand is spread over the year, not bunched at the start. When a pair wears out, its owner buys a new one at the cooperative store with the household's certificates. Everything else a household needs comes as a daily basket from the rest of the economy ([gap 4](#decided)), as proposed. *Why:* worn-out shoes are what drive demand for the chain's product. At one pair a year each, the shoe scenario's 120 or so people buy a pair about every three days; 10,000 people ([gap 36](#decided)) buy about 27 a day, against the factory's 160. → [Data model](data-model.md#household), [Shoe scenario](shoe-scenario.md#people-and-the-day)
 - **19. Expansion, large projects, the disaster fund are out of scope for now.** **Decision:** the scenario is simple reproduction. Expansion (a), special accumulation and the disaster fund keep their place in the payout factor ([E10](../../notes-opus5_5/fundamental-principles-economic-model.md#e10-the-payout-factor-with-expansion)) but are zero until a later phase. *Why:* following the shoe through the chain doesn't need them. → [Accounting](accounting.md#the-payout-factor), [Shoe scenario](shoe-scenario.md#later-versions)
@@ -101,6 +107,21 @@ What the [brief](README.md#patricks-brief) leaves out, gets at odds with the GIC
   - What happens to someone caught is left open.
 
   → [Simulation engine](simulation-engine.md#dishonesty), [Data model](data-model.md#scenario-and-policies)
+
+- **46. Boutique lines.** From gap 14. Besides the mainline, the shoe factory makes boutique lines: small runs, led by the designer, for people with a particular interest in shoes. They take much more labour a pair and cost their buyers more certificates. **Decision** (provisional: a first sketch of what cordwainers do and would like to do):
+  - **Two routes in the factory.** Some cordwainers work the mainline only: it is a job, and it makes ends meet. The **boutique route** is optional, for those who aren't just doing it for the job. Each person's interest in shoes is drawn from the seed, and decides who takes it.
+  - **Boutique days.** A cordwainer works 0, 1 or 2 of their four days a week on the boutique block, the rest on the mainline. Trainees work 2: they learn mainline production on the other 2, and improve their skills on the boutique block by taking more time and care. Skilled cordwainers on the route split their week the same way, and work alongside the trainees. It is a pattern within the normal 32-hour week ([gap 44](#decided)), not a fifth day, and not weekend work.
+  - **The designer designs and teaches** on the boutique block. Both are l on the boutique run ([gap 14](#decided)).
+  - **Everyone is credited for their hours**, trainees included ([gap 10](#decided)). If trainees weren't, their hours would be missing from l, and a boutique pair's production time would understate the labour in it, as uncounted care does ([gap 8](#decided)). The extra time and care raise the pair's production time, and the buyer pays for it.
+  - **Trainees get better.** A trainee's skill level and pace rise with the hours they work. Nothing else in the model changes a person's pace yet, so this is new to the [data model](data-model.md#skill).
+  - **Fewer hands on the mainline.** Boutique days are hours the mainline doesn't get, so the factory needs more people for the same 160 pairs a day; the scenario sets how many.
+  - **Price needs no new rule.** A boutique pair costs its production time, like any good; that is the "more of their vouchers". Each boutique design is its own product, with its own social average, so it doesn't raise the mainline's.
+  - **Who buys.** The same interest in shoes decides who buys. When a pair wears out, a keen buyer takes a boutique pair if one is in stock and the household has the certificates; everyone else takes the mainline. A boutique pair lasts a year like any other unless the scenario says otherwise.
+  - **When.** A later version of the shoe scenario, not the first: it adds a second line, a second route with its own pattern of days, skills that grow, and consumer choice, none of which following the mainline shoe needs.
+
+  *Why:* most of the factory's work is an everyday shoe made as a job; the boutique route gives those who care about shoes, makers and buyers, somewhere to put that, at its full cost in hours.
+
+  → [Shoe scenario](shoe-scenario.md#later-versions)
 
 ## Patrick's answers
 
@@ -255,6 +276,51 @@ His answers as he gave them, grouped by topic. A short note before each says wha
 > Accept all proposals in "The simulation". That is: 33, 34, 37, 38, 45
 
 *Outcome:* all five are decided as proposed. Dishonesty itself still comes after the first builds, but the two records are built in phase 1. What happens to someone caught is still open.
+
+### 2026-11-14: the designer (gap 14)
+
+*Context:* the proposal was that the designer's hours are part of the shoe factory's l, like any other worker's, with a design as fixed means of production, spread over a run like a machine, as an option for later.
+
+> "14. The designer's work is not used up in one pair." A designer is in some ways not part of the production process. In some factories, the designers may even be in another country. Having them as part of the factory is a good idea. They are likely to be involved in boutique lines of shoes. Most of the shoe production should involve creating a strong and duration shoe that most people will be happy with for everyday uses. Some consumers (and designers) have a particular interest in shoes. The designer will be involved in create these lines of shoes. They'll have a much higher labour time to produce, will be produced in lower numbers, may involve trainee cordwainers that come in on the weekends, and are producing for the love of shoes. Some consumers will be happy to sacrifice more of their vouchers in the interests of fashion.
+>
+> To have the designers labour as a fixed means of production is an interesting idea. That can work in the sense that the design work is done upfront, before production is done. That can apply for the mainline shoes. For boutique shoes, a designer may be making improvements and changes for their limited production runs.
+
+*Outcome:* gap 14 is decided: the designer works in the factory; the mainline design is fixed means of production, worn per pair; on boutique runs the designer's hours go into the run's l. Boutique lines are a new open gap, 46, with proposals: trainees credited for their hours, the factory open at weekends for boutique runs, each boutique design its own product at its own production time, buyers chosen by an interest in shoes drawn from the seed, and the whole a later version of the scenario.
+
+### 2026-11-14: trainees on the boutique lines (gap 46)
+
+*Context:* gap 46 proposed that the factory opens at weekends for boutique runs, with trainees' weekend hours credited on top of their week elsewhere, like a fifth day.
+
+> Trainees would not so much do a fifth day, but they could work on a different schedule. 2 days learning the mainline shoes production, 2 days doing botique to improve their skills, taking more time and care to do so. We would need some skilled people on that block as well. Those people would be those who aren't just doing it for the job. An optional route. Other people are just doing it as a job, to make ends meet.
+
+*Outcome:* the weekend proposal is dropped. Trainees split their 32-hour week between the mainline and the boutique block; skilled cordwainers who choose the boutique route work alongside them; everyone else works the mainline. Two consequences are added to the proposal: trainees' skill and pace rise with their hours, and the mainline needs more people to cover the trainees' boutique days. Gap 46 stays open.
+
+### 2026-11-14: joint products (gap 13)
+
+*Context:* the proposal was that recipes mark each output as *main* or *by-product*.
+
+> 13. Joint products inside the chain.
+>
+> The proposal is good. Is recipe the correct term to use here? I only think of it in terms of food, but I can see how it also could be used for shoe production. No more general suggestion?
+
+*Outcome:* gap 13 is decided as proposed. Claude kept "recipe" for now and set out the alternatives, for Patrick to choose.
+
+*Context for the next answer:* Claude said that "recipe" is the standard term in batch manufacturing (in tanning and rubber compounding too), that "bill of materials" covers only the inputs and "routing" only the steps and times, and offered "production method" as a plainer alternative.
+
+> Keep recipe. You said it was a standard word. I accept that.
+
+*Outcome:* "recipe" stays, and is added to the glossary.
+
+### 2026-11-14: boutique lines (gap 46)
+
+*Context:* Claude asked whether the designer also teaches on the boutique block, and whether skilled cordwainers split their week like the trainees or work the boutique block full-time.
+
+> A designer would teach and design.
+> Skilled corwainers' split like the trainees. A single cordwainer may do 0, 1 or two days of boutique.
+> All of this is kind of provisional. Just trying to think about what cordwainers do and would like to do.
+> I accept the proposal for 46.
+
+*Outcome:* gap 46 is decided, marked provisional. The designer designs and teaches on the boutique block; any cordwainer works 0, 1 or 2 boutique days a week, trainees 2.
 
 ---
 

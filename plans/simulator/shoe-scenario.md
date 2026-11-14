@@ -27,6 +27,8 @@ The brief's buildings (tannery, sole moulding works, power station, homes), plus
 | None: existing housing | out of scope ([gap 43](gaps-in-the-brief.md#decided)) | Homes (about 50 dwellings), there from the start | — | — |
 | Rest of the economy | boundary | Gate, at the map's edge | supply, receipt | — |
 
+The designer works in the factory ([gap 14](gaps-in-the-brief.md#decided)). The factory makes one mainline shoe, strong and durable, for everyday use. Its design is done before the run and passes its hours to the pairs as f, like a machine.
+
 About 65 workers and 8 child carers; about 120 people in all, with children, students and the retired. Roles not in the brief (textile worker, driver, store worker, teacher) are *new*; the brief's home carer is renamed child carer.
 
 A child under 1 is looked after full-time by their primary carer, who is a child carer for that year; the centre takes the infant part-time only. From 1 to 5, children spend the working day at the centre, or at home with a child carer. Of the four carers at home, one has an infant, one cares at home only, and two also work part-time in the shoe factory, on a morning or an afternoon shift; their children are at the centre during those hours. From 6, children go to school. The numbers are *invented*.
@@ -64,6 +66,8 @@ The school and the child care unit make the payout factor fall below 1 from the 
 | **40,000 pairs** | **125,000** | 3.125 hours a pair |
 
 The c lines are the note's illustration, with the gate's inputs grouped.
+
+The book has no line for design: the designer's hours are in its l. The book check keeps them there. The default carries the mainline design as f ([gap 14](gaps-in-the-brief.md#decided)): in a year with one new design, about 1,600 hours move from l to f, and the total doesn't change.
 
 ### Tannery (the note's illustration, a year)
 
@@ -118,6 +122,7 @@ One aggregate unit at a gate on the edge of the map ([gap 4](gaps-in-the-brief.m
 
 - Three shoe factories, as in [8 d](../../Documents/fundamental_principles/08_Average_Working_Hour_as_Basis_of_Production.md#d-the-difference-in-company-productivity): 40,000, 65,000 and 100,000 pairs, to show the social average.
 - A clinic, lowering the payout factor further.
+- Boutique lines ([gap 46](gaps-in-the-brief.md#decided)): small runs led by the designer, much more labour a pair, made on 0, 1 or 2 days of a cordwainer's week (trainees 2), with the designer designing and teaching, bought by people with an interest in shoes at their higher production time.
 - The slaughterhouse inside the map, applying the by-product method directly.
 - 10 % expansion ([E9](../../notes-opus5_5/fundamental-principles-economic-model.md#e9-expansion-of-production)).
 
