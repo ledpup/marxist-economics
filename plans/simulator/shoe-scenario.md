@@ -12,7 +12,7 @@ The book's factory makes 40,000 pairs a year with 62,500 hours of work. Over 250
 
 ## Units, buildings and functions
 
-The brief's buildings (tannery, sole moulding works, power station, homes), plus the ones the chain needs ([gap 29](gaps-in-the-brief.md#the-data)). Thread and braiding share a building with sole moulding, as the brief allows.
+The brief's buildings (tannery, sole moulding works, power station, homes), plus the ones the chain needs ([gap 29](gaps-in-the-brief.md#the-data)) and a waterworks ([gap 15](gaps-in-the-brief.md#decided)). Thread and braiding share a building with sole moulding, as the brief allows.
 
 | Operational unit | Type | Building | Functions | Roles (people) |
 | --- | --- | --- | --- | --- |
@@ -20,32 +20,37 @@ The brief's buildings (tannery, sole moulding works, power station, homes), plus
 | Tannery | productive | Tannery | tanning, leather finishing | chemical worker (5) |
 | Components works | productive | Components works | sole moulding, flash grinding, thread works, braiding works | chemical worker (4), textile worker (1) |
 | Power station | mixed | Power station | generation | electrician (3) |
+| Waterworks | mixed | Waterworks | water treatment, pumping, sewage treatment | water worker (3) |
 | Freight unit | productive | Depot | freight (2 lorries) | driver (4) |
 | Consumer cooperative | productive | Cooperative store | retail | store worker (4) |
 | School | public | School | teaching | teacher (4); students aged 12 and over are paid for their hours ([gap 8](gaps-in-the-brief.md#decided)) |
 | Child care unit | public | Child care centre | child care | child carer (8): 4 at the centre, 4 at home ([gap 8](gaps-in-the-brief.md#decided)) |
 | None: existing housing | out of scope ([gap 43](gaps-in-the-brief.md#decided)) | Homes (about 50 dwellings), there from the start | — | — |
+| None: existing roads | public, out of scope ([gap 49](gaps-in-the-brief.md#decided)) | Roads, there from the start | — | — |
 | Rest of the economy | boundary | Gate, at the map's edge | supply, receipt | — |
 
 The designer works in the factory ([gap 14](gaps-in-the-brief.md#decided)). The factory makes one mainline shoe, strong and durable, for everyday use. Its design is done before the run and passes its hours to the pairs as f, like a machine.
 
-About 65 workers and 8 child carers; about 120 people in all, with children, students and the retired. Roles not in the brief (textile worker, driver, store worker, teacher) are *new*; the brief's home carer is renamed child carer.
+About 68 workers and 8 child carers; about 125 people in all, with children, students and the retired. Roles not in the brief (textile worker, water worker, driver, store worker, teacher) are *new*; the brief's home carer is renamed child carer.
 
 A child under 1 is looked after full-time by their primary carer, who is a child carer for that year; the centre takes the infant part-time only. From 1 to 5, children spend the working day at the centre, or at home with a child carer. Of the four carers at home, one has an infant, one cares at home only, and two also work part-time in the shoe factory, on a morning or an afternoon shift; their children are at the centre during those hours. From 6, children go to school. The numbers are *invented*.
 
-The school and the child care unit make the payout factor fall below 1 from the start. Their budgets, in hours a year, are *to fill in*.
+The power station and the waterworks meter every consumer: units are charged per kWh and per m³, and homes are supplied free ([Mixed units](accounting.md#mixed-units)). The tannery is the waterworks' biggest user among units, and is charged for treating its effluent ([gap 49](gaps-in-the-brief.md#decided)). There is no gas: homes are heated, and the tannery and components works get their process heat, by electricity.
+
+The school and the child care unit make the payout factor fall below 1 from the start, and so does the free supply of power and water to homes. Their budgets, in hours a year, are *to fill in*.
 
 ## The chain
 
 ```
-                ┌──────────── electricity (charged to units, free to homes) ──────────────┐
+                ┌──────── electricity and water (charged to units, free to homes) ────────┐
                 │                                                                         │
  GATE ──hides, chemicals──► TANNERY ──upper leather──────────────────────► SHOE FACTORY ──shoes──► COOPERATIVE ◄── HOMES
  (rest of        │                                                           ▲   ▲   │              STORE
   the economy) ──synthetic rubber──► COMPONENTS WORKS ──soles, thread, laces─┘   │   └──offcuts──► GATE
                  │                                                                │
                  └──lining, boxes, adhesive, eyelets, fuel ───────────────────────┘
- Every arrow between buildings is a freight leg run by the freight unit.
+ Every arrow between buildings is a freight leg run by the freight unit,
+ except electricity and water, which go by wire and pipe.
  Shoes not bought in the town go back through the gate.
 ```
 
@@ -81,6 +86,8 @@ The book has no line for design: the designer's hours are in its l. The book che
 | l | 7,500 |
 | **Upper leather** | **30,000** or **18,000** |
 
+The "energy and water" line comes from the power station and the waterworks, and includes treating the tannery's effluent. Its split is *to fill in*.
+
 ### Components works (*invented*, a year)
 
 | Product | f | c | l | Total |
@@ -89,11 +96,11 @@ The book has no line for design: the designer's hours are in its l. The book che
 | Thread | — | — | — | 1,250 |
 | Laces | — | — | — | 1,500 |
 
-To fill in: the split for thread and laces, the power station, the freight unit, the store. The downstream figures in [the note](../../notes-opus5_5/fundamental-principles-economic-model.md#downstream-from-the-factory-to-the-worker) give the store's share (0.20 hours a pair) and the freight.
+To fill in: the split for thread and laces, the power station, the waterworks, the freight unit, the store. The downstream figures in [the note](../../notes-opus5_5/fundamental-principles-economic-model.md#downstream-from-the-factory-to-the-worker) give the store's share (0.20 hours a pair) and the freight.
 
 ### Recipes
 
-To fill in, per function: inputs and outputs per batch, crew, machines, minutes, kWh. A batch is a crate of 20 pairs (8 a day).
+To fill in, per function: inputs and outputs per batch, crew, machines, minutes, kWh, m³ of water, m³ of effluent. A batch is a crate of 20 pairs (8 a day).
 
 ## Two versions
 
@@ -106,8 +113,8 @@ To fill in, per function: inputs and outputs per batch, crew, machines, minutes,
 
 One aggregate unit at a gate on the edge of the map ([gap 4](gaps-in-the-brief.md#decided)).
 
-- **Supplies** at fixed production times: hides, chemicals, synthetic rubber, lining, boxes, adhesive, eyelets, fuel, replacement machines, and the households' daily basket (food, heat, clothes other than shoes).
-- **Receives** the shoes the town doesn't buy (nearly all of them: about 120 people buy one pair a year each, against 160 pairs a day) and the leather offcuts.
+- **Supplies** at fixed production times: hides, chemicals, synthetic rubber, lining, boxes, adhesive, eyelets, fuel, replacement machines, and the households' daily basket (food, clothes other than shoes; heat is electric, from the power station).
+- **Receives** the shoes the town doesn't buy (nearly all of them: about 125 people buy one pair a year each, against 160 pairs a day) and the leather offcuts.
 - Keeps books like any unit. Over a period, what it receives and what it supplies should roughly match: that is simple reproduction for the town as a whole. The difference is shown, not hidden.
 
 ## People and the day
@@ -124,6 +131,9 @@ One aggregate unit at a gate on the edge of the map ([gap 4](gaps-in-the-brief.m
 - A clinic, lowering the payout factor further.
 - Boutique lines ([gap 46](gaps-in-the-brief.md#decided)): small runs led by the designer, much more labour a pair, made on 0, 1 or 2 days of a cordwainer's week (trainees 2), with the designer designing and teaching, bought by people with an interest in shoes at their higher production time.
 - The slaughterhouse inside the map, applying the by-product method directly.
+- Waste collection, a mixed unit: free from homes, charged to units ([gap 49](gaps-in-the-brief.md#decided)).
+- Decommissioning a gas network, with the power station expanded to take its load ([gap 49](gaps-in-the-brief.md#decided)).
+- Greenhouse gases, recorded beside the hours, not costed ([gap 50](gaps-in-the-brief.md#decided)).
 - 10 % expansion ([E9](../../notes-opus5_5/fundamental-principles-economic-model.md#e9-expansion-of-production)).
 
 ---

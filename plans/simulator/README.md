@@ -22,6 +22,7 @@ The view is aerial, 2D and on a grid, a bit like SimCity. Goods are animated as 
 | [Glossary](glossary.md) | The terms the simulation uses, the GIC's term behind each, and the Spanish | Draft |
 | [Data model](data-model.md) | The abstract model: definitions, the world, the books, policies | Draft |
 | [Shoe scenario](shoe-scenario.md) | The first scenario: units, buildings, functions, recipes and figures | Draft |
+| [Workers' democracy](workers-democracy.md) | Who runs a workplace and sets its rules: workers' councils, not trade unions; dismissal; a job for those who want one. Contrasts the GIC with *Towards a New Socialism* | Draft |
 | [Accounting](accounting.md) | The books: direct transfers, social average, labour certificates, payout factor, by-product method, invariants | Draft |
 | [Simulation engine](simulation-engine.md) | The clock, the daily cycle, the systems that run each tick, random numbers and determinism, dishonesty | Stub |
 | [User interface](user-interface.md) | The map, zoom, selection panels, time controls, views of the hours | Stub |
@@ -52,6 +53,8 @@ Patrick's answers on the gaps (2026-11-09) settled more. The details are in [Gap
 - **A 32-hour week** (2026-11-10): four days of 8 hours. Units run at capacity Monday to Friday; each full-timer's day off can fall on any weekday, and some may choose five days. Part-time is a 4-hour morning or afternoon shift.
 - **Repeatable runs** (2026-11-11): one seeded generator; the same build, scenario and seed give the same run. Runs from different builds need not match.
 - **Internationalisation** (2026-11-11): names in the data are translation keys; Spanish roles are named by trade or activity; numbers and dates are formatted by the browser's `Intl`; the Spanish terms stay provisional until checked against Spanish editions of the GIC and Marx.
+- **The designer and boutique lines** (2026-11-14): the designer works in the shoe factory; the mainline design is fixed means of production, worn per pair. Boutique lines (a later version) are made on 0, 1 or 2 of a cordwainer's days a week, with trainees on 2, at their own higher production time.
+- **Workers' democracy** (2026-11-14): each unit is run by its workers' council, which sets its own working week, shifts and part-time patterns and can dismiss as a last resort. Councils, not trade unions. A job for those who want one, not full employment. See [Workers' democracy](workers-democracy.md).
 - **The simulation** (2026-11-11): a tick is one simulated minute, and play starts at real time; certificates weekly, books closed monthly and yearly. Hours are integer seconds, with remainders carried so the books balance exactly. Goods move in batches. Runs can be saved and loaded, and the books exported as CSV. Dishonesty (theft, cooking the books, shirking) comes soon after the first builds, but from phase 1 the engine keeps what happened apart from what was reported, and the books are written only from reports.
 
 ## Phases

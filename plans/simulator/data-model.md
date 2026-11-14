@@ -63,8 +63,8 @@ The brief's "Consumable", widened. A *kind* of thing; quantities of it are [batc
 | Field | Notes |
 | --- | --- |
 | id, nameKey | `prod.upper-leather` |
-| unit | `pair`, `m2`, `kg`, `m`, `kWh`, `box`, `basket` |
-| category | `circulating` (raw material, consumable: c), `fixed` (machine, building: f), `consumer` (for households), `service` (freight, electricity, which are used as they are made) |
+| unit | `pair`, `m2`, `kg`, `m`, `kWh`, `m3`, `box`, `basket` |
+| category | `circulating` (raw material, consumable: c), `fixed` (machine, building: f), `consumer` (for households), `service` (freight, electricity, water, which are used as they are made) |
 | branch | Which branch's social average applies |
 | initialHoursPerUnit | Production time on day one, before the books have any history. Split into f/c/l where known |
 | wearDays | Consumer durables only: how long it lasts in use. Shoes: 365 days ([gap 18](gaps-in-the-brief.md#decided)) |
@@ -82,6 +82,8 @@ From the brief ("braiding works", "thread works"), with the recipe it was missin
 | machines | List of (machine type, count) |
 | machineMinutes, handMinutes | Time per batch. Machine time runs at the machine's pace, whoever tends it. Hand time runs at the crew's [pace](#skill): a fast worker can halve it, but no one makes the machine go faster |
 | energy | kWh per batch |
+| water | m³ per batch. Tanning uses the most |
+| effluent | m³ per batch sent to the waterworks for treatment, by product (tannery effluent is its own) ([gap 49](gaps-in-the-brief.md#decided)) |
 
 ### MachineType
 
@@ -128,6 +130,7 @@ From the brief. The body that keeps the books and holds the right of disposal.
 | buildings | One or more. The unit's location is that of its buildings |
 | account | Its books |
 | publicBudget | Public units: hours a period, set by the scenario (GSW budget) |
+| councilRules | The unit's own working rules, decided by its workers' council ([gap 47](gaps-in-the-brief.md#decided)): working day and week, the days it runs, shifts, full-time and part-time patterns, boutique days. Each defaults to the scenario's [policies](#scenario-and-policies) |
 
 Its employees come from [Employment](#employment), not a list on the unit.
 
@@ -220,6 +223,7 @@ From the brief.
 | place | The building where the work is done. Usually the unit's own; a child carer caring at home works in their own dwelling ([gap 8](gaps-in-the-brief.md#decided)) |
 | hoursPerWeek, shift | Full time is 32 hours ([gap 44](gaps-in-the-brief.md#decided)). Anyone of working age may choose part-time ([gap 9](gaps-in-the-brief.md#decided)). Shift: start time and days. A child carer who also works part-time in a productive unit has two employments |
 | from, to | Dates |
+| endReason | `left`, `retired`, `unitShrank`, `dismissed`. A dismissal is decided by the unit's council ([gap 47](gaps-in-the-brief.md#decided), [gap 48](gaps-in-the-brief.md#the-economics)) |
 
 ### Household
 
@@ -231,7 +235,8 @@ From the brief.
 | members | People |
 | account | Pooled labour certificates |
 | holdings | Consumer goods in use: one pair of shoes per member, each with its owner and the day it came into use ([gap 18](gaps-in-the-brief.md#decided)). At the start, each pair's age is random, from the seed |
-| basket | Daily needs from the rest of the economy: food, heat and the like, as a product in hours |
+| basket | Daily needs from the rest of the economy: food and the like, as a product in hours. Heat is electric, so it is metered, not in the basket |
+| metered | Electricity (kWh, heating included) and water (m³) used each day. Free to the household; the meter is how the power station and the waterworks split their books ([gap 15](gaps-in-the-brief.md#decided)) |
 
 ### Vehicle
 
@@ -271,7 +276,7 @@ Append-only. See [Accounting](accounting.md) for what each one means.
 
 ## Scenario and policies
 
-A scenario is one file (JSON or YAML) holding the definitions, the starting world and the policies.
+A scenario is one file (JSON or YAML) holding the definitions, the starting world and the policies. The policies stand for decisions of the congress of councils. The working week is a default: each unit's council can set its own ([gap 47](gaps-in-the-brief.md#decided)).
 
 | Field | Notes |
 | --- | --- |

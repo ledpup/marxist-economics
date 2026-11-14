@@ -29,13 +29,13 @@ Every unit, productive or public, keeps (f + c) + l ([E1](../../notes-opus5_5/fu
 
 When a function finishes a batch, the new batch's hours are, from the point of view of the unit that made it:
 
-- **c**: the hours of every input batch used, in full (whatever f/c/l split they had upstream becomes c here), plus electricity and freight.
+- **c**: the hours of every input batch used, in full (whatever f/c/l split they had upstream becomes c here), plus electricity, water, effluent treatment and freight.
 - **f**: wear on the machines used, for the minutes used, plus a share of the building's wear, plus the design's share for a mainline pair ([gap 14](gaps-in-the-brief.md#decided)).
 - **l**: the crew's minutes on the batch, and on a boutique run the designer's minutes on it. A slower crew takes more minutes on the hand work, so its batches carry more hours, and the unit shows "under" against its branch. Each worker is still credited one hour for each hour worked.
 
 Time not spent on any one batch (setting up, cleaning, idle time) is pooled for the period and spread over the period's output in proportion to labour minutes. This is the "shared overheads" problem in the [shoe chain note](../../notes-opus5_5/fundamental-principles-economic-model.md#what-the-fuller-chain-brings-out); the rule used should be shown in the unit's books.
 
-Separately from f/c/l, a batch can keep its **sources**: its hours broken down by the branch they originated in (leather, rubber, electricity …). This is for display only. The GIC's point is that no unit *needs* this history ([8 c](../../Documents/fundamental_principles/08_Average_Working_Hour_as_Basis_of_Production.md#c-the-progress)).
+Separately from f/c/l, a batch can keep its **sources**: its hours broken down by the branch they originated in (leather, rubber, electricity, water …). This is for display only. The GIC's point is that no unit *needs* this history ([8 c](../../Documents/fundamental_principles/08_Average_Working_Hour_as_Basis_of_Production.md#c-the-progress)).
 
 ## Direct transfers
 
@@ -77,12 +77,16 @@ H is the hours credited to people who don't work ([gap 9](gaps-in-the-brief.md#d
 - The factor in use during a period is the last period's (policy `previousPeriod`), or a fixed value. At the close, the actual factor is computed and the difference shown. The book does not say how this is done.
 - Expansion (a), special accumulation and the disaster fund keep their place in the formula but are zero until a later phase ([gap 19](gaps-in-the-brief.md#decided)).
 
-## The mixed unit
+## Mixed units
 
-The power station meters each consumer ([E8](../../notes-opus5_5/fundamental-principles-economic-model.md#e8-the-payout-factor-with-mixed-units)):
+The power station and the waterworks are mixed units ([gap 15](gaps-in-the-brief.md#decided)). Each meters every consumer, and splits its books by them ([E8](../../notes-opus5_5/fundamental-principles-economic-model.md#e8-the-payout-factor-with-mixed-units)):
 
-- To units: a direct transfer at production time per kWh.
+- To units, productive and public: a direct transfer at production time per kWh or per m³.
 - To households: free. The f + c of that share counts as public, in F<sub>p</sub> + C<sub>p</sub> less F'<sub>p</sub> + C'<sub>p</sub>, and lowers the payout factor.
+- The waterworks takes electricity from the power station as a unit, so it is charged for it, and passes it on in its production time per m³.
+- The waterworks also treats sewage ([gap 49](gaps-in-the-brief.md#decided)): free from homes, charged to units per m³ treated. Tannery effluent is its own product, with its own production time, since it takes much more treatment; the tannery's c includes it, so the leather carries the cost of cleaning up after it.
+- Heat is electric: there is no gas supply.
+- Greenhouse gases are not costed ([gap 50](gaps-in-the-brief.md#decided)). When they come in, they are a record beside the hours, not hours.
 
 ## Wear and tear (f)
 
