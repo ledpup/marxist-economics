@@ -5,6 +5,22 @@
 
 This repository collects texts on the economics of the first phase of communism: how a society that has just emerged from capitalism would organise production and distribution. At the centre is Marx's idea of labour certificates. Each producer gets back from society, after deductions for the common funds, as much as they gave it, measured in labour time.
 
+## The goal
+
+Marx & Engels, in [*The German Ideology*](https://www.marxists.org/archive/marx/works/1845/german-ideology/ch01a.htm#a4) (written 1845–46), wrote an evocative and inspiring description of a communist life:
+
+> “…in communist society, where nobody has one exclusive sphere of activity but each can become accomplished in any branch he wishes, society regulates the general production and thus makes it possible for me to do one thing today and another tomorrow, to hunt in the morning, fish in the afternoon, rear cattle in the evening, criticise after dinner, just as I have a mind, without ever becoming hunter, fisherman, herdsman or critic.”
+
+*We do not* offer this here. We do not know how to present a pathway to what Marx and Engels envisioned. Instead, these are notes on establishing the beginnings of global communism. These notes are concerned with:
+
+- A new economic system, replacing money with tokens that are granted for hours worked. This ends the private accumulation of shared resources.
+- Democracy through workers' organisations
+- The end of corporations and nations recklessly driving us to planetary devastation
+
+This will require a coordinated global movement. We must stop the millionaires and billionaires who rule this planet as they threaten our existence and the other life we share Earth with.
+
+This will require a global communist revolution.
+
 ## Primary documents
 
 | Author | Title | Description |
