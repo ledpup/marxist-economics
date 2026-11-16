@@ -51,7 +51,7 @@ The clearest position in the book is a negative one. In [12 b](../Documents/fund
 
 > »*... the working class must not lead a nomadic life. It must be moved, distributed, and detached, just like the soldiers*.«
 
-and the Committee for the General Labor Duty (December 1919), which sent the demobilised skilled worker "with the workbook in hand ... where his presence is required" and could order "the transfer of labor from one operational unit to another". The GIC's verdict: in this system "all *individual* freedom has ceased", and central control of production means the centre "must have access to the human material". It calls the result "serfdom".
+and the Committee for the General Labor Duty (December 1919), which sent the demobilised skilled worker "with the workbook in hand ... where his presence is required" and could order "the transfer of labor from one operational unit to another". The GIC's verdict: in this system "all *individual* freedom has ceased", and central control of production means the centre "must have access to the human material". It calls the result the "enslavement of the working class".
 
 So the GIC's society cannot assign people to jobs. It follows that people find places themselves, and units take them on: something like the capitalist labour market, minus the wage, the boss and the threat of destitution. The book never describes it: *my reading*.
 

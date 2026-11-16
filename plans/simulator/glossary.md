@@ -52,10 +52,13 @@ The giro office becomes the **public accounting office**, from the book's own "g
 | Rest of the economy | resto de la economía | The aggregate unit at the map's edge |
 | Batch, crate | lote, caja | |
 | Function | función | |
+| Recipe | receta | What a function needs and makes for one batch: inputs, outputs (main or by-product), crew, machines, machine and hand time, power. The standard term in batch manufacturing |
 | Freight | transporte de mercancías | |
 | Household | hogar | |
 | Child care unit | unidad de cuidado infantil | The public unit that runs the child care centre and records child carers' hours |
 | Child care centre | centro de cuidado infantil | |
+| Waterworks | planta de agua | The mixed unit that supplies water and treats sewage: charged to units, free to homes |
+| Effluent | efluente | Waste water from a unit, treated by the waterworks and charged to the unit |
 | Pace | ritmo | How fast a person works by hand |
 | Seed | semilla | |
 
@@ -69,6 +72,7 @@ The model holds no gender, so in Spanish a role is named by its trade or activit
 | Designer | Diseño |
 | Chemical worker | Trabajo químico |
 | Electrician | Electricidad |
+| Water worker | Tratamiento de agua |
 | Textile worker | Trabajo textil |
 | Driver | Conducción |
 | Store worker | Atención en tienda |

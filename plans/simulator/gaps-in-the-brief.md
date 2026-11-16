@@ -6,8 +6,8 @@
 
 What the [brief](README.md#patricks-brief) leaves out, gets at odds with the GIC's model, or needs to settle before code is written. Gaps keep their numbers when they move from Open to Decided.
 
-**Decided: 27.** 1, 2, 3, 4, 6, 8, 9, 10, 11, 12, 16, 18, 19, 31, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45.
-**Open: 18.** Each has a proposal that stands as the default until overruled.
+**Decided: 34.** 1, 2, 3, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 18, 19, 31, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 49, 50.
+**Open: 16.** Each has a proposal that stands as the default until overruled.
 
 ## Open
 
@@ -15,11 +15,16 @@ What the [brief](README.md#patricks-brief) leaves out, gets at odds with the GIC
 
 - **5. Where the chain starts.** Hides, synthetic rubber, cotton, chemicals and fuel come from outside. They need a production time on arrival. *Proposal:* the scenario gives one per product, taken from the [shoe illustration](../../notes-opus5_5/fundamental-principles-economic-model.md#following-a-shoe-through-the-chain) or converted from money with the key number ([E11](../../notes-opus5_5/fundamental-principles-economic-model.md#e11-the-key-number-converting-money-to-hours)). → [Shoe scenario](shoe-scenario.md)
 - **7. Setting the payout factor during a period.** The book never says how a running factor is set before the year's totals exist ([What the book leaves open](../../notes-opus5_5/fundamental-principles-economic-model.md#what-the-book-leaves-open)). With child care and the school (gap 8) the factor is below 1 from phase 1; a clinic comes in phase 5. *Proposal:* the factor in use is the last period's, reconciled at the end of each period. → [Accounting](accounting.md#the-payout-factor)
-- **13. Joint products inside the chain.** The by-product method is chosen. The hide comes from the slaughterhouse, outside the chain at first, so the scenario applies the method through the hides' arrival figure. Inside the chain, cutting leaves leather offcuts and sole moulding leaves flash. *Proposal:* recipes mark each output as *main* or *by-product*. → [Accounting](accounting.md#joint-products-the-by-product-method)
-- **14. The designer's work is not used up in one pair.** *Proposal:* the designer's hours are part of the factory's l, like any other worker's (simplest, and true to the book). A design as fixed means of production, spread over a run like a machine, is an option for later. → [Shoe scenario](shoe-scenario.md)
-- **15. The mixed unit.** The power station charges factories and supplies homes free ([E8](../../notes-opus5_5/fundamental-principles-economic-model.md#e8-the-payout-factor-with-mixed-units)). *Proposal:* metering per consumer and a split of its books. → [Accounting](accounting.md#the-mixed-unit)
 - **17. What decides how much to make?** The book leaves the production plan open. *Proposal:* the cooperative store orders when its stock falls below a target, and each unit upstream does the same for its inputs (a pull system). When the store runs short, first come, first served. → [Simulation engine](simulation-engine.md#demand-and-orders)
 - **20. Day one.** Stocks, machines and buildings have no recorded hours at the start. *Proposal:* the scenario sets them; the key number is the method if a scenario starts from money figures. → [Shoe scenario](shoe-scenario.md)
+- **48. Leaving a unit, and finding another.** Gap 47 lets a council dismiss, and leaves people free to refuse work. Neither book says what happens next ([unemployment note](../../notes-opus5_5/unemployment-and-inability-to-work.md#what-the-book-leaves-open)). *Proposal:*
+  - **How a dismissal is decided.** By the unit's assembly (its delegates, in a large unit), by vote, with the reason recorded in the unit's books, which are open to all. Never by one person, and never by a body outside the unit.
+  - **Appeal.** A dismissed worker can appeal to a body the congress of councils sets up. One option is TNS's: a jury drawn by lot from workers of other units.
+  - **Between units.** Someone whose unit shrinks or closes, or who is dismissed, is credited their usual hours for a search period while they look for another place: hours credited without work (H), as for illness ([gap 9](#decided)). A starting figure of 8 weeks. Dismissal is not a sentence to hunger. After the period, or for someone who leaves by choice, nothing until they work again, unless they are unable to.
+  - **Finding a place.** Each unit posts its vacancies, within its planned labour budget. A person applies; the unit's assembly accepts or declines, as TNS's project workers do ("has convinced those currently working on it of her suitability"). Nobody is assigned.
+  - **Those who refuse to work** get no certificates and keep the free services: child care, school, electricity and water at home.
+
+  → [Workers' democracy](workers-democracy.md#dismissal-where-we-break-with-tns)
 
 ### The data
 
@@ -65,11 +70,56 @@ What the [brief](README.md#patricks-brief) leaves out, gets at odds with the GIC
 - **10. Pay never depends on skill or speed; production time does.** **Decision:** one hour worked is one hour credited, whoever works it ([Unskilled and skilled labour](../../notes-opus5_5/fundamental-principles-economic-model.md#unskilled-and-skilled-labour)). Skill level decides which functions a person may do. Each person also has a **pace** of their own, drawn from the seed, and some are much faster than others. A slower crew raises the unit's production time, and the simulation should show it. But very few are faster than a machine: a recipe splits its time into machine time, which runs at the machine's pace whoever tends it, and hand time, which runs at the worker's. *Why:* the book does not discuss speed within a unit. → [Data model](data-model.md#skill), [Simulation engine](simulation-engine.md#production)
 - **11. Machines and buildings carry hours and wear.** **Decision:** both have production hours and a working life; f per hour of use = production hours ÷ working life. New technology (moral wear and tear) is out of scope. → [Accounting](accounting.md#wear-and-tear-f)
 - **12. Who makes the machines?** **Decision:** machines and buildings exist at the start, with hours given by the scenario. Replacement machines come through the gate from the rest of the economy (gap 4) at fixed production times. Machine-building is a later chain. *Why:* it isn't part of the shoe chain, and following the shoe doesn't need it. → [Shoe scenario](shoe-scenario.md#the-rest-of-the-economy)
+- **13. Joint products inside the chain.** **Decision:** a function's recipe marks each output as *main* or *by-product*. Inside the chain, cutting leaves leather offcuts and sole moulding leaves flash, both by-products. The hide comes from the slaughterhouse, outside the chain at first, so the by-product method is applied through the hides' arrival figure. *Why:* the brief chooses the by-product method, and the recipe is where a function's outputs are listed. → [Accounting](accounting.md#joint-products-the-by-product-method)
+- **14. The designer works in the factory, and the mainline design is fixed means of production.** **Decision:** the designer is one of the shoe factory's workers, not in a design office elsewhere. The factory makes two kinds of line, and the designer's hours are booked differently in each:
+  - **The mainline** is a strong, durable shoe for everyday use, most people's shoe and most of the factory's output. Its design is done up front, before the run. The finished **design** is a fixed means of production made in the factory: it carries the designer's hours on it, and passes them on as f, a share to each pair, like a machine's wear. Its life is the run's planned number of pairs. If the line stops before then, what is left is written off against the unit.
+  - **Boutique lines** are small runs ([gap 46](#decided)). The designer keeps changing the design during the run, so their hours go straight into the run's l, as they are spent.
+  - The designer is credited each week for their hours like anyone else ([gap 10](#decided)). Their hours on a mainline design are in L when worked, and reach the pairs later, as the design wears. In a steady year a new design replaces the old one, so the two even out, as with machines.
+  - *Why:* a design is not used up in one pair, and it is made before the shoes it is for. Pooling the designer's hours with setting-up and cleaning would hide that.
+
+  → [Accounting](accounting.md#wear-and-tear-f), [Data model](data-model.md#design), [Shoe scenario](shoe-scenario.md#units-buildings-and-functions)
+- **15. Mixed units: power and water.** The brief's power station charges units and supplies homes free ([E8](../../notes-opus5_5/fundamental-principles-economic-model.md#e8-the-payout-factor-with-mixed-units)). **Decision:** two mixed units, the power station and a **waterworks**, added. Each meters every consumer and splits its books by them:
+  - **To units**, productive and public: a direct transfer at production time per kWh or per m³.
+  - **To households**: free. The f + c of that share counts as public, in F<sub>p</sub> + C<sub>p</sub> less F'<sub>p</sub> + C'<sub>p</sub>, and lowers the payout factor.
+  - The waterworks takes electricity from the power station like any unit, and its pumps are among the power station's bigger users. The tannery is the waterworks' biggest user among units: tanning uses a lot of water.
+
+  *Why:* metering is what lets a mixed unit split its books between the two forms of distribution ([10 i](../../Documents/fundamental_principles/10_The_General_Social_Work.md#i-mixed-operational-units)). Water is the other supply a town gives its homes free, and the tannery's "energy and water" line needs somewhere to come from. → [Accounting](accounting.md#mixed-units), [Shoe scenario](shoe-scenario.md#units-buildings-and-functions), [Data model](data-model.md#product)
 - **16. Transport is a shared service, and freight is never free.** **Decision:** freight is a service any unit can call on, on demand. A unit with goods to send puts a shipment in a single queue shared by all units, and the freight unit serves it first come, first served, as its vehicles come free. The freight unit owns the vehicles and keeps books like any productive unit: each leg passes its hours (f, c and l) to the receiving unit ([10 i](../../Documents/fundamental_principles/10_The_General_Social_Work.md#i-mixed-operational-units)). The brief's "operator" is the person driving, employed by the freight unit. Commuting is not costed, and how people get to work (on foot, by bike, scooter, motorbike, car, bus or train) doesn't matter: the screen shows them moving along the grid, but the journey is not counted. *Why:* the queue is the simplest scheme that lets several units share the vehicles; the book says nothing about getting people to work. → [Data model](data-model.md#vehicle), [Simulation engine](simulation-engine.md#logistics), [Accounting](accounting.md#direct-transfers)
 - **18. Shoes last a year.** **Decision:** a pair of shoes lasts **one year** in use. At the start, everyone has one pair, of a random age drawn from the seed, so pairs wear out on different days and demand is spread over the year, not bunched at the start. When a pair wears out, its owner buys a new one at the cooperative store with the household's certificates. Everything else a household needs comes as a daily basket from the rest of the economy ([gap 4](#decided)), as proposed. *Why:* worn-out shoes are what drive demand for the chain's product. At one pair a year each, the shoe scenario's 120 or so people buy a pair about every three days; 10,000 people ([gap 36](#decided)) buy about 27 a day, against the factory's 160. → [Data model](data-model.md#household), [Shoe scenario](shoe-scenario.md#people-and-the-day)
 - **19. Expansion, large projects, the disaster fund are out of scope for now.** **Decision:** the scenario is simple reproduction. Expansion (a), special accumulation and the disaster fund keep their place in the payout factor ([E10](../../notes-opus5_5/fundamental-principles-economic-model.md#e10-the-payout-factor-with-expansion)) but are zero until a later phase. *Why:* following the shoe through the chain doesn't need them. → [Accounting](accounting.md#the-payout-factor), [Shoe scenario](shoe-scenario.md#later-versions)
 - **43. Housing is out of scope.** **Decision:** the simulation uses existing housing. Dwellings are there from the start; no unit runs them, and they carry no hours and no wear in the books. *Why:* the book does not say how housing is provided, and it isn't needed to follow the shoe. → [Shoe scenario](shoe-scenario.md#units-buildings-and-functions), [Data model](data-model.md#building)
 - **44. The working week.** Not in the brief. **Decision:** a full-time week is **32 hours**: four days of 8 hours. Units, the shoe factory included, run 8 hours a day, five days a week, Monday to Friday. The factory runs at capacity every day, so each full-timer's day off can fall on any weekday, spread evenly across the week: about four-fifths of a crew is at work every day. Some may choose to work all five days, and are credited for every hour. Part-time work is a 4-hour shift, morning or afternoon; part-timers may also work a fifth day. *Why:* the 40-hour week belongs to capitalist societies, where much of the work is useless. Without that work, the same production needs fewer hours each. With the book's figures, the shoe factory's 62,500 hours a year need about 39 people instead of 31. → [Shoe scenario](shoe-scenario.md#scale), [Data model](data-model.md#scenario-and-policies)
+- **46. Boutique lines.** From gap 14. Besides the mainline, the shoe factory makes boutique lines: small runs, led by the designer, for people with a particular interest in shoes. They take much more labour a pair and cost their buyers more certificates. **Decision** (provisional: a first sketch of what cordwainers do and would like to do):
+  - **Two routes in the factory.** Some cordwainers work the mainline only: it is a job, and it makes ends meet. The **boutique route** is optional, for those who aren't just doing it for the job. Each person's interest in shoes is drawn from the seed, and decides who takes it.
+  - **Boutique days.** A cordwainer works 0, 1 or 2 of their four days a week on the boutique block, the rest on the mainline. Trainees work 2: they learn mainline production on the other 2, and improve their skills on the boutique block by taking more time and care. Skilled cordwainers on the route split their week the same way, and work alongside the trainees. It is a pattern within the normal 32-hour week ([gap 44](#decided)), not a fifth day, and not weekend work.
+  - **The designer designs and teaches** on the boutique block. Both are l on the boutique run ([gap 14](#decided)).
+  - **Everyone is credited for their hours**, trainees included ([gap 10](#decided)). If trainees weren't, their hours would be missing from l, and a boutique pair's production time would understate the labour in it, as uncounted care does ([gap 8](#decided)). The extra time and care raise the pair's production time, and the buyer pays for it.
+  - **Trainees get better.** A trainee's skill level and pace rise with the hours they work, faster than an experienced worker's ([data model](data-model.md#skill)).
+  - **Fewer hands on the mainline.** Boutique days are hours the mainline doesn't get, so the factory needs more people for the same 160 pairs a day; the scenario sets how many.
+  - **Price needs no new rule.** A boutique pair costs its production time, like any good; that is the "more of their vouchers". Each boutique design is its own product, with its own social average, so it doesn't raise the mainline's.
+  - **Who buys.** The same interest in shoes decides who buys. When a pair wears out, a keen buyer takes a boutique pair if one is in stock and the household has the certificates; everyone else takes the mainline. A boutique pair lasts a year like any other unless the scenario says otherwise.
+  - **When.** A later version of the shoe scenario, not the first: it adds a second line, a second route with its own pattern of days, skills that grow, and consumer choice, none of which following the mainline shoe needs.
+
+  *Why:* most of the factory's work is an everyday shoe made as a job; the boutique route gives those who care about shoes, makers and buyers, somewhere to put that, at its full cost in hours.
+
+  → [Shoe scenario](shoe-scenario.md#later-versions)
+- **47. Workers' democracy.** Not in the brief. **Decision:**
+  - **The workers' council runs the operational unit**: the workforce in assembly, with delegates where it is too big to meet as one. The congress of councils decides what draws on the social product.
+  - **Councils, not trade unions.** A union bargains over the price of labour power with an employer; without wages or employers it has no function, and unions were the instrument that disempowered the councils in Russia and Germany.
+  - **The council sets the unit's own working rules**: the length of the working day and week, shifts, full-time and part-time patterns, artisan hours (the boutique days of [gap 46](#decided)), who joins, and who does what. The defaults decided in gaps 9, 44 and 46 become the scenario's defaults for each unit's council.
+  - **The council can dismiss**, as a last resort. This is where we break with TNS, which removes the firing sanction. Dismissal doesn't stop the worker from seeking work elsewhere.
+  - **A job for those who want one, not full employment.** Full employment as a demand that everyone work is totalitarian and impossible. Those unable to work are supported regardless ([gap 9](#decided)); those who refuse to take part are left to their choice.
+
+  *Why:* a shop or factory controlled by its council can't function without the ability to dismiss, and the decisions about how work is organised belong to those who do it. → [Workers' democracy](workers-democracy.md), [Data model](data-model.md#operationalunit)
+- **49. Other mixed and public units.** From gap 15. The GIC gives no fixed list of mixed units: any unit that supplies households free and other units at a charge is one, and "their number will increase with the increasing socialization of individual distribution" ([10 i](../../Documents/fundamental_principles/10_The_General_Social_Work.md#i-mixed-operational-units)). **Decision:**
+  - **Sewage goes with the waterworks.** It treats the town's sewage, free from homes. Units are charged per m³ of effluent treated, at its own production time. Tannery effluent (chromium, sulphides) takes much more treatment than household sewage, so it is its own product with its own production time, and its cost goes into the leather's. Left out, the leather would look cheaper than it is.
+  - **Waste collection is a later addition.** A mixed unit: free from homes, charged to units. The tannery's solid waste is the main case.
+  - **No gas.** Homes are heated and the tannery and the components works get their process heat from the power station's electricity, so heat is metered and free to homes like the rest of their power. Decommissioning a gas network is a later scenario: it needs expansion of the power station ([gap 19](#decided)) and plant retired before the end of its working life, its remaining hours written off ([gap 11](#decided)). A gas supply free to homes gives households no reason in certificates to switch, so the decision to decommission has to come from the councils, not from prices; the books would show its cost.
+  - **Roads are public, and out of scope** like housing ([gap 43](#decided)): they are there from the start, with no unit, no hours and no wear. Strictly, the freight unit uses roads as means of production, so by the GIC's logic they would be mixed, but nobody meters road use. Leaving them public means freight's production time understates road wear a little: a known, small error.
+  - **Public transport** carries only people, so it would be public, not mixed. Commuting isn't costed ([gap 16](#decided)), so it isn't modelled.
+
+  *Why:* sewage and waste treatment are labour that production makes necessary, so their hours belong in the production time of what made the waste. Electric heat keeps to the units already in the model. → [Accounting](accounting.md#mixed-units), [Shoe scenario](shoe-scenario.md#units-buildings-and-functions)
+- **50. Greenhouse gases are out of scope, and when they come in they are recorded, not costed.** **Decision:** carbon dioxide, methane, nitrous oxide and the other greenhouse gases are out of scope for now. When they are added, they are bookkeeping, as in the [carbon note](../../notes-opus5_5/carbon-and-labour-time.md): each unit records the fuel it burns and the gases it releases, and each batch carries that record forward beside its production time. Neither is ever converted into the other. *Why:* production time counts labour performed. Sewage can be costed because treating it is labour; there is no process that treats the gases released, so there are no hours to charge. Work that takes carbon out of the air (forests, soils, capture) would be labour, and would be costed like any other.
 
 ### The data
 
@@ -102,7 +152,7 @@ What the [brief](README.md#patricks-brief) leaves out, gets at odds with the GIC
   - **Opportunism.** Each person has a level drawn from the seed: most take small chances when they are unlikely to be seen, a few take large ones, some take none. Each kind of dishonesty is a policy with its own rate, off by default.
   - **Detection by the GIC's own means first:** a stocktake at the end of each period (book stock against what is there), each unit's production time against its branch's average, and each public unit against its budget. Inspectors and other bodies come later, if those miss too much.
   - **In the books,** goods found missing at a stocktake are written off as a loss, recorded against the unit so its figures show it. The loss is product no longer there for certificates to claim, so it comes off the top of the payout factor and lowers it for everyone.
-  - What happens to someone caught is left open.
+  - What happens to someone caught: a worker can be dismissed by their unit's council ([gap 47](#decided)). Anything beyond that is left open.
 
   → [Simulation engine](simulation-engine.md#dishonesty), [Data model](data-model.md#scenario-and-policies)
 
@@ -266,6 +316,85 @@ His answers as he gave them, grouped by topic. A short note before each says wha
 > Accept all proposals in "The simulation". That is: 33, 34, 37, 38, 45
 
 *Outcome:* all five are decided as proposed. Dishonesty itself still comes after the first builds, but the two records are built in phase 1. What happens to someone caught is still open.
+
+### 2026-11-14: the designer (gap 14)
+
+*Context:* the proposal was that the designer's hours are part of the shoe factory's l, like any other worker's, with a design as fixed means of production, spread over a run like a machine, as an option for later.
+
+> "14. The designer's work is not used up in one pair." A designer is in some ways not part of the production process. In some factories, the designers may even be in another country. Having them as part of the factory is a good idea. They are likely to be involved in boutique lines of shoes. Most of the shoe production should involve creating a strong and duration shoe that most people will be happy with for everyday uses. Some consumers (and designers) have a particular interest in shoes. The designer will be involved in create these lines of shoes. They'll have a much higher labour time to produce, will be produced in lower numbers, may involve trainee cordwainers that come in on the weekends, and are producing for the love of shoes. Some consumers will be happy to sacrifice more of their vouchers in the interests of fashion.
+>
+> To have the designers labour as a fixed means of production is an interesting idea. That can work in the sense that the design work is done upfront, before production is done. That can apply for the mainline shoes. For boutique shoes, a designer may be making improvements and changes for their limited production runs.
+
+*Outcome:* gap 14 is decided: the designer works in the factory; the mainline design is fixed means of production, worn per pair; on boutique runs the designer's hours go into the run's l. Boutique lines are a new open gap, 46, with proposals: trainees credited for their hours, the factory open at weekends for boutique runs, each boutique design its own product at its own production time, buyers chosen by an interest in shoes drawn from the seed, and the whole a later version of the scenario.
+
+### 2026-11-14: trainees on the boutique lines (gap 46)
+
+*Context:* gap 46 proposed that the factory opens at weekends for boutique runs, with trainees' weekend hours credited on top of their week elsewhere, like a fifth day.
+
+> Trainees would not so much do a fifth day, but they could work on a different schedule. 2 days learning the mainline shoes production, 2 days doing botique to improve their skills, taking more time and care to do so. We would need some skilled people on that block as well. Those people would be those who aren't just doing it for the job. An optional route. Other people are just doing it as a job, to make ends meet.
+
+*Outcome:* the weekend proposal is dropped. Trainees split their 32-hour week between the mainline and the boutique block; skilled cordwainers who choose the boutique route work alongside them; everyone else works the mainline. Two consequences are added to the proposal: trainees' skill and pace rise with their hours, and the mainline needs more people to cover the trainees' boutique days. Gap 46 stays open.
+
+### 2026-11-14: joint products (gap 13)
+
+*Context:* the proposal was that recipes mark each output as *main* or *by-product*.
+
+> 13. Joint products inside the chain.
+>
+> The proposal is good. Is recipe the correct term to use here? I only think of it in terms of food, but I can see how it also could be used for shoe production. No more general suggestion?
+
+*Outcome:* gap 13 is decided as proposed. Claude kept "recipe" for now and set out the alternatives, for Patrick to choose.
+
+*Context for the next answer:* Claude said that "recipe" is the standard term in batch manufacturing (in tanning and rubber compounding too), that "bill of materials" covers only the inputs and "routing" only the steps and times, and offered "production method" as a plainer alternative.
+
+> Keep recipe. You said it was a standard word. I accept that.
+
+*Outcome:* "recipe" stays, and is added to the glossary.
+
+### 2026-11-14: boutique lines (gap 46)
+
+*Context:* Claude asked whether the designer also teaches on the boutique block, and whether skilled cordwainers split their week like the trainees or work the boutique block full-time.
+
+> A designer would teach and design.
+> Skilled corwainers' split like the trainees. A single cordwainer may do 0, 1 or two days of boutique.
+> All of this is kind of provisional. Just trying to think about what cordwainers do and would like to do.
+> I accept the proposal for 46.
+
+*Outcome:* gap 46 is decided, marked provisional. The designer designs and teaches on the boutique block; any cordwainer works 0, 1 or 2 boutique days a week, trainees 2.
+
+### 2026-11-14: mixed units (gap 15)
+
+*Context:* the proposal was that the power station meters each consumer and splits its books: charged to units, free to homes.
+
+> 15. mixed units. The proposal is correct. We need to include water too.
+
+*Outcome:* gap 15 is decided as proposed, with a waterworks as a second mixed unit, run on the same rules. The waterworks' crew (3) and its figures are *invented*; its figures, like the power station's, are still to fill in.
+
+### 2026-11-14: workers' democracy (gaps 47 and 48)
+
+*Context:* not among the gaps. Patrick raised it, asking for a new page that contrasts the *Fundamental Principles* with *Towards a New Socialism*.
+
+> Another gap, we probably need a new page for this, is on workers' democracy. We haev two economic models we could contrast, fundamental principles (our economic model) and TNS. Where I think we break with TNS is over "employment for all" and the lack of a sanction on firing. I can't see how a shop/factory controlled by a workers' council could function without the ability to fire someone. There are cases where that may be the only practical option. That doesn't prevent the worker from seeking work elsewhere.
+>
+> Many of the policies under the length of the working day, the length of the working week, artisan hours, shift work, fulltime/parttime policies, should be decisions made by the council.
+>
+> We need a section to compare trade unions with workers' councils and explain the reasons for selecting councils over trade unions.
+>
+> The reasons against "full employment" is that it seems a demand that is not necessary to accomplish the goals of a post-capitalist state. It is a totalitarian notion and one that obviously is not possible. Some people are born unable to work and there may be others that simply refuse to participate in social life. For the first group, they need to be supported regardless and for the later, if that is their choice, it should be respected, though they may soon realise how impractical such an existant actually is. The ideal of "a job for those that want one" is what we strive for.
+>
+> Much of this operates above the level of the economic structure, but it'll describe how people will organise social work.
+
+*Outcome:* a new page, [Workers' democracy](workers-democracy.md). Gap 47 records his positions as decided. What happens after someone leaves a unit (how a dismissal is decided, appeal, credit while looking for work, finding a place) is a new open gap, 48, with proposals.
+
+### 2026-11-14: other mixed units, and greenhouse gases (gaps 49 and 50)
+
+> Are there other mixed units? The other main I can think of is gas. That would need to be put high on the list for fasttracked decommisoning. There is also roads, but they're probably public.
+
+*Context for the next answer:* Claude proposed sewage with the waterworks, with the tannery charged for its effluent; waste collection as a later mixed unit; no gas in the town, with heat electric and gas decommissioning a later scenario; and roads public, existing and out of scope.
+
+> I accept all those proposals. Good points on the sewage and waste treatment as costed as the price of production. I have a whole area for carbon emissions (and other GHG like N2O and ozone). Those are currently out of scope. I don't see how they could be added as production costs as there are currently no ways of treating those wastes. I had them down as more bookkeeping.
+
+*Outcome:* gap 49 is decided as proposed. Gap 50 records greenhouse gases as out of scope and, when added, as a record beside the hours, as in the [carbon note](../../notes-opus5_5/carbon-and-labour-time.md). Claude added that work which removes carbon from the air would be labour, and costed.
 
 ---
 
