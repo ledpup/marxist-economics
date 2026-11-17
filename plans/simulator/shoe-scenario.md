@@ -113,14 +113,14 @@ To fill in, per function: inputs and outputs per batch, crew, machines, minutes,
 
 One aggregate unit at a gate on the edge of the map ([gap 4](gaps-in-the-brief.md#decided)).
 
-- **Supplies** at fixed production times: hides, chemicals, synthetic rubber, lining, boxes, adhesive, eyelets, fuel, replacement machines, and the households' daily basket (food, clothes other than shoes; heat is electric, from the power station).
+- **Supplies** at fixed production times, estimated by the scenario and never converted from money: the rest of the economy is communist too, just not yet followed ([gap 5](gaps-in-the-brief.md#decided)). It supplies hides, chemicals, synthetic rubber, lining, boxes, adhesive, eyelets, fuel, replacement machines, and the households' daily basket (food, clothes other than shoes; heat is electric, from the power station).
 - **Receives** the shoes the town doesn't buy (nearly all of them: about 125 people buy one pair a year each, against 160 pairs a day) and the leather offcuts.
 - Keeps books like any unit. Over a period, what it receives and what it supplies should roughly match: that is simple reproduction for the town as a whole. The difference is shown, not hidden.
 
 ## People and the day
 
 - Units run 08:00–16:00, Monday to Friday ([gap 44](gaps-in-the-brief.md#decided)). Each full-timer has one weekday off, and the days off are spread evenly over the week, so the factory runs at capacity every day; a few choose all five days. Part-time shifts are 08:00–12:00 or 12:00–16:00, and part-timers may add a fifth day. People travel from home to work along the grid; how they get there (on foot, by bike, bus or car) is not modelled ([gap 16](gaps-in-the-brief.md#decided)).
-- Everyone has one pair of shoes, which lasts a year ([gap 18](gaps-in-the-brief.md#decided)). At the start, each pair has a random age, so pairs wear out on different days. When a pair is worn out, its owner goes to the store for a new one, paid from the household's certificates.
+- Everyone has one pair of shoes, which lasts a year ([gap 18](gaps-in-the-brief.md#decided)). In the later version with three kinds of shoe, a leather pair lasts 2 years, a synthetic pair 1 and a textile pair 9 months ([gap 51](gaps-in-the-brief.md#decided)). At the start, each pair has a random age, so pairs wear out on different days. When a pair is worn out, its owner goes to the store for a new one, paid from the household's certificates.
 - Each household draws its daily basket from the store.
 - Each person has a pace of their own, set at the start from the seed. In the shoe factory, cutting and closing are mostly hand work, so the cordwainers' pace shows in the factory's hours per pair. Sole moulding is mostly machine time, so it hardly shows there.
 - Random: who is absent, each person's pace and its daily variation, machine breakdowns, when a household shops, the age of each pair of shoes at the start.
@@ -130,6 +130,7 @@ One aggregate unit at a gate on the edge of the map ([gap 4](gaps-in-the-brief.m
 - Three shoe factories, as in [8 d](../../Documents/fundamental_principles/08_Average_Working_Hour_as_Basis_of_Production.md#d-the-difference-in-company-productivity): 40,000, 65,000 and 100,000 pairs, to show the social average.
 - A clinic, lowering the payout factor further.
 - Boutique lines ([gap 46](gaps-in-the-brief.md#decided)): small runs led by the designer, much more labour a pair, made on 0, 1 or 2 days of a cordwainer's week (trainees 2), with the designer designing and teaching, bought by people with an interest in shoes at their higher production time.
+- Synthetic and textile mainline shoes beside the leather one ([gap 51](gaps-in-the-brief.md#decided)). Each has its own recipe and social average. The synthetic upper (polyurethane-coated fabric, from a coating works) and the textile upper (canvas or knit, from a weaving or knitting mill) come through the gate instead of from the tannery. By default about one person in six prefers leather, one in two synthetic and one in three textile. A leather pair lasts 2 years, a synthetic pair 1 and a textile pair 9 months.
 - The slaughterhouse inside the map, applying the by-product method directly.
 - Waste collection, a mixed unit: free from homes, charged to units ([gap 49](gaps-in-the-brief.md#decided)).
 - Decommissioning a gas network, with the power station expanded to take its load ([gap 49](gaps-in-the-brief.md#decided)).

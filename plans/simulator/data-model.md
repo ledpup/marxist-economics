@@ -67,7 +67,7 @@ The brief's "Consumable", widened. A *kind* of thing; quantities of it are [batc
 | category | `circulating` (raw material, consumable: c), `fixed` (machine, building: f), `consumer` (for households), `service` (freight, electricity, water, which are used as they are made) |
 | branch | Which branch's social average applies |
 | initialHoursPerUnit | Production time on day one, before the books have any history. Split into f/c/l where known |
-| wearDays | Consumer durables only: how long it lasts in use. Shoes: 365 days ([gap 18](gaps-in-the-brief.md#decided)) |
+| wearDays | Consumer durables only: how long it lasts in use. Shoes: 365 days ([gap 18](gaps-in-the-brief.md#decided)); with three kinds of shoe, leather 730, synthetic 365, textile 274 ([gap 51](gaps-in-the-brief.md#decided)) |
 
 ### Function
 
