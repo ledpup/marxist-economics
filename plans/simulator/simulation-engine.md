@@ -21,7 +21,7 @@
 
 ## Systems, in order each tick
 
-1. **Schedule.** Starts and ends shifts; decides absences at the start of a day. Illness and injury start at random and last a random time; the person is credited their usual hours while off and goes back to work when fit ([gap 9](gaps-in-the-brief.md#decided)).
+1. **Schedule.** Starts and ends shifts; decides absences at the start of a day. Illness and injury start at random and last a random time; the person is credited their usual hours while off and goes back to work when fit ([gap 9](gaps-decided.md#the-economics)).
 2. **People.** Moves each person along their day: home → work, school or child care centre → store → home. A child under 1 stays with their primary carer, with some part-time hours at the centre. From 1 to 5, a child goes to the centre while the adults who care for them work, or stays at home with a child carer; from 6, children go to school. Child carers work their shifts at the centre or at home. Commuting is shown but not costed.
 3. **Production.** Each function with its crew present, its machines working and its inputs in stock advances its current batch.
 4. **Demand and orders.** Units and the store reorder.
@@ -34,7 +34,7 @@
 
 - A function works in **batches** (a crate of 20 pairs), not single items.
 - A batch needs its crew (roles, minimum skill), its machines (not broken) and its inputs (taken from the building's stock at the start).
-- Time per batch is the recipe's machine time plus its hand time divided by the crew's pace. Each person's pace is set at the start from the seed, with a small daily variation, and can rise with experience. A fast crew shortens the hand work, but never the machine time ([gap 10](gaps-in-the-brief.md#decided)).
+- Time per batch is the recipe's machine time plus its hand time divided by the crew's pace. Each person's pace is set at the start from the seed, with a small daily variation, and can rise with experience. A fast crew shortens the hand work, but never the machine time ([gap 10](gaps-decided.md#the-economics)).
 - The minutes actually worked go to the work log. A slower crew therefore raises the batch's l, while each worker is still credited hour for hour.
 - Finished batches go to the building's stock, ready for the next function or for shipping. Moves inside a building are not transfers.
 - Joint outputs are marked main or by-product ([Accounting](accounting.md#joint-products-the-by-product-method)).
@@ -48,14 +48,14 @@
 
 ## Logistics
 
-- Transport is a service any unit can call on, on demand ([gap 16](gaps-in-the-brief.md#decided)). When a batch is ready to go, the sending unit puts a shipment in a single queue shared by all units. The freight unit owns the vehicles and serves the queue first come, first served, as vehicles come free. The shipment waits at the sender until then.
+- Transport is a service any unit can call on, on demand ([gap 16](gaps-decided.md#the-economics)). When a batch is ready to go, the sending unit puts a shipment in a single queue shared by all units. The freight unit owns the vehicles and serves the queue first come, first served, as vehicles come free. The shipment waits at the sender until then.
 - Kept very simple: no priorities, no grouping of loads, no route planning.
 - Vehicles move in straight lines or along simple grid paths at their speed. No traffic, no road network in phase 1.
 - On arrival, the goods and the freight leg are two direct transfers ([Accounting](accounting.md#direct-transfers)).
 
 ## Random numbers and determinism
 
-The same build, scenario and seed give the same run. Runs from different builds need not match ([gap 35](gaps-in-the-brief.md#decided)).
+The same build, scenario and seed give the same run. Runs from different builds need not match ([gap 35](gaps-decided.md#the-simulation)).
 
 - One seed in the scenario, and **one seeded generator** for the whole engine, with a fixed algorithm (for example PCG32 or xoshiro128\*\*).
 - People, units and buildings are always processed in id order. No iteration over hash maps whose order can vary.
@@ -65,7 +65,7 @@ The same build, scenario and seed give the same run. Runs from different builds 
 
 ## Dishonesty
 
-*Later, soon after the first builds* ([gap 45](gaps-in-the-brief.md#decided)). Theft, cooking the books and shirking, each a policy, off by default.
+*Later, soon after the first builds* ([gap 45](gaps-decided.md#the-simulation)). Theft, cooking the books and shirking, each a policy, off by default.
 
 - **From phase 1**, the engine keeps what happened (goods in each place, minutes actually worked) apart from what is reported, and the books are written only from reports. With dishonesty off, the two always agree; a test checks it.
 - A person's opportunism, drawn from the seed, and the chance of being seen decide whether they take an opportunity.
@@ -75,7 +75,7 @@ The same build, scenario and seed give the same run. Runs from different builds 
 
 - State held as arrays of plain numbers per field (structure of arrays), not as objects per person, once numbers reach the thousands.
 - People who are at home or at work do nothing between their events: schedule the next event rather than check every tick.
-- The target is about 10,000 people, every one an agent ([gap 36](gaps-in-the-brief.md#decided)). Past that, whole units could switch to aggregate mode: a crew is a count, not people. Not built for now.
+- The target is about 10,000 people, every one an agent ([gap 36](gaps-decided.md#the-simulation)). Past that, whole units could switch to aggregate mode: a crew is a count, not people. Not built for now.
 
 ## Saving
 

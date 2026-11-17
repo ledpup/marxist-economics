@@ -67,7 +67,7 @@ The brief's "Consumable", widened. A *kind* of thing; quantities of it are [batc
 | category | `circulating` (raw material, consumable: c), `fixed` (machine, building: f), `consumer` (for households), `service` (freight, electricity, water, which are used as they are made) |
 | branch | Which branch's social average applies |
 | initialHoursPerUnit | Production time on day one, before the books have any history. Split into f/c/l where known |
-| wearDays | Consumer durables only: how long it lasts in use. Shoes: 365 days ([gap 18](gaps-in-the-brief.md#decided)); with three kinds of shoe, leather 730, synthetic 365, textile 274 ([gap 51](gaps-in-the-brief.md#decided)) |
+| wearDays | Consumer durables only: how long it lasts in use. Shoes: 365 days ([gap 18](gaps-decided.md#the-economics)); with three kinds of shoe, leather 730, synthetic 365, textile 274 ([gap 51](gaps-decided.md#the-economics)) |
 
 ### Function
 
@@ -83,7 +83,7 @@ From the brief ("braiding works", "thread works"), with the recipe it was missin
 | machineMinutes, handMinutes | Time per batch. Machine time runs at the machine's pace, whoever tends it. Hand time runs at the crew's [pace](#skill): a fast worker can halve it, but no one makes the machine go faster |
 | energy | kWh per batch |
 | water | m³ per batch. Tanning uses the most |
-| effluent | m³ per batch sent to the waterworks for treatment, by product (tannery effluent is its own) ([gap 49](gaps-in-the-brief.md#decided)) |
+| effluent | m³ per batch sent to the waterworks for treatment, by product (tannery effluent is its own) ([gap 49](gaps-decided.md#the-economics)) |
 
 ### MachineType
 
@@ -125,12 +125,12 @@ From the brief. The body that keeps the books and holds the right of disposal.
 | Field | Notes |
 | --- | --- |
 | id, name | Name is plain text (units have proper names), or a key for generic ones |
-| type | `productive`, `public`, `mixed`. Not "private": see [gap 2](gaps-in-the-brief.md#decided) |
+| type | `productive`, `public`, `mixed`. Not "private": see [gap 2](gaps-decided.md#the-economics) |
 | branches | For productive units. A unit can make products of several branches (the components works makes soles, thread and laces); it keeps its books per product |
 | buildings | One or more. The unit's location is that of its buildings |
 | account | Its books |
 | publicBudget | Public units: hours a period, set by the scenario (GSW budget) |
-| councilRules | The unit's own working rules, decided by its workers' council ([gap 47](gaps-in-the-brief.md#decided)): working day and week, the days it runs, shifts, full-time and part-time patterns, boutique days. Each defaults to the scenario's [policies](#scenario-and-policies) |
+| councilRules | The unit's own working rules, decided by its workers' council ([gap 47](gaps-decided.md#the-economics)): working day and week, the days it runs, shifts, full-time and part-time patterns, boutique days. Each defaults to the scenario's [policies](#scenario-and-policies) |
 
 Its employees come from [Employment](#employment), not a list on the unit.
 
@@ -141,7 +141,7 @@ From the brief.
 | Field | Notes |
 | --- | --- |
 | id, name | |
-| unit | The operational unit that runs it. Dwellings have none: they are existing housing, outside the books for now, with no hours and no wear ([gap 43](gaps-in-the-brief.md#decided)) |
+| unit | The operational unit that runs it. Dwellings have none: they are existing housing, outside the books for now, with no hours and no wear ([gap 43](gaps-decided.md#the-economics)) |
 | location, footprint | Grid cell of the top-left corner; width × height in cells |
 | kind | For drawing only: `dwelling`, `works`, `store`, `public`, `depot`, `power`, `gate` (the edge of the map) |
 | functions | Functions it hosts, each with a number of workstations |
@@ -163,7 +163,7 @@ From the brief.
 
 ### Design
 
-*New* ([gap 14](gaps-in-the-brief.md#decided)). A mainline design: fixed means of production made by the unit that uses it, and worn by the pair, not by the hour. Boutique designs are not recorded this way: their designer's hours are l on the run.
+*New* ([gap 14](gaps-decided.md#the-economics)). A mainline design: fixed means of production made by the unit that uses it, and worn by the pair, not by the hour. Boutique designs are not recorded this way: their designer's hours are l on the run.
 
 | Field | Notes |
 | --- | --- |
@@ -194,14 +194,14 @@ From the brief.
 | --- | --- |
 | id, name | Plain text, not translated |
 | birthDate | Age is derived from the simulation's date |
-| retired | From 65, by choice ([gap 9](gaps-in-the-brief.md#decided)); at the start, drawn from the seed |
+| retired | From 65, by choice ([gap 9](gaps-decided.md#the-economics)); at the start, drawn from the seed |
 | illness | Current illness or injury, if any: start, expected end. Drawn from the seed |
 | household | Replaces "residence": the household lives in a dwelling |
 | skills | List of [Skill](#skill) |
 | employments | List of [Employment](#employment). Replaces "employer(s)" |
 | activity | What they are doing now: `home`, `travelling`, `working` (with function), `shopping`, `studying`, `atChildCare` (a child under 6 at the centre), `caring`, `absent`. For the selection panel |
 | position | Building, or a grid position while travelling |
-| opportunism | *Later* ([gap 45](gaps-in-the-brief.md#decided)). How readily they take a dishonest chance; drawn from the seed |
+| opportunism | *Later* ([gap 45](gaps-decided.md#the-simulation)). How readily they take a dishonest chance; drawn from the seed |
 
 ### Skill
 
@@ -211,7 +211,7 @@ From the brief.
 | --- | --- |
 | person, role | |
 | level | Which functions a person may do |
-| pace | How fast they work by hand, as a multiple of the average (from about 0.6 to 1.6, held as an integer in thousandths: 600 to 1,600), drawn from the seed; it can rise with experience. A slower crew raises the unit's production time. **Never** changes certificates: see [gap 10](gaps-in-the-brief.md#decided) |
+| pace | How fast they work by hand, as a multiple of the average (from about 0.6 to 1.6, held as an integer in thousandths: 600 to 1,600), drawn from the seed; it can rise with experience. A slower crew raises the unit's production time. **Never** changes certificates: see [gap 10](gaps-decided.md#the-economics) |
 
 ### Employment
 
@@ -220,10 +220,10 @@ From the brief.
 | Field | Notes |
 | --- | --- |
 | person, unit, role | |
-| place | The building where the work is done. Usually the unit's own; a child carer caring at home works in their own dwelling ([gap 8](gaps-in-the-brief.md#decided)) |
-| hoursPerWeek, shift | Full time is 32 hours ([gap 44](gaps-in-the-brief.md#decided)). Anyone of working age may choose part-time ([gap 9](gaps-in-the-brief.md#decided)). Shift: start time and days. A child carer who also works part-time in a productive unit has two employments |
+| place | The building where the work is done. Usually the unit's own; a child carer caring at home works in their own dwelling ([gap 8](gaps-decided.md#the-economics)) |
+| hoursPerWeek, shift | Full time is 32 hours ([gap 44](gaps-decided.md#the-economics)). Anyone of working age may choose part-time ([gap 9](gaps-decided.md#the-economics)). Shift: start time and days. A child carer who also works part-time in a productive unit has two employments |
 | from, to | Dates |
-| endReason | `left`, `retired`, `unitShrank`, `dismissed`. A dismissal is decided by the unit's council ([gap 47](gaps-in-the-brief.md#decided), [gap 48](gaps-in-the-brief.md#the-economics)) |
+| endReason | `left`, `retired`, `unitShrank`, `dismissed`. A dismissal is decided by the unit's council ([gap 47](gaps-decided.md#the-economics), [gap 48](gaps-in-the-brief.md#the-economics)) |
 
 ### Household
 
@@ -234,9 +234,9 @@ From the brief.
 | id, dwelling | |
 | members | People |
 | account | Pooled labour certificates |
-| holdings | Consumer goods in use: one pair of shoes per member, each with its owner and the day it came into use ([gap 18](gaps-in-the-brief.md#decided)). At the start, each pair's age is random, from the seed |
+| holdings | Consumer goods in use: one pair of shoes per member, each with its owner and the day it came into use ([gap 18](gaps-decided.md#the-economics)). At the start, each pair's age is random, from the seed |
 | basket | Daily needs from the rest of the economy: food and the like, as a product in hours. Heat is electric, so it is metered, not in the basket |
-| metered | Electricity (kWh, heating included) and water (m³) used each day. Free to the household; the meter is how the power station and the waterworks split their books ([gap 15](gaps-in-the-brief.md#decided)) |
+| metered | Electricity (kWh, heating included) and water (m³) used each day. Free to the household; the meter is how the power station and the waterworks split their books ([gap 15](gaps-decided.md#the-economics)) |
 
 ### Vehicle
 
@@ -245,7 +245,7 @@ The brief's Transport, split into type and instance.
 | Field | Notes |
 | --- | --- |
 | id, type | |
-| unit | The freight unit that owns it ([gap 16](gaps-in-the-brief.md#decided)) |
+| unit | The freight unit that owns it ([gap 16](gaps-decided.md#the-economics)) |
 | location, route | Current cell, and the cells ahead. Routes are straight lines or simple grid paths, not traffic |
 | cargo | Shipments |
 | driver | A person, employed by the freight unit (the brief's "operator") |
@@ -276,7 +276,7 @@ Append-only. See [Accounting](accounting.md) for what each one means.
 
 ## Scenario and policies
 
-A scenario is one file (JSON or YAML) holding the definitions, the starting world and the policies. The policies stand for decisions of the congress of councils. The working week is a default: each unit's council can set its own ([gap 47](gaps-in-the-brief.md#decided)).
+A scenario is one file (JSON or YAML) holding the definitions, the starting world and the policies. The policies stand for decisions of the congress of councils. The working week is a default: each unit's council can set its own ([gap 47](gaps-decided.md#the-economics)).
 
 | Field | Notes |
 | --- | --- |
@@ -285,12 +285,12 @@ A scenario is one file (JSON or YAML) holding the definitions, the starting worl
 | definitions, world | As above |
 | policies.payoutFactor | `fixed` (a value), or `previousPeriod` (computed and reconciled) |
 | policies.jointProducts | `byProduct` (the brief's choice); others possible later |
-| policies.roles | Per role kind: `paid` or `unpaid`, and from what age. Default ([gap 8](gaps-in-the-brief.md#decided)): child carers paid as public work for hours recorded by the child care unit, at the centre or at home, within its budget; students paid from age 12 |
+| policies.roles | Per role kind: `paid` or `unpaid`, and from what age. Default ([gap 8](gaps-decided.md#the-economics)): child carers paid as public work for hours recorded by the child care unit, at the centre or at home, within its budget; students paid from age 12 |
 | policies.workingWeek | Full-time hours a week (default 32: four days of 8), the days units run (default Monday to Friday), the full-time pattern (default four days, with the day off spread evenly over the week, and a five-day option) and part-time shift lengths (default 4 hours, morning or afternoon) |
-| policies.nonWorkers | Default ([gap 9](gaps-in-the-brief.md#decided)): children through child care, school and their household; retirement a choice from age 65, credited 20 hours a week on top of any hours worked, up to a full week (32) in all; the ill and injured credited their usual hours; anyone permanently unable to work, a full week. Nothing extra per child. Each can be switched off |
-| policies.childCare | Under 1: the primary carer is a full-time child carer, credited a full working week; the centre takes the child part-time only, up to the hours a week set here. From 1: the centre full-time, or a carer at home. From 6: school ([gap 8](gaps-in-the-brief.md#decided)) |
+| policies.nonWorkers | Default ([gap 9](gaps-decided.md#the-economics)): children through child care, school and their household; retirement a choice from age 65, credited 20 hours a week on top of any hours worked, up to a full week (32) in all; the ill and injured credited their usual hours; anyone permanently unable to work, a full week. Nothing extra per child. Each can be switched off |
+| policies.childCare | Under 1: the primary carer is a full-time child carer, credited a full working week; the centre takes the child part-time only, up to the hours a week set here. From 1: the centre full-time, or a carer at home. From 6: school ([gap 8](gaps-decided.md#the-economics)) |
 | policies.commuting | `notCosted` in phase 1 |
-| policies.dishonesty | *Later* ([gap 45](gaps-in-the-brief.md#decided)). Per kind (theft, false reports, feigned illness, shirking): on or off, and a rate. Off by default |
+| policies.dishonesty | *Later* ([gap 45](gaps-decided.md#the-simulation)). Per kind (theft, false reports, feigned illness, shirking): on or off, and a rate. Off by default |
 | keyNumber | Optional: converts a scenario's money figures to hours ([E11](../../notes-opus5_5/fundamental-principles-economic-model.md#e11-the-key-number-converting-money-to-hours)) |
 
 Runs can be saved (scenario plus current state plus books) and the books exported as CSV.

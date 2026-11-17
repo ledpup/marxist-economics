@@ -30,7 +30,7 @@ Every unit, productive or public, keeps (f + c) + l ([E1](../../notes-opus5_5/fu
 When a function finishes a batch, the new batch's hours are, from the point of view of the unit that made it:
 
 - **c**: the hours of every input batch used, in full (whatever f/c/l split they had upstream becomes c here), plus electricity, water, effluent treatment and freight.
-- **f**: wear on the machines used, for the minutes used, plus a share of the building's wear, plus the design's share for a mainline pair ([gap 14](gaps-in-the-brief.md#decided)).
+- **f**: wear on the machines used, for the minutes used, plus a share of the building's wear, plus the design's share for a mainline pair ([gap 14](gaps-decided.md#the-economics)).
 - **l**: the crew's minutes on the batch, and on a boutique run the designer's minutes on it. A slower crew takes more minutes on the hand work, so its batches carry more hours, and the unit shows "under" against its branch. Each worker is still credited one hour for each hour worked.
 
 Time not spent on any one batch (setting up, cleaning, idle time) is pooled for the period and spread over the period's output in proportion to labour minutes. This is the "shared overheads" problem in the [shoe chain note](../../notes-opus5_5/fundamental-principles-economic-model.md#what-the-fuller-chain-brings-out); the rule used should be shown in the unit's books.
@@ -58,11 +58,11 @@ With one shoe factory, the average is that factory's figure. The phase 5 scenari
 ## Labour certificates
 
 - Each person's hours are totalled weekly from the work log. Certificates issued = hours worked × payout factor, credited to the household's account.
-- The skill level never changes this ([gap 10](gaps-in-the-brief.md#decided)).
-- **Child carers and students** from age 12 are paid as public work ([gap 8](gaps-in-the-brief.md#decided)). Their hours are part of L<sub>p</sub>. Carers' hours, at the centre or at home, are recorded by the child care unit, within its budget; students' hours by the school. Child care uses few means of production (the centre's building and supplies; almost none at home), so it adds to the bottom line of the payout factor and hardly at all to the top. Both are [policies](data-model.md#scenario-and-policies) and can be switched off to compare.
-- **People who don't work** are credited hours without working ([gap 9](gaps-in-the-brief.md#decided)): a retired person 20 hours a week (retirement is a choice from 65), as a top-up to their hours worked of at most 32 in all, the ill and injured their usual hours until they are fit. Certificates issued = hours credited × payout factor, as for hours worked. Credited hours (H) are not labour, so they are in neither L nor L<sub>p</sub>, but they claim a share of the product, so they go in the bottom line of the payout factor. Each group is a [policy](data-model.md#scenario-and-policies) and can be switched off to compare. Children are provided for by child care and school, and consume out of their household's certificates, with nothing extra per child (the GIC's "great injustice", accepted).
+- The skill level never changes this ([gap 10](gaps-decided.md#the-economics)).
+- **Child carers and students** from age 12 are paid as public work ([gap 8](gaps-decided.md#the-economics)). Their hours are part of L<sub>p</sub>. Carers' hours, at the centre or at home, are recorded by the child care unit, within its budget; students' hours by the school. Child care uses few means of production (the centre's building and supplies; almost none at home), so it adds to the bottom line of the payout factor and hardly at all to the top. Both are [policies](data-model.md#scenario-and-policies) and can be switched off to compare.
+- **People who don't work** are credited hours without working ([gap 9](gaps-decided.md#the-economics)): a retired person 20 hours a week (retirement is a choice from 65), as a top-up to their hours worked of at most 32 in all, the ill and injured their usual hours until they are fit. Certificates issued = hours credited × payout factor, as for hours worked. Credited hours (H) are not labour, so they are in neither L nor L<sub>p</sub>, but they claim a share of the product, so they go in the bottom line of the payout factor. Each group is a [policy](data-model.md#scenario-and-policies) and can be switched off to compare. Children are provided for by child care and school, and consume out of their household's certificates, with nothing extra per child (the GIC's "great injustice", accepted).
 - Certificates are spent at the consumer cooperative's store on goods at their production time, including the store's own share ([Downstream](../../notes-opus5_5/fundamental-principles-economic-model.md#downstream-from-the-factory-to-the-worker)). Spent certificates are cancelled: they do not circulate (Marx's "theatre ticket").
-- A purchase takes the goods' hours out of the books as **individual consumption**. They are not added to the next product the worker makes: l is hours worked, not hours consumed ([gap 3](gaps-in-the-brief.md#decided)). The screen shows the loop from shoe to worker to work; the books show the shoe's hours ending at the store.
+- A purchase takes the goods' hours out of the books as **individual consumption**. They are not added to the next product the worker makes: l is hours worked, not hours consumed ([gap 3](gaps-decided.md#the-economics)). The screen shows the loop from shoe to worker to work; the books show the shoe's hours ending at the store.
 
 ## The payout factor
 
@@ -70,30 +70,30 @@ The general form, combining [E7](../../notes-opus5_5/fundamental-principles-econ
 
 FIC = (L − {(F<sub>p</sub> + C<sub>p</sub>) − (F'<sub>p</sub> + C'<sub>p</sub>)} − a(F<sub>t</sub> + C<sub>t</sub>)) / (L + L<sub>p</sub> + H)
 
-H is the hours credited to people who don't work ([gap 9](gaps-in-the-brief.md#decided)). It is not in the book's formula; it is Marx's "funds for those unable to work", which the GIC never mentions. With H = 0 the formula is the book's.
+H is the hours credited to people who don't work ([gap 9](gaps-decided.md#the-economics)). It is not in the book's formula; it is Marx's "funds for those unable to work", which the GIC never mentions. With H = 0 the formula is the book's.
 
 - Phase 1: the school and the child care unit are public units, and the retired and the ill are credited hours, so the factor is below 1 from the start. There is no expansion (a = 0).
 - Phase 5: a clinic.
 - The factor in use during a period is the last period's (policy `previousPeriod`), or a fixed value. At the close, the actual factor is computed and the difference shown. The book does not say how this is done.
-- Expansion (a), special accumulation and the disaster fund keep their place in the formula but are zero until a later phase ([gap 19](gaps-in-the-brief.md#decided)).
+- Expansion (a), special accumulation and the disaster fund keep their place in the formula but are zero until a later phase ([gap 19](gaps-decided.md#the-economics)).
 
 ## Mixed units
 
-The power station and the waterworks are mixed units ([gap 15](gaps-in-the-brief.md#decided)). Each meters every consumer, and splits its books by them ([E8](../../notes-opus5_5/fundamental-principles-economic-model.md#e8-the-payout-factor-with-mixed-units)):
+The power station and the waterworks are mixed units ([gap 15](gaps-decided.md#the-economics)). Each meters every consumer, and splits its books by them ([E8](../../notes-opus5_5/fundamental-principles-economic-model.md#e8-the-payout-factor-with-mixed-units)):
 
 - To units, productive and public: a direct transfer at production time per kWh or per m³.
 - To households: free. The f + c of that share counts as public, in F<sub>p</sub> + C<sub>p</sub> less F'<sub>p</sub> + C'<sub>p</sub>, and lowers the payout factor.
 - The waterworks takes electricity from the power station as a unit, so it is charged for it, and passes it on in its production time per m³.
-- The waterworks also treats sewage ([gap 49](gaps-in-the-brief.md#decided)): free from homes, charged to units per m³ treated. Tannery effluent is its own product, with its own production time, since it takes much more treatment; the tannery's c includes it, so the leather carries the cost of cleaning up after it.
+- The waterworks also treats sewage ([gap 49](gaps-decided.md#the-economics)): free from homes, charged to units per m³ treated. Tannery effluent is its own product, with its own production time, since it takes much more treatment; the tannery's c includes it, so the leather carries the cost of cleaning up after it.
 - Heat is electric: there is no gas supply.
-- Greenhouse gases are not costed ([gap 50](gaps-in-the-brief.md#decided)). When they come in, they are a record beside the hours, not hours.
+- Greenhouse gases are not costed ([gap 50](gaps-decided.md#the-economics)). When they come in, they are a record beside the hours, not hours.
 
 ## Wear and tear (f)
 
 - **Machines:** productionHours ÷ lifeHours per hour of use, charged to the batch the machine was used on.
 - **Buildings:** productionHours ÷ (lifeYears × working days a year) per day, charged to the unit's pooled time for the period.
 - **Vehicles:** per hour driven, charged to the freight leg.
-- **Designs:** a mainline design is made in the shoe factory before its run ([gap 14](gaps-in-the-brief.md#decided)). While it is being made, the designer's hours are posted to the design, not to the period's output; they are still hours worked, credited and in L. Once the run starts, productionHours ÷ lifeUnits per pair, charged to each batch. If the line stops before lifeUnits, what is left is written off against the unit. On a boutique run the designer's hours are l on the run instead.
+- **Designs:** a mainline design is made in the shoe factory before its run ([gap 14](gaps-decided.md#the-economics)). While it is being made, the designer's hours are posted to the design, not to the period's output; they are still hours worked, credited and in L. Once the run starts, productionHours ÷ lifeUnits per pair, charged to each batch. If the line stops before lifeUnits, what is left is written off against the unit. On a boutique run the designer's hours are l on the run instead.
 - When a machine reaches its life, it is worn out and must be replaced. In phase 1 a replacement arrives from the rest of the economy.
 
 ## Joint products: the by-product method

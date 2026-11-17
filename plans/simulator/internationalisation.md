@@ -4,7 +4,7 @@
 
 # Internationalisation
 
-*Stub.* English and Spanish from the start, switchable without a reload. Terms are in the [glossary](glossary.md). Translation keys, Spanish role names and number formats were decided on 2026-11-11 ([gaps 39 to 42](gaps-in-the-brief.md#decided)).
+*Stub.* English and Spanish from the start, switchable without a reload. Terms are in the [glossary](glossary.md). Translation keys, Spanish role names and number formats were decided on 2026-11-11 ([gaps 39 to 42](gaps-decided.md#internationalisation)).
 
 ## Rules
 
@@ -16,7 +16,7 @@
 
 ## Job titles
 
-The model holds no gender ([gap 31](gaps-in-the-brief.md#decided)), but Spanish job titles have one (*zapatero* / *zapatera*). So in Spanish a role is named by its trade or activity, not by the person: *Zapatería*, *Docencia*, *Cuidado infantil*. Sentences about a person avoid the job noun ("Ana · Zapatería · corte", "trabaja en el corte"). The labels are in the [glossary](glossary.md#roles).
+The model holds no gender ([gap 31](gaps-decided.md#the-data)), but Spanish job titles have one (*zapatero* / *zapatera*). So in Spanish a role is named by its trade or activity, not by the person: *Zapatería*, *Docencia*, *Cuidado infantil*. Sentences about a person avoid the job noun ("Ana · Zapatería · corte", "trabaja en el corte"). The labels are in the [glossary](glossary.md#roles).
 
 ## Layout
 

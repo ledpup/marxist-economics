@@ -19,6 +19,8 @@ The view is aerial, 2D and on a grid, a bit like SimCity. Goods are animated as 
 | Plan | What it covers | Status |
 | --- | --- | --- |
 | [Gaps in the brief](gaps-in-the-brief.md) | What the brief below leaves out or needs to settle, with a proposal for each. **Start here.** | Draft |
+| [Decided gaps](gaps-decided.md) | The gaps already settled, with each decision and why | Draft |
+| [Patrick's answers on the gaps](gaps-answers.md) | His answers as he gave them, by topic, with what each was replying to and what came of it | Record |
 | [Glossary](glossary.md) | The terms the simulation uses, the GIC's term behind each, and the Spanish | Draft |
 | [Data model](data-model.md) | The abstract model: definitions, the world, the books, policies | Draft |
 | [Shoe scenario](shoe-scenario.md) | The first scenario: units, buildings, functions, recipes and figures | Draft |
@@ -38,7 +40,7 @@ The view is aerial, 2D and on a grid, a bit like SimCity. Goods are animated as 
 - **Random numbers** come from a seeded generator, so a run can be repeated.
 - **Languages:** English and Spanish, switchable at run time.
 
-Patrick's answers on the gaps (2026-11-09) settled more. The details are in [Gaps in the brief](gaps-in-the-brief.md):
+Patrick's answers on the gaps (2026-11-09) settled more. The details are in [Decided gaps](gaps-decided.md), and his answers in [Patrick's answers on the gaps](gaps-answers.md):
 
 - **Unit types** are the GIC's: productive, public, mixed.
 - **The shoe's hours end at the store** as individual consumption; the loop back to the worker is shown but not booked as an input.
