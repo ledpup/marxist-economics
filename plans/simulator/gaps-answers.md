@@ -277,6 +277,12 @@ His answers as he gave them, grouped by topic. A short note before each says wha
 
 *Outcome:* gap 17 is decided as proposed. Claude answered that it is a pull system, but not strictly just-in-time: the targets are buffers.
 
+## 2026-11-19: the payout factor at scale (gap 7)
+
+> Number 7: payout factor. Is it accurate to say this equation is the most involved? You said it is done every year. What made you decide that? The book shows two forms, one with productive units and then one with mixed units added. And there is the new variable H. How does this function work in a large economy? We need all the hours for all the operational units, productive, public, mixed? Does it get calculated for a region? Wouldn't that be fraught as some regions have more technology and resources? Does it then need to be done for the whole world? Can that work? There are 8 billion people on the planet. How many are working? 4 billion? Estimate how many operational units we'd have at that scale. Can the equation be calculated at the regional level and then be combined between regions? Does that work mathematically or have we made it nonsense by losing information?
+
+*Outcome:* a new note, [The payout factor at the scale of a world](../../notes-opus5_5/payout-factor-at-scale.md). Claude's answers: the equation is not the most involved, only the most far-reaching; the year was not the book's decision (it is the thought experiment's), so the period is ours; the book has three forms (with expansion), not two; regions combine exactly if they report N and D and not factors. About 3.5 billion work; operational units number tens of millions. Open in the book: how far the pool reaches, how wide the social average is, and resources. Gap 7 is still open, with its proposal reworded.
+
 ---
 
 [↑ Plans](README.md) · [Gaps in the brief](gaps-in-the-brief.md)
