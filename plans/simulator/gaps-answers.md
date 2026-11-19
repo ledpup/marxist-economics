@@ -265,6 +265,10 @@ His answers as he gave them, grouped by topic. A short note before each says wha
 
 *Outcome:* gap 5 is revised: the simulation starts from money books converted once by the key number, and the gate is the explicit outside. The new page [The key number](key-number.md) sets out what 17 b and 17 c say, a first estimate (default $60 an hour, 0.01667 hours a dollar) from three routes, and dollar figures for the shoe scenario, all marked as estimates. Gap 20 (day one) takes the key number as its method. Gap 52 is new and open: what the gate does after day one, and whether the outside keeps trading in money.
 
+> After day one, we don't use money (your proposal). The $60 is just a variable default? It's fine. Can change that later if we want. I'm not concerned too much about variables. The equations and the logic need to be correct. We stick with the book as much as possible. If it's missing something or is incorrect, that's something important to investigate.
+
+*Outcome:* gap 52 is decided as proposed: the gate keeps the day-one hours and money is not used again. The $60 an hour is a variable default. Where the book is silent or wrong, that is recorded as a finding to investigate.
+
 ---
 
 [↑ Plans](README.md) · [Gaps in the brief](gaps-in-the-brief.md)

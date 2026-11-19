@@ -6,8 +6,8 @@
 
 What the [brief](README.md#patricks-brief) leaves out, gets at odds with the GIC's model, or needs to settle before code is written. Gaps keep their numbers when they move from Open to Decided.
 
-**Open: 16.** Each has a proposal that stands as the default until overruled.
-**Decided: 36.** In [Decided gaps](gaps-decided.md), each with the decision and why.
+**Open: 15.** Each has a proposal that stands as the default until overruled.
+**Decided: 37.** In [Decided gaps](gaps-decided.md), each with the decision and why.
 Patrick's answers, which settled them, are in [Patrick's answers on the gaps](gaps-answers.md).
 
 ## Open
@@ -17,7 +17,6 @@ Patrick's answers, which settled them, are in [Patrick's answers on the gaps](ga
 - **7. Setting the payout factor during a period.** The book never says how a running factor is set before the year's totals exist ([What the book leaves open](../../notes-opus5_5/fundamental-principles-economic-model.md#what-the-book-leaves-open)). With child care and the school (gap 8) the factor is below 1 from phase 1; a clinic comes in phase 5. *Proposal:* the factor in use is the last period's, reconciled at the end of each period. → [Accounting](accounting.md#the-payout-factor)
 - **17. What decides how much to make?** The book leaves the production plan open. *Proposal:* the cooperative store orders when its stock falls below a target, and each unit upstream does the same for its inputs (a pull system). When the store runs short, first come, first served. → [Simulation engine](simulation-engine.md#demand-and-orders)
 - **20. Day one.** Stocks, machines and buildings have no recorded hours at the start. *Proposal:* the scenario's opening books are in money, and the key number converts them to hours once, on day one ([gap 5](gaps-decided.md#the-economics)). The scenario gives each product, machine and building a money value (*estimate*), and the conversion is an entry in the books. → [The key number](key-number.md), [Shoe scenario](shoe-scenario.md)
-- **52. After day one, what does the gate do?** The key number converts the outside's products once ([gap 5](gaps-decided.md#the-economics)), but the outside goes on supplying, and the GIC don't follow it. *Proposal:* the gate keeps the day-one hours for each product, as estimates, and says so on screen. A later scenario can revise them on a schedule (as the real production times of the outside's units arrive), to show what a wrong first estimate does. The gate never converts money again. *To ask:* whether the outside keeps trading in money after day one (which would need a standing exchange rate, against the "one-off" conversion), or is converted with the rest. → [The key number](key-number.md#open)
 - **48. Leaving a unit, and finding another.** Gap 47 lets a council dismiss, and leaves people free to refuse work. Neither book says what happens next ([unemployment note](../../notes-opus5_5/unemployment-and-inability-to-work.md#what-the-book-leaves-open)). *Proposal:*
   - **How a dismissal is decided.** By the unit's assembly (its delegates, in a large unit), by vote, with the reason recorded in the unit's books, which are open to all. Never by one person, and never by a body outside the unit.
   - **Appeal.** A dismissed worker can appeal to a body the congress of councils sets up. One option is TNS's: a jury drawn by lot from workers of other units.
