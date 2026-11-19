@@ -273,6 +273,10 @@ His answers as he gave them, grouped by topic. A short note before each says wha
 
 *Outcome:* gap 20 is decided as proposed: opening books in money, converted once by the key number.
 
+> Accept 17 as well. A pull system. Is this system to JIT?
+
+*Outcome:* gap 17 is decided as proposed. Claude answered that it is a pull system, but not strictly just-in-time: the targets are buffers.
+
 ---
 
 [↑ Plans](README.md) · [Gaps in the brief](gaps-in-the-brief.md)
