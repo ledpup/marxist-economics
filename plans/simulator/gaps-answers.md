@@ -269,6 +269,10 @@ His answers as he gave them, grouped by topic. A short note before each says wha
 
 *Outcome:* gap 52 is decided as proposed: the gate keeps the day-one hours and money is not used again. The $60 an hour is a variable default. Where the book is silent or wrong, that is recorded as a finding to investigate.
 
+> I accept the proposal on number 20.
+
+*Outcome:* gap 20 is decided as proposed: opening books in money, converted once by the key number.
+
 ---
 
 [↑ Plans](README.md) · [Gaps in the brief](gaps-in-the-brief.md)

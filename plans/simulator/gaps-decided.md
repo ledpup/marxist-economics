@@ -6,7 +6,7 @@
 
 The gaps in the brief that have been settled, with the decision and why. Gaps keep the numbers they had while [open](gaps-in-the-brief.md#open). The answers that settled them are in [Patrick's answers on the gaps](gaps-answers.md).
 
-**Decided: 37.** 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 18, 19, 31, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 49, 50, 51, 52.
+**Decided: 38.** 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 18, 19, 20, 31, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 49, 50, 51, 52.
 
 ## The economics
 
@@ -104,6 +104,7 @@ The gaps in the brief that have been settled, with the decision and why. Gaps ke
 
   *Why:* the three are the main kinds of shoe people wear, and a model of the leather shoe alone would cover about one pair in six. → [Shoe scenario](shoe-scenario.md#later-versions), [Data model](data-model.md#product)
 - **52. After day one, the gate keeps the converted hours and money is not used again.** **Decision:** the key number converts the outside's products once, on day one ([gap 5](#the-economics)). After that the gate supplies each product at the hours it was converted to, shown on screen as an estimate, and the model never converts money again. No money, and no exchange rate, exists after day one. *Why:* the GIC's conversion is one-off, and they never follow the outside. A scenario may later revise the gate's hours on a schedule, to show what a wrong first estimate does; that is a feature, not a change to this rule. The $60 an hour (0.01667 hours a dollar) is only a default, and a scenario can set another. *Priority:* follow the book; where it is missing something or is wrong, that is a finding to investigate, not to patch quietly. → [The key number](key-number.md)
+- **20. Day one.** Stocks, machines and buildings have no recorded hours at the start. **Decision:** the scenario's opening books are in money, and the key number converts them to hours once, on day one ([gap 5](#the-economics)). The scenario gives each product, machine and building a money value (an *estimate*), and the conversion is an entry in the books. After that, money is not used ([gap 52](#the-economics)). *Why:* it is the GIC's own method ([17 b–c](../../Documents/fundamental_principles/17_Final_Considerations.md#b-from-the-money-account-to-the-working-time-account)). → [The key number](key-number.md), [Shoe scenario](shoe-scenario.md#starting-from-money)
 
 ## The data
 
