@@ -102,6 +102,10 @@ To fill in: the split for thread and laces, the power station, the waterworks, t
 
 To fill in, per function: inputs and outputs per batch, crew, machines, minutes, kWh, m³ of water, m³ of effluent. A batch is a crate of 20 pairs (8 a day).
 
+## Starting from money
+
+The figures above are in hours, as the book gives them. The scenario starts from money books, converted on day one at the key number ([gap 5](gaps-decided.md#the-economics)); [The key number](key-number.md) gives the dollar figures at $60 an hour, which are *estimates*. Converting them gives back the hours above.
+
 ## Two versions
 
 | Version | Hides arrive at | Shoe factory's year | Purpose |
@@ -113,7 +117,7 @@ To fill in, per function: inputs and outputs per batch, crew, machines, minutes,
 
 One aggregate unit at a gate on the edge of the map ([gap 4](gaps-decided.md#the-economics)).
 
-- **Supplies** at fixed production times, estimated by the scenario and never converted from money: the rest of the economy is communist too, just not yet followed ([gap 5](gaps-decided.md#the-economics)). It supplies hides, chemicals, synthetic rubber, lining, boxes, adhesive, eyelets, fuel, replacement machines, and the households' daily basket (food, clothes other than shoes; heat is electric, from the power station).
+- **Supplies** at fixed production times, converted from the scenario's estimated money prices by the key number on day one, and not converted again ([gap 5](gaps-decided.md#the-economics), [The key number](key-number.md#opening-figures-for-the-shoe-scenario)). The gate is the model's explicit outside: it is not followed, and what it does after day one is open ([gap 52](gaps-in-the-brief.md#the-economics)). It supplies hides, chemicals, synthetic rubber, lining, boxes, adhesive, eyelets, fuel, replacement machines, and the households' daily basket (food, clothes other than shoes; heat is electric, from the power station).
 - **Receives** the shoes the town doesn't buy (nearly all of them: about 125 people buy one pair a year each, against 160 pairs a day) and the leather offcuts.
 - Keeps books like any unit. Over a period, what it receives and what it supplies should roughly match: that is simple reproduction for the town as a whole. The difference is shown, not hidden.
 

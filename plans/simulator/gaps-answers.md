@@ -257,6 +257,14 @@ His answers as he gave them, grouped by topic. A short note before each says wha
 
 *Outcome:* gap 51 is decided. Each upper has a chain: leather through the town's tannery; synthetic (polyurethane-coated fabric) from a coating works, and textile from a weaving or knitting mill, both through the gate. Default lives are leather 2 years, synthetic 1 year and textile 9 months, from retail and footwear-guide sources, which agree that leather lasts longest but give no firm figure for synthetics. These replace gap 18's single year. Which materials should be used, and repairs, are out of scope. The shoes still come in a later version, with consumer choice.
 
+## 2026-11-19: day one is a conversion from money (gap 5 revised, gap 52)
+
+*Context:* on 2026-11-18 gap 5 was decided as "outside is communist, estimated in hours, never converted from money".
+
+> We need to revise the decided point 5. In chapter 17 b of Fundamental Principles, GIC do an initial conversion of money to working hours. It's a one-off conversion. Investigate this as the start point for the simulation. We'll estimate some dollar values, do a best guess for the working hours equivalent, and then go from there. It was never my intention to deviate from their suggestion. We need to explore this avenue first. That means there is an "outside", explicitly acknowledged.
+
+*Outcome:* gap 5 is revised: the simulation starts from money books converted once by the key number, and the gate is the explicit outside. The new page [The key number](key-number.md) sets out what 17 b and 17 c say, a first estimate (default $60 an hour, 0.01667 hours a dollar) from three routes, and dollar figures for the shoe scenario, all marked as estimates. Gap 20 (day one) takes the key number as its method. Gap 52 is new and open: what the gate does after day one, and whether the outside keeps trading in money.
+
 ---
 
 [↑ Plans](README.md) · [Gaps in the brief](gaps-in-the-brief.md)

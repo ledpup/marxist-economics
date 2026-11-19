@@ -40,7 +40,7 @@ The giro office becomes the **public accounting office**, from the book's own "g
 | Living labour (l) | | trabajo vivo | |
 | Wear and tear | | desgaste | |
 | Consumer cooperative | cooperative | cooperativa de consumo | |
-| Key number | key number, key figure | número clave | |
+| Key number | key number, key figure | número clave | Hours per unit of money; converts the opening money books to hours once, on day one ([17 c](../../Documents/fundamental_principles/17_Final_Considerations.md#c-the-key-number)) |
 | Simple reproduction | | reproducción simple | |
 | Expansion | | ampliación de la producción | |
 | Split-off point | (not in the book) | punto de separación | |

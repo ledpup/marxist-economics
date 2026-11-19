@@ -19,6 +19,7 @@
 ## The scenario
 
 - The [book check](shoe-scenario.md#two-versions) version of the shoe scenario, run for a year with no random variation, gives the shoe factory 125,000 hours for 40,000 pairs.
+- The [key number](key-number.md) converts the book's money figures (f 1,000, c 49,000 at 1¼ hours a unit) to 1,250 and 61,250 hours, so the day-one books give the same 125,000 hours with l of 62,500. Setting the key number 20 % high moves the shoe's production time by about 5 %, not more.
 - The [invariants](accounting.md#invariants) hold after every tick.
 - A crew with a slower pace gives a higher production time per pair on hand work, about the same on machine work, and the same certificates per hour worked.
 - With child care and students switched off, the payout factor rises by what their hours took.

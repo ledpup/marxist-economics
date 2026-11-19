@@ -49,7 +49,7 @@ Moving goods inside one building, between its functions, is not a transfer.
 
 For each branch and period: Σ (f + c + l) over its units ÷ Σ units of product ([E3](../../notes-opus5_5/fundamental-principles-economic-model.md#e3-the-social-average-production-time)).
 
-- During a period, goods pass on at a **provisional** average: the last period's, or the product's initial figure on day one.
+- During a period, goods pass on at a **provisional** average: the last period's, or the product's initial figure on day one, converted from its money price by the [key number](key-number.md).
 - At the period's close, the actual average is computed, with each unit's over or under. Across the branch they sum to zero.
 - The difference between provisional and actual, over the goods already passed on, is recorded as a branch adjustment and shown. *To decide:* whether it is carried into the next period's provisional figure or charged back to the receivers.
 
