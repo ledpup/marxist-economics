@@ -299,6 +299,10 @@ His answers as he gave them, grouped by topic. A short note before each says wha
 
 *Outcome:* Claude checked TNS: they credit housework only in a commune, where internal work is paid in work-units at par; in a family it stays unpaid, and their answer is to replace the domestic economy, voluntarily, not to pay it. They credit disabled people from the state budget but say nothing about carers. The ILO's figure is 76.2 % of unpaid care hours done by women (2018). The note is corrected. Two new open gaps: 53, the care of disabled people (carers paid as public work through a care unit, hours by assessed need, respite, the disabled person's needs as free public provision); 54, housework that isn't care (recorded beside the books, not credited).
 
+> Accept 53 and 54 as proposed
+
+*Outcome:* gaps 53 and 54 are decided as proposed.
+
 ---
 
 [↑ Plans](README.md) · [Gaps in the brief](gaps-in-the-brief.md)
