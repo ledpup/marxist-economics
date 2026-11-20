@@ -44,7 +44,7 @@
 - **Pull.** The store keeps a target stock of each product; when it falls below, it orders from the unit that makes it. Each unit does the same for its inputs.
 - Orders to the rest of the economy are always filled, after a lead time.
 - When the store runs out, households queue, first come first served. The book does not say how shortages are handled ([What the book leaves open](../../notes-opus5_5/fundamental-principles-economic-model.md#what-the-book-leaves-open)).
-- *Later:* a production plan from the congress of workers' councils, as an alternative policy.
+- *Later:* a production plan from the congress of workers' councils, as an alternative policy See [Planning](planning.md).
 
 ## Logistics
 
