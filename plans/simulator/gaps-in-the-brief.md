@@ -6,7 +6,7 @@
 
 What the [brief](README.md#patricks-brief) leaves out, gets at odds with the GIC's model, or needs to settle before code is written. Gaps keep their numbers when they move from Open to Decided.
 
-**Open: 12.** Each has a proposal that stands as the default until overruled.
+**Open: 14.** Each has a proposal that stands as the default until overruled.
 **Decided: 40.** In [Decided gaps](gaps-decided.md), each with the decision and why.
 Patrick's answers, which settled them, are in [Patrick's answers on the gaps](gaps-answers.md).
 
@@ -14,6 +14,16 @@ Patrick's answers, which settled them, are in [Patrick's answers on the gaps](ga
 
 ### The economics
 
+- **53. Care of disabled people.** Gap 8 pays child care, through the child care unit, and school takes over at 6. Gap 9 credits a disabled adult a full week, gives nothing extra per child, and leaves special equipment out of scope. None of this fits a profoundly disabled child, whose care may be lifelong, intense, partly at night, and never passed to a school; nor an adult cared for at home. Neither the GIC nor TNS say anything about the carers ([note](../../notes-opus5_5/the-outside-and-the-edges.md#domestic-labour)). *Proposal:*
+  - **The carer is paid as public work**, as child carers are: a public **care unit** records their hours, at home or at a centre, within a budget set by the congress. Their hours are in L<sub>p</sub>. There is no age limit: the care goes on as long as it is needed, for a child or an adult.
+  - **Hours by assessed need, not stopwatch.** Much of the care can't be timed (nights, being on call). The care unit sets the weekly hours by an assessment of need, reviewed periodically, and records those. This no longer measures labour exactly, as gap 8's flat-rate option doesn't; it is the price of bringing the work into the books at all.
+  - **Respite.** The care unit runs, or buys from a centre, regular breaks for the carer, as the child care centre does for a parent in a child's first year.
+  - **The disabled person's needs are public provision**, free, like health care: equipment, therapy, adapted housing. They don't come out of the household's certificates. This is where "nothing extra per child" (gap 9) would be at its most unjust. It reopens gap 9's "special equipment out of scope" for the design, though the shoe scenario need not model it in phase 1.
+  - **A disabled person who can work** works, at their own pace, and is credited their hours like anyone else; pace never changes pay ([gap 10](gaps-decided.md#the-economics)). Credited hours (H) top them up to a full week if they can work only part of it, as for the retired.
+  - A policy, so a run can switch it off and compare. It lowers the payout factor, as child care does.
+
+  → [Accounting](accounting.md#labour-certificates), [Data model](data-model.md#scenario-and-policies)
+- **54. Housework that isn't care.** Cooking, cleaning, laundry and the upkeep of a home stay off the books. Women do most of it: 76.2 % of unpaid care hours worldwide (ILO, 2018). TNS credit it only when it is collective, in a commune; in a family, never ([note](../../notes-opus5_5/the-outside-and-the-edges.md#domestic-labour)). *Proposal:* record it beside the books, as hours *not credited*, so the largest outside is visible: a policy, off by default, drawn per household from the seed. A later version can add communal kitchens and laundries as units (TNS's commune, or a public or productive unit), and show the hours they save.
 - **48. Leaving a unit, and finding another.** Gap 47 lets a council dismiss, and leaves people free to refuse work. Neither book says what happens next ([unemployment note](../../notes-opus5_5/unemployment-and-inability-to-work.md#what-the-book-leaves-open)). *Proposal:*
   - **How a dismissal is decided.** By the unit's assembly (its delegates, in a large unit), by vote, with the reason recorded in the unit's books, which are open to all. Never by one person, and never by a body outside the unit.
   - **Appeal.** A dismissed worker can appeal to a body the congress of councils sets up. One option is TNS's: a jury drawn by lot from workers of other units.

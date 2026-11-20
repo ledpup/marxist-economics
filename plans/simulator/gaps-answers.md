@@ -291,6 +291,14 @@ His answers as he gave them, grouped by topic. A short note before each says wha
 
 *Outcome:* gap 7 is decided as proposed: the last closed period's factor, reconciled at the close; N and D reported at every level.
 
+## 2026-11-20: housework and the care of disabled people (gaps 53 and 54)
+
+*Context:* the note [The outside and the edges](../../notes-opus5_5/the-outside-and-the-edges.md) said domestic labour stays off the books.
+
+> TNS credit housework don't they? Not off the books? When I split home from child care, that was an attempt to class that as a distinct category of labour. But there is a lot of other housework, still predominantly done by women (70% I believe) and generally unpaid. Women caring for disabled children for one thing. And I made allowances for children, yes, but a profoundly disabled child is nothing like child care and school.
+
+*Outcome:* Claude checked TNS: they credit housework only in a commune, where internal work is paid in work-units at par; in a family it stays unpaid, and their answer is to replace the domestic economy, voluntarily, not to pay it. They credit disabled people from the state budget but say nothing about carers. The ILO's figure is 76.2 % of unpaid care hours done by women (2018). The note is corrected. Two new open gaps: 53, the care of disabled people (carers paid as public work through a care unit, hours by assessed need, respite, the disabled person's needs as free public provision); 54, housework that isn't care (recorded beside the books, not credited).
+
 ---
 
 [↑ Plans](README.md) · [Gaps in the brief](gaps-in-the-brief.md)
