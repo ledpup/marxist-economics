@@ -287,6 +287,10 @@ His answers as he gave them, grouped by topic. A short note before each says wha
 
 *Outcome:* Patrick is right. The three points were findings in the note, not numbered gaps. The width of the social average is withdrawn as a question: it is per product across the whole industry (8 d), and the one "district" in that passage is a loose word. The payout factor is a different aggregation, across all hours in one accounting system, with geography entering only through the "local tax". What remains is the reach of the accounting system, which the simulation already fixes (the town, with the gate as boundary). Resources are a finding about the book, out of scope for the simulation.
 
+> Accept 7 as proposed
+
+*Outcome:* gap 7 is decided as proposed: the last closed period's factor, reconciled at the close; N and D reported at every level.
+
 ---
 
 [↑ Plans](README.md) · [Gaps in the brief](gaps-in-the-brief.md)
