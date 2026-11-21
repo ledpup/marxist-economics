@@ -28,6 +28,7 @@ The view is aerial, 2D and on a grid, a bit like SimCity. Goods are animated as 
 | [Workers' democracy](workers-democracy.md) | Who runs a workplace and sets its rules: workers' councils, not trade unions; dismissal; a job for those who want one. Contrasts the GIC with *Towards a New Socialism* | Draft |
 | [Accounting](accounting.md) | The books: direct transfers, social average, labour certificates, payout factor, by-product method, invariants | Draft |
 | [Simulation engine](simulation-engine.md) | The clock, the daily cycle, the systems that run each tick, random numbers and determinism, dishonesty | Stub |
+| [Planning](planning.md) | A plan for final outputs (Leontief, Jacobi) as a later alternative to the pull system, and how to compare the two | Stub |
 | [User interface](user-interface.md) | The map, zoom, selection panels, time controls, views of the hours | Stub |
 | [Technology](technology.md) | Options for the web stack and a recommendation | Draft |
 | [Internationalisation](internationalisation.md) | English and Spanish from the start; translatable data | Stub |
