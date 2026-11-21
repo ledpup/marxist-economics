@@ -10,13 +10,25 @@
 
 The brief's model is pull: the store reorders, and each unit reorders from its suppliers. That is not "no planning". It is a distributed version of the same iteration (each order passes the requirement one step up the chain), with stocks as buffers. A computed plan is the centralised alternative. The aim is to find out what pull does badly, and whether a plan would fix it, before deciding either way.
 
-## Policies
+## Policies as drop-in modules
 
-| Policy | How a unit decides what to make | Status |
-| --- | --- | --- |
-| **Pull** | Reorders when stock falls below target | The default ([engine](simulation-engine.md#demand-and-orders)) |
-| **Plan** | Produces what the period's plan says | Later |
-| **Mixed** | Plan sets a base amount; pull adjusts for what actually sells | Later, if the other two suggest it |
+Each approach is one **policy module**. The scenario names the policy to use (`policy: "pull"`), and changing that one line changes how every unit decides what to make. Nothing else in the model or the books changes, so the same seeded world can be run under each and the results compared.
+
+| Module | How a unit decides what to make | Needs | Source | Status |
+| --- | --- | --- | --- | --- |
+| **`pull`** | Reorders when stock falls below target; orders pass up the chain | Recipes, target stocks, lead times | [Engine](simulation-engine.md#demand-and-orders), the brief | The default, first |
+| **`plan-io`** | Solves *g = Ag + f* by Jacobi or Gauss–Seidel for the period's final targets, then checks machine and labour limits and cuts the lowest-priority targets if they are broken | *A*, *l*, targets *f*, priorities, capacities | *TNS* ch. 6 | Later |
+| **`plan-lp`** | Linear program: maximise a weighted sum of final outputs subject to *(I − A)g ≥ f* and the capacity and labour limits. Also yields shadow prices | As `plan-io`, plus weights; a LP solver | Kantorovich, von Neumann; Dapprich and Cockshott 2023 (*not read*) | Later |
+| **`plan-harmony`** | Cockshott's relaxation heuristic: move resources from industries with above-average harmony to those below, with a falling bias | As `plan-io`, plus a harmony function | *TNS* ch. 6; Cockshott 1990 (*not read*) | Later |
+| *Mixed* | A plan sets a base amount and pull adjusts to what actually sells. Not a fifth algorithm: a plan module and `pull` composed | Both | | If the others suggest it |
+
+### The shape of a module
+
+- **One interface.** A policy is given a read-only view of the world (stocks, recipes, capacities, the crew available, recent sales, the clock) and returns **production orders** and **stock targets** per unit. It never writes to the state. The engine applies the orders in the "Demand and orders" step and everything downstream (production, logistics, accounting) runs as before.
+- **Two ways to be called:** every tick (pull reorders as stock falls) or once per planning period (the plans, say weekly). The module says which.
+- **Deterministic.** A policy draws any random numbers from the engine's one generator ([determinism](simulation-engine.md#random-numbers-and-determinism)), so a run with a given seed and policy repeats exactly.
+- **Solvers are separate from policies.** A linear solver (Jacobi, Gauss–Seidel, an exact solve) and an LP solver are libraries. `plan-io` and `plan-harmony` use the first kind or their own loop; `plan-lp` uses the second. The same linear solver also computes the values used by the [accounting check](#experiments).
+- **Same measures for all.** The engine records the same comparison figures whatever the policy: stock-outs, stock held, idle crew and machine hours, hours per pair, orders placed per tick (to see swings up the chain).
 
 ## What the plan needs from the model
 
@@ -29,7 +41,7 @@ The brief's model is pull: the store reorders, and each unit reorders from its s
 ## Experiments
 
 1. **Values from the recipes.** Compute *v* = *l*(*I* − *A*)<sup>−1</sup> and check it against the hours the books accumulate for each product, including the book's 125,000 hours for 40,000 pairs. Add to the [testing plan](testing.md).
-2. **Pull against plan** on the same seeded world: stock-outs, stock held, idle crew and machine time, hours per pair.
+2. **Each policy against the others** on the same seeded world: stock-outs, stock held, idle crew and machine time, hours per pair.
 3. **Shocks:** a machine breaks, a shipment is late, demand jumps. How long before each policy recovers?
 4. **Lead times along the chain.** Whether pull's orders swing more the further they go up the chain.
 
@@ -43,3 +55,14 @@ The brief's model is pull: the store reorders, and each unit reorders from its s
 ---
 
 [↑ Plans](README.md)
+
+## To fetch when back at a PC
+
+The cloud session can't reach some sites (arxiv.org, Cockshott's Glasgow page, bactra.org). These are the sources the [note](../../notes-opus5_5/planning-and-computation.md) marks *not read*. Saving them as PDFs in `PDFs/` and reading them would settle the points in brackets.
+
+- Cockshott, "Application of Artificial Intelligence Techniques to Economic Planning" (`dcs.gla.ac.uk/~wpc/reports/plan_with_AIT.html`): the harmony algorithm in full, and its comparison with lp-solve [what `plan-harmony` should do exactly; the shape of the harmony function].
+- Cockshott (1990), cited in chapter 6 [the original statement].
+- Dapprich and Cockshott (2023), "Input-output planning and information", *J. Economic Behavior & Organization* 205 [the LP and shadow-price version; `plan-lp`].
+- arXiv 2005.01539 ("Open Loop In Natura Economic Planning"), 2606.19214 ("Testing Centralized and Polycentric Computational Planning") and 2412.13564 ("The networked input-output economic problem") [recent tests of these methods, and of planning without a single centre].
+- Shalizi, "In the Soviet Union, Optimization Problem Solves You" (`bactra.org/weblog/918.html`) [the sceptical case on scale].
+- Chapter 8 (the marketing algorithm), already in this repository [where the targets *f* could come from].
