@@ -257,6 +257,52 @@ His answers as he gave them, grouped by topic. A short note before each says wha
 
 *Outcome:* gap 51 is decided. Each upper has a chain: leather through the town's tannery; synthetic (polyurethane-coated fabric) from a coating works, and textile from a weaving or knitting mill, both through the gate. Default lives are leather 2 years, synthetic 1 year and textile 9 months, from retail and footwear-guide sources, which agree that leather lasts longest but give no firm figure for synthetics. These replace gap 18's single year. Which materials should be used, and repairs, are out of scope. The shoes still come in a later version, with consumer choice.
 
+## 2026-11-19: day one is a conversion from money (gap 5 revised, gap 52)
+
+*Context:* on 2026-11-18 gap 5 was decided as "outside is communist, estimated in hours, never converted from money".
+
+> We need to revise the decided point 5. In chapter 17 b of Fundamental Principles, GIC do an initial conversion of money to working hours. It's a one-off conversion. Investigate this as the start point for the simulation. We'll estimate some dollar values, do a best guess for the working hours equivalent, and then go from there. It was never my intention to deviate from their suggestion. We need to explore this avenue first. That means there is an "outside", explicitly acknowledged.
+
+*Outcome:* gap 5 is revised: the simulation starts from money books converted once by the key number, and the gate is the explicit outside. The new page [The key number](key-number.md) sets out what 17 b and 17 c say, a first estimate (default $60 an hour, 0.01667 hours a dollar) from three routes, and dollar figures for the shoe scenario, all marked as estimates. Gap 20 (day one) takes the key number as its method. Gap 52 is new and open: what the gate does after day one, and whether the outside keeps trading in money.
+
+> After day one, we don't use money (your proposal). The $60 is just a variable default? It's fine. Can change that later if we want. I'm not concerned too much about variables. The equations and the logic need to be correct. We stick with the book as much as possible. If it's missing something or is incorrect, that's something important to investigate.
+
+*Outcome:* gap 52 is decided as proposed: the gate keeps the day-one hours and money is not used again. The $60 an hour is a variable default. Where the book is silent or wrong, that is recorded as a finding to investigate.
+
+> I accept the proposal on number 20.
+
+*Outcome:* gap 20 is decided as proposed: opening books in money, converted once by the key number.
+
+> Accept 17 as well. A pull system. Is this system to JIT?
+
+*Outcome:* gap 17 is decided as proposed. Claude answered that it is a pull system, but not strictly just-in-time: the targets are buffers.
+
+## 2026-11-19: the payout factor at scale (gap 7)
+
+> Number 7: payout factor. Is it accurate to say this equation is the most involved? You said it is done every year. What made you decide that? The book shows two forms, one with productive units and then one with mixed units added. And there is the new variable H. How does this function work in a large economy? We need all the hours for all the operational units, productive, public, mixed? Does it get calculated for a region? Wouldn't that be fraught as some regions have more technology and resources? Does it then need to be done for the whole world? Can that work? There are 8 billion people on the planet. How many are working? 4 billion? Estimate how many operational units we'd have at that scale. Can the equation be calculated at the regional level and then be combined between regions? Does that work mathematically or have we made it nonsense by losing information?
+
+*Outcome:* a new note, [The payout factor at the scale of a world](../../notes-opus5_5/payout-factor-at-scale.md). Claude's answers: the equation is not the most involved, only the most far-reaching; the year was not the book's decision (it is the thought experiment's), so the period is ours; the book has three forms (with expansion), not two; regions combine exactly if they report N and D and not factors. About 3.5 billion work; operational units number tens of millions. Open in the book: how far the pool reaches (a single accounting system), and resources (out of scope). Gap 7 is still open, with its proposal reworded.
+
+> Are these three new open questions? The dotpoints you have above? How wide is the social average? Does it not *have* to be calculated across the industry? Oh, if it's for the payout factor, maybe it's done geographically (district) not across the industry (the vertical). It seems like there should only be one correct answer for this.
+
+*Outcome:* Patrick is right. The three points were findings in the note, not numbered gaps. The width of the social average is withdrawn as a question: it is per product across the whole industry (8 d), and the one "district" in that passage is a loose word. The payout factor is a different aggregation, across all hours in one accounting system, with geography entering only through the "local tax". What remains is the reach of the accounting system, which the simulation already fixes (the town, with the gate as boundary). Resources are a finding about the book, out of scope for the simulation.
+
+> Accept 7 as proposed
+
+*Outcome:* gap 7 is decided as proposed: the last closed period's factor, reconciled at the close; N and D reported at every level.
+
+## 2026-11-20: housework and the care of disabled people (gaps 53 and 54)
+
+*Context:* the note [The outside and the edges](../../notes-opus5_5/the-outside-and-the-edges.md) said domestic labour stays off the books.
+
+> TNS credit housework don't they? Not off the books? When I split home from child care, that was an attempt to class that as a distinct category of labour. But there is a lot of other housework, still predominantly done by women (70% I believe) and generally unpaid. Women caring for disabled children for one thing. And I made allowances for children, yes, but a profoundly disabled child is nothing like child care and school.
+
+*Outcome:* Claude checked TNS: they credit housework only in a commune, where internal work is paid in work-units at par; in a family it stays unpaid, and their answer is to replace the domestic economy, voluntarily, not to pay it. They credit disabled people from the state budget but say nothing about carers. The ILO's figure is 76.2 % of unpaid care hours done by women (2018). The note is corrected. Two new open gaps: 53, the care of disabled people (carers paid as public work through a care unit, hours by assessed need, respite, the disabled person's needs as free public provision); 54, housework that isn't care (recorded beside the books, not credited).
+
+> Accept 53 and 54 as proposed
+
+*Outcome:* gaps 53 and 54 are decided as proposed.
+
 ---
 
 [↑ Plans](README.md) · [Gaps in the brief](gaps-in-the-brief.md)

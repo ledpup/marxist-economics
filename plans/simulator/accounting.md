@@ -49,7 +49,7 @@ Moving goods inside one building, between its functions, is not a transfer.
 
 For each branch and period: Σ (f + c + l) over its units ÷ Σ units of product ([E3](../../notes-opus5_5/fundamental-principles-economic-model.md#e3-the-social-average-production-time)).
 
-- During a period, goods pass on at a **provisional** average: the last period's, or the product's initial figure on day one.
+- During a period, goods pass on at a **provisional** average: the last period's, or the product's initial figure on day one, converted from its money price by the [key number](key-number.md).
 - At the period's close, the actual average is computed, with each unit's over or under. Across the branch they sum to zero.
 - The difference between provisional and actual, over the goods already passed on, is recorded as a branch adjustment and shown. *To decide:* whether it is carried into the next period's provisional figure or charged back to the receivers.
 
@@ -74,7 +74,8 @@ H is the hours credited to people who don't work ([gap 9](gaps-decided.md#the-ec
 
 - Phase 1: the school and the child care unit are public units, and the retired and the ill are credited hours, so the factor is below 1 from the start. There is no expansion (a = 0).
 - Phase 5: a clinic.
-- The factor in use during a period is the last period's (policy `previousPeriod`), or a fixed value. At the close, the actual factor is computed and the difference shown. The book does not say how this is done.
+- The factor in use during a period is the last period's (policy `previousPeriod`), or a fixed value. At the close, the actual factor is computed and the difference shown. The book does not say how this is done; its one-year warehouse is a thought experiment, so the period is our choice ([gap 7](gaps-in-the-brief.md#the-economics)).
+- **N and D.** Compute the top line N = L − S and the bottom line D = L + L<sub>p</sub> + H as separate totals, with S the public units' net means of production and any expansion. FIC = N ÷ D. Any group of units reports N and D, and groups combine by adding both, exactly. Never average factors ([note](../../notes-opus5_5/payout-factor-at-scale.md#combining-regions)).
 - Expansion (a), special accumulation and the disaster fund keep their place in the formula but are zero until a later phase ([gap 19](gaps-decided.md#the-economics)).
 
 ## Mixed units

@@ -23,6 +23,7 @@ The view is aerial, 2D and on a grid, a bit like SimCity. Goods are animated as 
 | [Patrick's answers on the gaps](gaps-answers.md) | His answers as he gave them, by topic, with what each was replying to and what came of it | Record |
 | [Glossary](glossary.md) | The terms the simulation uses, the GIC's term behind each, and the Spanish | Draft |
 | [Data model](data-model.md) | The abstract model: definitions, the world, the books, policies | Draft |
+| [The key number](key-number.md) | Day one: the GIC's one-off conversion of money to hours, a first estimate of the number, and the opening dollar figures for the shoe scenario | Draft |
 | [Shoe scenario](shoe-scenario.md) | The first scenario: units, buildings, functions, recipes and figures | Draft |
 | [Workers' democracy](workers-democracy.md) | Who runs a workplace and sets its rules: workers' councils, not trade unions; dismissal; a job for those who want one. Contrasts the GIC with *Towards a New Socialism* | Draft |
 | [Accounting](accounting.md) | The books: direct transfers, social average, labour certificates, payout factor, by-product method, invariants | Draft |
@@ -44,7 +45,7 @@ Patrick's answers on the gaps (2026-11-09) settled more. The details are in [Dec
 
 - **Unit types** are the GIC's: productive, public, mixed.
 - **The shoe's hours end at the store** as individual consumption; the loop back to the worker is shown but not booked as an input.
-- **The rest of the economy** sits at the map's edge as one aggregate unit.
+- **The rest of the economy** sits at the map's edge as one aggregate unit, the explicit outside. The simulation starts from money books converted to hours once, on day one, by the GIC's key number (2026-11-19, revising the 2026-11-18 decision).
 - **Branches** exist from the start, for the social average.
 - **Child carers are paid** as public work, through a child care unit with a budget, at its centre or at home (renamed from home carers 2026-11-10). A child's primary carer is a full-time child carer for the child's first year; school starts at 6. Care is paid following the [assessment of the 2026 debate](../../notes-opus5_5/general-social-work.md#assessment-my-reading). **Students are paid from age 12.** Both lower the payout factor.
 - **Pay never depends on skill or speed**, but each person has their own pace, and a slow crew raises the unit's production time. Machines set the pace of machine work.

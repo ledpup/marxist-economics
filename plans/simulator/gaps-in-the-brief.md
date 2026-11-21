@@ -6,17 +6,14 @@
 
 What the [brief](README.md#patricks-brief) leaves out, gets at odds with the GIC's model, or needs to settle before code is written. Gaps keep their numbers when they move from Open to Decided.
 
-**Open: 15.** Each has a proposal that stands as the default until overruled.
-**Decided: 36.** In [Decided gaps](gaps-decided.md), each with the decision and why.
+**Open: 12.** Each has a proposal that stands as the default until overruled.
+**Decided: 42.** In [Decided gaps](gaps-decided.md), each with the decision and why.
 Patrick's answers, which settled them, are in [Patrick's answers on the gaps](gaps-answers.md).
 
 ## Open
 
 ### The economics
 
-- **7. Setting the payout factor during a period.** The book never says how a running factor is set before the year's totals exist ([What the book leaves open](../../notes-opus5_5/fundamental-principles-economic-model.md#what-the-book-leaves-open)). With child care and the school (gap 8) the factor is below 1 from phase 1; a clinic comes in phase 5. *Proposal:* the factor in use is the last period's, reconciled at the end of each period. → [Accounting](accounting.md#the-payout-factor)
-- **17. What decides how much to make?** The book leaves the production plan open. *Proposal:* the cooperative store orders when its stock falls below a target, and each unit upstream does the same for its inputs (a pull system). When the store runs short, first come, first served. → [Simulation engine](simulation-engine.md#demand-and-orders)
-- **20. Day one.** Stocks, machines and buildings have no recorded hours at the start. *Proposal:* the scenario sets them; the key number is the method if a scenario starts from money figures. → [Shoe scenario](shoe-scenario.md)
 - **48. Leaving a unit, and finding another.** Gap 47 lets a council dismiss, and leaves people free to refuse work. Neither book says what happens next ([unemployment note](../../notes-opus5_5/unemployment-and-inability-to-work.md#what-the-book-leaves-open)). *Proposal:*
   - **How a dismissal is decided.** By the unit's assembly (its delegates, in a large unit), by vote, with the reason recorded in the unit's books, which are open to all. Never by one person, and never by a body outside the unit.
   - **Appeal.** A dismissed worker can appeal to a body the congress of councils sets up. One option is TNS's: a jury drawn by lot from workers of other units.

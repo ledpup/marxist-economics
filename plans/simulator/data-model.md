@@ -66,7 +66,7 @@ The brief's "Consumable", widened. A *kind* of thing; quantities of it are [batc
 | unit | `pair`, `m2`, `kg`, `m`, `kWh`, `m3`, `box`, `basket` |
 | category | `circulating` (raw material, consumable: c), `fixed` (machine, building: f), `consumer` (for households), `service` (freight, electricity, water, which are used as they are made) |
 | branch | Which branch's social average applies |
-| initialHoursPerUnit | Production time on day one, before the books have any history. Split into f/c/l where known |
+| initialHoursPerUnit | Production time on day one, before the books have any history. Split into f/c/l where known. Given as a money price (*estimate*) and converted by the key number, or in hours directly |
 | wearDays | Consumer durables only: how long it lasts in use. Shoes: 365 days ([gap 18](gaps-decided.md#the-economics)); with three kinds of shoe, leather 730, synthetic 365, textile 274 ([gap 51](gaps-decided.md#the-economics)) |
 
 ### Function
@@ -291,7 +291,7 @@ A scenario is one file (JSON or YAML) holding the definitions, the starting worl
 | policies.childCare | Under 1: the primary carer is a full-time child carer, credited a full working week; the centre takes the child part-time only, up to the hours a week set here. From 1: the centre full-time, or a carer at home. From 6: school ([gap 8](gaps-decided.md#the-economics)) |
 | policies.commuting | `notCosted` in phase 1 |
 | policies.dishonesty | *Later* ([gap 45](gaps-decided.md#the-simulation)). Per kind (theft, false reports, feigned illness, shirking): on or off, and a rate. Off by default |
-| keyNumber | Optional: converts a scenario's money figures to hours ([E11](../../notes-opus5_5/fundamental-principles-economic-model.md#e11-the-key-number-converting-money-to-hours)) |
+| keyNumber | Hours per unit of money, with the money unit (default 0.01667 a dollar, that is $60 an hour). Converts the scenario's opening money figures once, at tick 0; the conversion is entered in the books and the number is never used again ([gap 5](gaps-decided.md#the-economics), [The key number](key-number.md)). With no money figures, not needed |
 
 Runs can be saved (scenario plus current state plus books) and the books exported as CSV.
 
