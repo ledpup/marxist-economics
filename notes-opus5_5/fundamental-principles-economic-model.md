@@ -530,7 +530,7 @@ The GIC says outright that some things fall outside its "fundamental principles"
 
 ## Sources
 
-- GIC, *[Fundamental Principles of Communist Production and Distribution](../Documents/fundamental_principles/README.md)* (1930, 2nd ed. 1935), ed. and trans. Hermann Lueer (2020); [single-file version](../Documents/fundamental_principles.md)
+- GIC, *[Fundamental Principles of Communist Production and Distribution](../Documents/fundamental_principles/README.md)* (1930, 2nd ed. 1935), ed. and trans. Hermann Lueer (2020); [single-file version](../Documents/fundamental_principles_of_communist_production_and_distribution.md)
 - Karl Marx, [*Capital*, vol. 1, ch. 1](https://www.marxists.org/archive/marx/works/1867-c1/ch01.htm) (on simple and complex labour)
 - Ian Steedman, *Marx after Sraffa* (London: New Left Books, 1977); [Wikipedia, *Marx after Sraffa*](https://en.wikipedia.org/wiki/Marx_after_Sraffa); [Hengstenberg and Fay (1978)](https://digitalcommons.bard.edu/as_archive/455)
 - Giro: [Wikipedia, *Giro (banking)*](https://en.wikipedia.org/wiki/Giro_(banking))

@@ -20,6 +20,7 @@ This repository collects texts on the economics of the first phase of communism 
 | `split_chapters_tns.py` | Splits `Documents/towards_a_new_socialism.md` into the chapter folder `Documents/towards_a_new_socialism/` (front matter, navigation, per-chapter footnotes, contents `README.md`). The folder is generated: correct the single file, then re-run |
 | `pdf_markdown_common.py` | Code the two PDF converters share: reading lines of styled characters, joining hyphenated words, rendering Markdown |
 | `html_to_markdown.py` | Converter from a marxists.org HTML page (URL or saved file) to a single Markdown file; standard library only. Prefer it to a scanned PDF: MIA transcriptions are proofread, while OCR text layers drop and misread words |
+| `markdown_to_epub.py` | Builds EPUB 3 e-books (for Kindle via Send to Kindle) from single-file texts into `epub/`, which git ignores. With no arguments it builds the books listed in its `BOOKS` table (*Fundamental Principles*, *Towards a New Socialism*, *Workers' Councils*), with each PDF's first page as the cover. Each chapter heading (`#`, or `#` and `##` where `#` marks parts) becomes its own file, so chapters start on a new page; the contents list shows only those headings. Footnotes become pop-up notes |
 
 ## Source texts are faithful reproductions
 

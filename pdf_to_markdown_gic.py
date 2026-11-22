@@ -14,7 +14,7 @@ Layout facts the converter relies on (found by inspecting the PDF):
   markers      7-8.5pt superscript digits in the text
   page numbers Calibri 11 at the bottom centre; no running headers
 
-Usage: python pdf_to_markdown_gic.py "PDFs/FUNDAMENTAL PRINCIPLES OF COMMUNIST PRODUCTION AND DISTRIBUTION.pdf" Documents/fundamental_principles.md
+Usage: python pdf_to_markdown_gic.py "PDFs/FUNDAMENTAL PRINCIPLES OF COMMUNIST PRODUCTION AND DISTRIBUTION.pdf" Documents/fundamental_principles_of_communist_production_and_distribution.md
 """
 import re
 import sys

@@ -185,7 +185,7 @@ What the GIC treated as a separate question was the equivalent of Marx's *latent
 
 ## Sources
 
-- GIC, *[Fundamental Principles of Communist Production and Distribution](../Documents/fundamental_principles/README.md)* (1930, 2nd ed. 1935), ed. and trans. Hermann Lueer (2020); [single-file version](../Documents/fundamental_principles.md)
+- GIC, *[Fundamental Principles of Communist Production and Distribution](../Documents/fundamental_principles/README.md)* (1930, 2nd ed. 1935), ed. and trans. Hermann Lueer (2020); [single-file version](../Documents/fundamental_principles_of_communist_production_and_distribution.md)
 - Karl Marx, *[Critique of the Gotha Programme](https://www.marxists.org/archive/marx/works/1875/gotha/ch01.htm)*, part I; *Capital*, vol. 1, [ch. 17](https://www.marxists.org/archive/marx/works/1867-c1/ch17.htm) and [ch. 25 §4](https://www.marxists.org/archive/marx/works/1867-c1/ch25.htm#S4); Marx and Engels, *[Manifesto of the Communist Party](https://www.marxists.org/archive/marx/works/1848/communist-manifesto/ch01.htm)*, ch. 1
 - V. I. Lenin, *[The State and Revolution](https://www.marxists.org/archive/lenin/works/1917/staterev/ch05.htm)* (1917), ch. 5; Constitution of the RSFSR (1918), Article 18
 - Anton Pannekoek, *[Workers' Councils](https://www.marxists.org/archive/pannekoe/1947/workers-councils.htm)* (1947), Part I
