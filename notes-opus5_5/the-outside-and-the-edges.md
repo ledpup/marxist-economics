@@ -4,13 +4,17 @@
 
 # The outside and the edges
 
-Where does a labour-time economy end? This note looks for its outside, beyond the books, and its edges, where labour or exchange slips out of them: slavery, domestic labour, cheating, money reinvented, and sex work. It follows on from the simulation's decision that there is an outside, explicitly acknowledged ([gap 5](../plans/simulator/gaps-decided.md#the-economics), [The key number](../plans/simulator/key-number.md)), and from [LETS, Parecon and the GIC](lets-parecon-and-one-country.md), which covers the outside in space (other countries) and in time (the inheritance).
+Where does a labour-time economy end? This note looks for its outside, beyond the books, and its edges, where labour or exchange slips out of them: slavery, domestic labour, cheating, money reinvented, the black market and old money, where certificates are kept, and sex work. It follows on from the simulation's decision that there is an outside, explicitly acknowledged ([gap 5](../plans/simulator/gaps-decided.md#the-economics), [The key number](../plans/simulator/key-number.md)), and from [LETS, Parecon and the GIC](lets-parecon-and-one-country.md), which covers the outside in space (other countries) and in time (the inheritance).
 
 This is a research note by Claude, written from a brief by Patrick. Points marked *my reading* are interpretation, not something the sources say. Points marked *not checked* are from memory and not verified for this note.
 
 ## Patrick's prompt
 
 > I want a new page that discusses "the outside". Where does this economy end? TNS ask why did the ancients not develop capitalism? People reason it could have been due to slavery. But slavery was part of capitalism for a long period, all through the Americas, until the mid and end of the 19th century. So roughly 100–150 years. But perhaps it was defeated because of its inefficiencies so that wage slavery could replace it. But slavery also exists in a minor way today. We can look at other unpaid labour too: domestic labour. Its form is still very present. It is akin to slavery: off the books. TNS address that a little as well. Then there are the edges, such as tax evasion in capitalism. How could people cheat this system and have things off the books? What about the crypto-bros who perhaps honestly believed they had something new, a new currency, free from capitalist bureaucracy or whatever it is that they thought they were doing that was new? What happens if people just reinvent money 50 years down the track? What about sex work? I guess that is considered a public operational unit? I'm looking for the outside *and* the edges, I suppose.
+
+A second prompt, on 2026-11-23:
+
+> TNS has a chapter on foreign trade. It covers foreign currency, the black market and drugs. It doesn't consider old currency: that is, the currency that people within the socialist country have retained for whatever reason, nostalgia, former or disgruntled capitalists, and people actively working against a post-capitalist society. We should add a section on the "outside" page about this. I had forgotten to mention the term black market. It's the most obvious term for "outside". Other than a central (or many) giro office, how will an individual's tokens be stored? For the simulation that is easy: in memory. Consider beyond the sim. Does blockchain have any utility here? Write a short section on how it functions. Could someone using a direct transfer use their tokens for illicit substances? How?
 
 ## Summary
 
@@ -21,6 +25,9 @@ This is a research note by Claude, written from a brief by Patrick. Points marke
 - **There is no tax to evade, so cheating moves.** The deduction comes off at source, through the payout factor, before any certificate exists. What remains is working for something other than certificates, claiming hours not worked, misreporting a unit's books, and theft. The GIC's control is the public books and the social average ([ch. 14 b](../Documents/fundamental_principles/14b_The_Control_of_Operational_Life_II.md#b-control-under-communism)), which they admit is weak for public units.
 - **Money can be reinvented at any time, but it can't become capital** while means of production come only through the accounts. Certificates can't circulate, but goods can, and any durable, wanted good can become money (cigarettes in a prisoners' camp). The danger is where the outside and the edges meet: a unit that gets raw materials from the outside, for money.
 - **Crypto changed who keeps the ledger, not what the ledger records.** Bitcoin is money without a bank: it circulates, it can be hoarded, and it can buy labour. The GIC's certificate is a record that doesn't circulate. The difference is the social relation, not the technology.
+- **The black market is the outside inside.** TNS cover foreign currency, smuggling and drugs, but neither they nor the GIC say what happens to the old money in people's hands. Some of it is never handed in (12 billion Deutsche Marks still out after the euro). Held by former capitalists and opponents, and still honoured abroad, it is a ready-made currency for the black market. East Germany (1957) and Cuba (1961) swapped their notes by surprise to strip holdings abroad. *My reading:* convert personal holdings once, up to a limit, larger sums only on proof of origin, then never again.
+- **Certificates belong in accounts, not in tokens.** One public accounting office or several federated ones; a card only as the key. A bearer token (paper, a stored-value chip, a crypto key) can be handed on, so it circulates. A **blockchain** solves agreement without a trusted keeper, which this economy has; its transferable tokens, proof of work and public ledger work against the design. Its useful part is the hash-chained, append-only log, which needs no blockchain.
+- **Certificates can't pay a dealer directly**, since they go only to a store and a sale earns the seller nothing. The ways round are indirect: goods as payment, buying for the dealer or lending a card, ghost hours, diverted medicines, transfers abroad, and old money.
 - **Sex work is not a public unit.** A public unit supplies what society budgets as a need, free. In my reading that can't fit sex, which can't be a social obligation to supply. In the GIC's categories it would be a productive unit (a workers' cooperative charging its production time), or it stays off the books. The GIC and TNS say nothing about it.
 
 ## Where the economy ends
@@ -144,6 +151,97 @@ The Bitcoin paper (2008) proposed "a purely peer-to-peer version of electronic c
 
 TNS have one of their own. A commune pays its members in internal work-units, convertible into national labour tickets "at the going exchange rate". They show the rate stays at par only if "the commune must do its accounts correctly; it must run a balanced collective fund (on average); and it must budget for just as much non-basic internal labour as commune members demand" ([TNS ch. 12](../Documents/towards_a_new_socialism/12_The_Commune.md#systems-of-payment-and-external-trade)). *My reading:* that is a useful test for any reinvented unit. A local currency whose rate falls below par is a sign that something is mis-allocated; it is not harmless because it is local. LETS is the capitalist-world precedent ([LETS note](lets-parecon-and-one-country.md#lets)).
 
+## The black market
+
+The black market is the plainest name for the outside that sits inside: exchange that is forbidden, or that goes around the books. It is where the edges above meet. Reinvented money, goods bought and passed on, labour paid in goods, and the outside's money all trade there.
+
+### What TNS cover, and what they leave out
+
+TNS's chapter on foreign trade has the only extended treatment of the black market in this repository ([TNS ch. 10](../Documents/towards_a_new_socialism/10_Foreign_Trade.md#exchange-rates-tourism-and-black-markets)). It covers three things:
+
+- **Foreign currency.** A black market in currency appears when the state's own rate overvalues the domestic currency, and the Soviet *beriozka* shops, selling goods only for hard currency, gave citizens a reason to want it. It "corrodes social values" and "creates a subculture of semi-criminal petty capitalists". The cure: state shops take only labour tokens.
+- **Smuggling and drugs.** Citizens want foreign currency to buy what the state doesn't import, "cocaine, pornographic videos, etc.". Without cash, street deals are hard to pay for. What is left is foreign banknotes and gold, so the import of currency is prohibited and "all domestic purchases will already be made using plastic cards".
+- **Travel.** A citizen abroad may turn labour credits into yen, but may not bring yen home, and a foreign bank may not transfer credits back to a citizen ([Alternatives to foreign exchange](../Documents/towards_a_new_socialism/10_Foreign_Trade.md#alternatives-to-foreign-exchange)). The flow is one way.
+
+What TNS leave out is the money already inside the country on the day labour credits begin. So do the GIC: their conversion by the key number is of the operational units' books ([17 b](../Documents/fundamental_principles/17_Final_Considerations.md#b-from-the-money-account-to-the-working-time-account), [17 c](../Documents/fundamental_principles/17_Final_Considerations.md#c-the-key-number)). Neither says what becomes of the banknotes in people's drawers, or of bank deposits.
+
+### Old money
+
+*My reading*, except where a source is given.
+
+Some of the old currency will never be handed in. People keep it for different reasons, and the reasons matter, because they decide what it can be used for.
+
+| Who keeps it | Why | What it can do |
+| --- | --- | --- |
+| **The nostalgic and the collector** | Keepsake, habit, forgetfulness | Nothing. It is a souvenir, like a coin from a holiday |
+| **The cautious** | Insurance, in case the new system fails | A small store of value on the black market, priced by how likely people think a return to money is |
+| **Former capitalists, and those who lost by the change** | Their savings, which the change made worthless or capped | A fund for the black market, and the means to pay others |
+| **Opponents of the new society** | To finance work against it: bribes, propaganda, sabotage, hiring | The same, topped up from abroad, where the old currency may still be held in quantity |
+
+The scale is real even in a peaceful changeover. When the euro replaced the Deutsche Mark in 2002, Germans could exchange marks for euros at no cost and with no deadline. More than twenty years on, the Bundesbank counts about 12 billion marks never handed in: some lost or destroyed, some kept, and tens of millions still exchanged each year ([Bundesbank, outstanding DM cash](https://www.bundesbank.de/resource/blob/618390/06edcc8c91b804001d1acd4285ad824e/472B63F073F071307366337C94F8C870/ausstehendes-dm-bargeld-data.pdf); [Bundesbank FAQ](https://www.bundesbank.de/en/tasks/cash-management/frequently-asked-questions/frequently-asked-questions-dm-banknotes)). That is with every reason to hand it in.
+
+Two socialist states replaced their banknotes partly to strip opponents abroad of their holdings:
+
+- **East Germany, 13 October 1957.** Without warning, citizens had to exchange their notes one for one; bank deposits were untouched. The official aim was to make worthless the East marks that had flowed to West Berlin and West Germany, estimated at 50 to 100 million Deutsche Marks' worth. Anyone exchanging a large sum had to show it was lawfully acquired, which fell hardest on farmers, traders and the self-employed, and much cash was never presented, either because it was in the West or because its owners didn't want to be checked ([GHDI](https://germanhistorydocs.org/en/occupation-and-the-emergence-of-two-states-1945-1961/interview-with-east-berliners-about-the-currency-reform-in-the-gdr-october-20-1957); [bpb](https://www.bpb.de/themen/deutschlandarchiv/235558/der-waehrungsumtausch-als-marionettenspiel-greta-kuckhoff-der-geldumtausch-in-der-ddr-und-parteiliche-disziplinierung/)).
+- **Cuba, 5–6 August 1961.** With Che Guevara at the National Bank, the notes were replaced over a weekend. The new ones had been printed in secret in Prague, so that the large stock of old notes held in the United States could not be sent back to be exchanged. Some Cubans burned their old money ([*Time*](https://time.com/archive/6810309/cuba-keeping-them-poor); [The E-Sylum](https://coinbooks.org/v27/esylum_v27n39a30.html)). An earlier law, in April 1959, had already withdrawn the 500 and 1,000 peso notes for fear they would be used against the new government.
+
+Both were exchanges of one money for another. A change to labour certificates has a harder question to answer: should old money convert into certificates at all? A certificate is a claim on the product for work done. Converting savings would hand claims to people for hours they didn't work, and to some for hours others worked for them. Not converting them takes from small savers as well as from the rich. *My reading:* the GIC's logic points to a window, as in 1957 and 1961, in which personal holdings convert at the key number up to a limit, with larger sums converted only on proof of how they were come by, and nothing after the window closes. A limit spares the small saver and the pensioner; the proof is what the GDR asked for. Bank deposits are easier than cash, because they are already on a record.
+
+After the window, old money is no longer money. The stores don't take it, and there is nothing in the books it can buy. It becomes a commodity, like gold: worth what someone on the black market will give for it. Its value then depends on two things:
+
+1. **Whether it can buy from the outside.** If the old currency, or a foreign one, is still accepted abroad, then it is a door to the outside's goods, and to its means of production. This is TNS's reason to forbid importing currency, and it applies to the old national currency as much as to the dollar. A new society that cancels its old notes can't stop them being held abroad, as East Germany and Cuba found; what it can do is make sure no one at home will exchange them.
+2. **Whether people expect it back.** A banknote of the old regime is a bet on its return. *My reading:* its black-market price is a rough gauge of how many people think the new society will fail. If it trades for more than paper, someone expects it to be good again.
+
+That is the difference between old money and the reinvented money of the last section. Reinvented money grows out of shortage, and stays petty without the means of production. Old money comes with a constituency, with savings behind it, and with an outside that may still honour it. The danger is not the notes. It is that they give the former owning class, and anyone abroad who backs it, a currency ready-made.
+
+## Where certificates are kept
+
+### Beyond the simulation
+
+In the simulation an account is a number in memory ([Data model](../plans/simulator/data-model.md)). A real system has to decide where the record lives and how a person proves it is theirs. The GIC put all accounting in one general giro office, the public accounting office in the simulation's terms ([ch. 16](../Documents/fundamental_principles/16_The_Economic_Dictatorship_of_the_Proletariat.md)). TNS have "plastic cards". Between them the choices are:
+
+| Where | How it works | For | Against |
+| --- | --- | --- | --- |
+| **One public accounting office** | Every account is an entry in one set of books. A card, phone or signature only proves who is spending; the balance is held centrally | Simple; one set of public books; nothing to lose but the card | A single point of failure and of power. A record of every purchase in one place is a tool of surveillance |
+| **Many offices, federated** | Each region or council keeps its members' accounts, and the offices settle with each other, as banks do through a clearing house | Closer to the GIC's federalism ([17 f](../Documents/fundamental_principles/17_Final_Considerations.md#f-centralism---federalism)); no single failure | The offices have to agree, and their books have to reconcile |
+| **Stored on a card** | The balance sits on a chip, and the till deducts from it offline | Works without a network; less is known centrally | The card *is* the certificate. If it can be handed over, it circulates, and it can be lost or forged |
+| **Paper certificates** | Marx's "theatre ticket"; Owen's labour notes | Needs no machines | Paper is a bearer instrument. Whoever holds it can spend it, so it passes from hand to hand and becomes money |
+
+*My reading:* the line that matters is between an **account** and a **bearer token**. A certificate that is a record in an account can be made non-transferable; one that is an object, paper or a chip, can't, because whoever holds it can hand it on. So the certificate should live in an account, and a card should be only a key to it. Where the account is kept (one office or several) is a question of politics and resilience, not of transferability.
+
+The cost of accounts is privacy. If every purchase is recorded against a name, the books know what everyone eats, reads and takes. The books don't need that. What the store needs is that the certificate was valid and is now cancelled; what the accounts need is how much of each product left the store. The two records can be kept apart, so the product is recorded without the buyer, and the buyer's account shows only a total spent.
+
+### Does a blockchain help?
+
+**How a blockchain works.** A blockchain is a ledger copied to many computers, with no single keeper. Transactions are collected into blocks. Each block carries a hash of the block before it, a short fingerprint that changes completely if any bit of the earlier block changes. So the blocks form a chain, and altering an old entry would mean rewriting every block after it. The computers agree on which block comes next by a consensus rule. In Bitcoin it is *proof of work*: "miners" compete to find a number that gives the block a hash below a target, which can only be done by guessing, at great cost in electricity, and the winner is paid in new coins. Other chains use *proof of stake*, where the right to add a block is given in proportion to coins held. An account is a pair of cryptographic keys: whoever holds the private key can spend what the account holds, and there is no one to appeal to if it is lost or stolen. Every transaction is public, under a pseudonym.
+
+**What it is for.** It solves one problem: keeping a ledger that many parties agree on when they don't trust each other and won't trust any keeper ([crypto, above](#what-crypto-thought-was-new)).
+
+*My reading.* That isn't this economy's problem. The GIC's books have a keeper, the public accounting office, answerable to the councils, and the books are open to all. Most of what a blockchain brings works against the design:
+
+- **Transfer is its purpose.** A blockchain token exists to be sent from one key to another. Certificates exist not to be. Limiting transfers to "spent at a store" needs someone to say who is a store, which is a keeper again.
+- **Proof of work burns labour.** It secures the ledger by wasting effort on purpose. In an economy whose measure is hours, that is the one thing it can't afford.
+- **Public ledgers end privacy.** Everyone's spending is on show under a pseudonym, and pseudonyms are easy to link.
+- **Keys are bearer tokens.** Whoever has the key has the account. A lost key is lost certificates, and a stolen or sold key is a transfer.
+
+One part is useful: **the hash chain**. The public accounting office can publish its books as an append-only log, each entry chained to the one before, and let every council keep a copy. Then no entry can be changed afterwards without every copy showing it. That is tamper-evidence without mining, coins or anonymity, the same idea as the logs that certificate authorities on the web now publish. Several federated offices can also agree on one set of books with an ordinary consensus protocol among known parties. Neither needs a blockchain in the crypto sense.
+
+### Paying for illicit goods
+
+*Could someone using a direct transfer use their certificates for illicit drugs?* Not directly. A direct transfer only moves certificates from a household's account to a store, which cancels them ([Accounting](../plans/simulator/accounting.md#labour-certificates)). No certificate passes between units ([invariant 6](../plans/simulator/accounting.md#invariants)), or from one household to another. And there is a deeper reason: **in this economy a sale earns the seller nothing.** A unit's workers are credited for the hours they work, not for what the unit sells. So even a dealer who set up as a unit and took certificates through the store would gain nothing from it.
+
+The ways round it are all indirect:
+
+1. **Pay in goods.** Buy goods that are durable and wanted (alcohol, tobacco, electronics) and hand them to the dealer. The goods are the money, as cigarettes were in the camp. This is the easiest route, and the books see only an ordinary purchase. The store sees it only if one household buys far more of something than it can use.
+2. **Buy for the dealer.** The dealer names what they want and the buyer buys it, or lends the dealer their card. A pooled household shares an account by design, so lending within a household can't be told from normal use; outside it, a card that needs its owner (a PIN, a face) makes this harder, not impossible.
+3. **Ghost hours.** A unit records hours for the dealer, who never works there, and the dealer is paid in certificates; the unit's members are paid in drugs. In the books it is "claiming hours not worked": the unit's production time rises above its branch's average ([gap 45](../plans/simulator/gaps-decided.md#the-simulation)).
+4. **A sham household.** The dealer joins a pooled household and draws on its account. It shows only to the people who know who lives there.
+5. **Medicines diverted.** Medical supplies are free from a public unit, so diverting opioids needs no certificates at all. It shows as stock missing at a stocktake, or as prescriptions that don't match patients.
+6. **Through the outside.** TNS let a citizen abroad turn labour credits into foreign currency ([TNS ch. 10](../Documents/towards_a_new_socialism/10_Foreign_Trade.md#exchange-rates-tourism-and-black-markets)). Drugs can be bought there and smuggled home, or a supplier abroad paid. If such transfers can be made from home, they are a direct line to a cartel; TNS's own limit on what travellers take out (their budget 5) is the control.
+7. **Old money, foreign notes, gold.** Where these are still held, they pay the dealer, and the dealer pays the importer. This is why the cancellation of old money matters for drugs as well as for counter-revolution.
+
+The pattern is the same as everywhere in this note. The certificate itself is hard to misuse. Goods, labour and the outside's money are not, and the books show the misuse only where it leaves a trace in production times or stock.
+
 ## Sex work
 
 Patrick asks whether it would be a public operational unit. *My reading* is no. In the GIC's categories ([10 a](../Documents/fundamental_principles/10_The_General_Social_Work.md#a-two-forms-of-distribution)):
@@ -166,6 +264,8 @@ Nothing here changes a decision. Proposals, for Patrick to accept or not:
 - **Record unpaid housework beside the books**, as hours not credited, so the largest outside is visible ([gap 54](../plans/simulator/gaps-decided.md#the-economics)).
 - **Add two forms of dishonesty to gap 45**: side exchange (households trading goods or services off the books) and unrecorded labour. Both need a check in the engine: an improbably *low* production time, as well as a high one.
 - **Show the gate as the only door to means of production**, which is what makes reinvented money petty. A later scenario could open it to money, to show what happens.
+- **Add goods as payment to gap 45**: a household buying far more of a durable good than it can use is the trace a store could look for.
+- **Hash-chain the books.** The engine's books are already append-only ([Data model](../plans/simulator/data-model.md)); chaining each entry to the last would make a later change visible, and shows the one useful idea from blockchains.
 
 ## Open questions
 
@@ -173,6 +273,8 @@ Nothing here changes a decision. Proposals, for Patrick to accept or not:
 - **Housework.** Record it, credit it, or collectivise it (TNS's commune)? The [general social work note](general-social-work.md#unpaid-domestic-and-care-work) covers the arguments.
 - **Gifts.** Where is the line between a gift, a swap and a market? *My reading:* not in the goods but in regularity. Occasional gifts are not production for exchange; making things regularly to swap is.
 - **Did any council communist write on the black market?** Nothing was found in the *Fundamental Principles*.
+- **Old money.** Should personal holdings convert into certificates at all, and if so, up to what limit? Who judges proof of origin?
+- **Privacy.** Should the books record who bought what, or only what left the store?
 
 ## Sources
 
@@ -182,6 +284,7 @@ Nothing here changes a decision. Proposals, for Patrick to accept or not:
 - Unpaid care: ILO, *Care work and care jobs for the future of decent work* (2018), via [ILO](https://www.ilo.org/resource/news/ilo-calls-urgent-action-prevent-looming-global-care-crisis)
 - Modern slavery: ILO, Walk Free and IOM, *Global Estimates of Modern Slavery* (2022), via [ILO](https://www.ilo.org/resource/news/50-million-people-worldwide-modern-slavery-0) and [Walk Free](https://www.walkfree.org/reports/global-estimates-of-modern-slavery-2022/)
 - Shadow economy: Leandro Medina and Friedrich Schneider, [*Shadow Economies Around the World: What Did We Learn Over the Last 20 Years?*](https://www.imf.org/en/Publications/WP/Issues/2018/01/25/Shadow-Economies-Around-the-World-What-Did-We-Learn-Over-the-Last-20-Years-45583), IMF Working Paper 18/17 (2018)
+- Old money: Deutsche Bundesbank, [outstanding DM cash](https://www.bundesbank.de/resource/blob/618390/06edcc8c91b804001d1acd4285ad824e/472B63F073F071307366337C94F8C870/ausstehendes-dm-bargeld-data.pdf) and [FAQ on DM banknotes](https://www.bundesbank.de/en/tasks/cash-management/frequently-asked-questions/frequently-asked-questions-dm-banknotes); East Germany 1957: [German History in Documents and Images](https://germanhistorydocs.org/en/occupation-and-the-emergence-of-two-states-1945-1961/interview-with-east-berliners-about-the-currency-reform-in-the-gdr-october-20-1957), [bpb Deutschland Archiv](https://www.bpb.de/themen/deutschlandarchiv/235558/der-waehrungsumtausch-als-marionettenspiel-greta-kuckhoff-der-geldumtausch-in-der-ddr-und-parteiliche-disziplinierung/); Cuba 1961: [*Time*, "Cuba: Keeping Them Poor"](https://time.com/archive/6810309/cuba-keeping-them-poor), [The E-Sylum](https://coinbooks.org/v27/esylum_v27n39a30.html)
 - From memory, *not checked* for this note: Marx, *Capital*, vol. 1, ch. 31, and letter to P. V. Annenkov (28 December 1846); Eric Williams, *Capitalism and Slavery* (1944); Seymour Drescher, *Econocide* (1977); Robert Fogel and Stanley Engerman, *Time on the Cross* (1974); Lynn White, *Medieval Technology and Social Change* (1962); Gregory Grossman, "The 'Second Economy' of the USSR", *Problems of Communism* (1977); R. A. Radford, "The Economic Organisation of a P.O.W. Camp", *Economica* (1945); Satoshi Nakamoto, "Bitcoin: A Peer-to-Peer Electronic Cash System" (2008); Engels, *The Origin of the Family, Private Property and the State* (1884); Alexandra Kollontai, "Prostitution and Ways of Fighting It" (1921); New Zealand, Prostitution Reform Act 2003
 - Related notes: [LETS, Parecon and the GIC](lets-parecon-and-one-country.md); [General social work and productive work](general-social-work.md); [Unemployment, dismissal and those unable to work](unemployment-and-inability-to-work.md); [Money and labour certificates in the Spanish Revolution](spanish-revolution-money.md); [Carbon and labour time](carbon-and-labour-time.md)
 
