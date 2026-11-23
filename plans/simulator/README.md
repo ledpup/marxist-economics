@@ -61,13 +61,15 @@ Patrick's answers on the gaps (2026-11-09) settled more. The details are in [Dec
 - **Workers' democracy** (2026-11-14): each unit is run by its workers' council, which sets its own working week, shifts and part-time patterns and can dismiss as a last resort. Councils, not trade unions. A job for those who want one, not full employment. See [Workers' democracy](workers-democracy.md).
 - **The simulation** (2026-11-11): a tick is one simulated minute, and play starts at real time; certificates weekly, books closed monthly and yearly. Hours are integer seconds, with remainders carried so the books balance exactly. Goods move in batches. Runs can be saved and loaded, and the books exported as CSV. Dishonesty (theft, cooking the books, shirking) comes soon after the first builds, but from phase 1 the engine keeps what happened apart from what was reported, and the books are written only from reports.
 
+- **The data** (2026-11-23): Product (the kind) and Batch (a quantity, with its hours); functions carry recipes; every quantity is metric, with any US customary units a display layer only; the unit keeps the books and runs buildings, which hold functions and location on a grid; a person can work for several units; a household is a family, a sharehouse or a commune, and only some pool their certificates. The shoe town gains a medical centre in phase 1.
+
 ## Phases
 
 1. **Headless core.** Data model, books and a daily cycle for the shoe chain, run without graphics. Its yearly totals are checked against the book's 125,000 hours for 40,000 pairs.
 2. **Map.** Grid, buildings, zoom and pan, time controls, a selection panel for buildings.
 3. **People and goods in motion.** People go to work and home again; shipments animate between buildings; vehicles can be clicked.
 4. **Views of the hours.** A product's hours broken down into f, c and l, the flow of hours along the chain, the books of each unit. Spanish.
-5. **Wider model.** Three shoe factories for a real social average; a clinic; expansion. Then scale.
+5. **Wider model.** Three shoe factories for a real social average; expansion. Then scale.
 
 ## Patrick's brief
 

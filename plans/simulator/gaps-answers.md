@@ -303,6 +303,14 @@ His answers as he gave them, grouped by topic. A short note before each says wha
 
 *Outcome:* gaps 53 and 54 are decided as proposed.
 
+## 2026-11-23: the data (gaps 21 to 30 and 32)
+
+*Context:* the data gaps from the first list, each still open with its proposal: Product and Batch (21), recipes (22), units of measure (23), units and buildings (24), Skill and Employment (25), households that pool certificates (26), building capacity (27), building kinds for drawing only (28), the buildings missing from the shoe example (29), a grid location (30), and each person's current activity (32).
+
+> Accept 21, 22, 23 (yes, all calculations in metric. We may introduce a US customary intermediary layer for the UI eventually), 24, 25 (we should support a person having multiple employers), 26 (a household could be a nuclear family, sharehouse, or commune), 28, 29 (also add a medical centre), 30, 32.
+
+*Outcome:* the ten are decided as proposed, with his additions. 23: every quantity is metric; US customary units, if they come, are a display layer in the interface only. 25: a person can hold several employments at once, with different units. 26: a household has a kind (family, sharehouse or commune); Claude made pooling depend on it, since housemates don't share an income: a family or a commune pools its certificates, and in a sharehouse each adult keeps their own. 29: the shoe town gains a medical centre (a public unit: a doctor and a nurse), bringing into phase 1 the clinic planned for phase 5. 32 adds being at the medical centre to the activities. Gap 27 (building capacity) stays open, with gap 48.
+
 ---
 
 [↑ Plans](README.md) · [Gaps in the brief](gaps-in-the-brief.md)

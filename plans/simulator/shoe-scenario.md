@@ -12,7 +12,7 @@ The book's factory makes 40,000 pairs a year with 62,500 hours of work. Over 250
 
 ## Units, buildings and functions
 
-The brief's buildings (tannery, sole moulding works, power station, homes), plus the ones the chain needs ([gap 29](gaps-in-the-brief.md#the-data)) and a waterworks ([gap 15](gaps-decided.md#the-economics)). Thread and braiding share a building with sole moulding, as the brief allows.
+The brief's buildings (tannery, sole moulding works, power station, homes), plus the ones the chain and the town need ([gap 29](gaps-decided.md#the-data)) and a waterworks ([gap 15](gaps-decided.md#the-economics)). Thread and braiding share a building with sole moulding, as the brief allows.
 
 | Operational unit | Type | Building | Functions | Roles (people) |
 | --- | --- | --- | --- | --- |
@@ -25,19 +25,20 @@ The brief's buildings (tannery, sole moulding works, power station, homes), plus
 | Consumer cooperative | productive | Cooperative store | retail | store worker (4) |
 | School | public | School | teaching | teacher (4); students aged 12 and over are paid for their hours ([gap 8](gaps-decided.md#the-economics)) |
 | Child care unit | public | Child care centre | child care | child carer (8): 4 at the centre, 4 at home ([gap 8](gaps-decided.md#the-economics)) |
+| Medical centre | public | Medical centre | primary care | doctor (1), nurse (1) |
 | None: existing housing | out of scope ([gap 43](gaps-decided.md#the-economics)) | Homes (about 50 dwellings), there from the start | — | — |
 | None: existing roads | public, out of scope ([gap 49](gaps-decided.md#the-economics)) | Roads, there from the start | — | — |
 | Rest of the economy | boundary | Gate, at the map's edge | supply, receipt | — |
 
 The designer works in the factory ([gap 14](gaps-decided.md#the-economics)). The factory makes one mainline shoe, strong and durable, for everyday use. Its design is done before the run and passes its hours to the pairs as f, like a machine.
 
-About 68 workers and 8 child carers; about 125 people in all, with children, students and the retired. Roles not in the brief (textile worker, water worker, driver, store worker, teacher) are *new*; the brief's home carer is renamed child carer.
+About 70 workers and 8 child carers; about 125 people in all, with children, students and the retired. Roles not in the brief (textile worker, water worker, driver, store worker, teacher, doctor, nurse) are *new*; the brief's home carer is renamed child carer.
 
 A child under 1 is looked after full-time by their primary carer, who is a child carer for that year; the centre takes the infant part-time only. From 1 to 5, children spend the working day at the centre, or at home with a child carer. Of the four carers at home, one has an infant, one cares at home only, and two also work part-time in the shoe factory, on a morning or an afternoon shift; their children are at the centre during those hours. From 6, children go to school. The numbers are *invented*.
 
 The power station and the waterworks meter every consumer: units are charged per kWh and per m³, and homes are supplied free ([Mixed units](accounting.md#mixed-units)). The tannery is the waterworks' biggest user among units, and is charged for treating its effluent ([gap 49](gaps-decided.md#the-economics)). There is no gas: homes are heated, and the tannery and components works get their process heat, by electricity.
 
-The school and the child care unit make the payout factor fall below 1 from the start, and so does the free supply of power and water to homes. Their budgets, in hours a year, are *to fill in*.
+The school, the child care unit and the medical centre make the payout factor fall below 1 from the start, and so does the free supply of power and water to homes. Their budgets, in hours a year, are *to fill in*.
 
 ## The chain
 
@@ -117,7 +118,7 @@ The figures above are in hours, as the book gives them. The scenario starts from
 
 One aggregate unit at a gate on the edge of the map ([gap 4](gaps-decided.md#the-economics)).
 
-- **Supplies** at fixed production times, converted from the scenario's estimated money prices by the key number on day one, and not converted again ([gap 5](gaps-decided.md#the-economics), [The key number](key-number.md#opening-figures-for-the-shoe-scenario)). The gate is the model's explicit outside: it is not followed, and after day one it keeps the converted hours, and money is not used again ([gap 52](gaps-decided.md#the-economics)). It supplies hides, chemicals, synthetic rubber, lining, boxes, adhesive, eyelets, fuel, replacement machines, and the households' daily basket (food, clothes other than shoes; heat is electric, from the power station).
+- **Supplies** at fixed production times, converted from the scenario's estimated money prices by the key number on day one, and not converted again ([gap 5](gaps-decided.md#the-economics), [The key number](key-number.md#opening-figures-for-the-shoe-scenario)). The gate is the model's explicit outside: it is not followed, and after day one it keeps the converted hours, and money is not used again ([gap 52](gaps-decided.md#the-economics)). It supplies hides, chemicals, synthetic rubber, lining, boxes, adhesive, eyelets, fuel, replacement machines, medical supplies, and the households' daily basket (food, clothes other than shoes; heat is electric, from the power station).
 - **Receives** the shoes the town doesn't buy (nearly all of them: about 125 people buy one pair a year each, against 160 pairs a day) and the leather offcuts.
 - Keeps books like any unit. Over a period, what it receives and what it supplies should roughly match: that is simple reproduction for the town as a whole. The difference is shown, not hidden.
 
@@ -125,6 +126,7 @@ One aggregate unit at a gate on the edge of the map ([gap 4](gaps-decided.md#the
 
 - Units run 08:00–16:00, Monday to Friday ([gap 44](gaps-decided.md#the-economics)). Each full-timer has one weekday off, and the days off are spread evenly over the week, so the factory runs at capacity every day; a few choose all five days. Part-time shifts are 08:00–12:00 or 12:00–16:00, and part-timers may add a fifth day. People travel from home to work along the grid; how they get there (on foot, by bike, bus or car) is not modelled ([gap 16](gaps-decided.md#the-economics)).
 - Everyone has one pair of shoes, which lasts a year ([gap 18](gaps-decided.md#the-economics)). In the later version with three kinds of shoe, a leather pair lasts 2 years, a synthetic pair 1 and a textile pair 9 months ([gap 51](gaps-decided.md#the-economics)). At the start, each pair has a random age, so pairs wear out on different days. When a pair is worn out, its owner goes to the store for a new one, paid from the household's certificates.
+- Most households are families; a few are sharehouses, and one is a commune ([gap 26](gaps-decided.md#the-data)). The mix is *invented*. Some people work for two units ([gap 25](gaps-decided.md#the-data)), like the child carers who also work in the shoe factory.
 - Each household draws its daily basket from the store.
 - Each person has a pace of their own, set at the start from the seed. In the shoe factory, cutting and closing are mostly hand work, so the cordwainers' pace shows in the factory's hours per pair. Sole moulding is mostly machine time, so it hardly shows there.
 - Random: who is absent, each person's pace and its daily variation, machine breakdowns, when a household shops, the age of each pair of shoes at the start.
@@ -132,7 +134,6 @@ One aggregate unit at a gate on the edge of the map ([gap 4](gaps-decided.md#the
 ## Later versions
 
 - Three shoe factories, as in [8 d](../../Documents/fundamental_principles/08_Average_Working_Hour_as_Basis_of_Production.md#d-the-difference-in-company-productivity): 40,000, 65,000 and 100,000 pairs, to show the social average.
-- A clinic, lowering the payout factor further.
 - Boutique lines ([gap 46](gaps-decided.md#the-economics)): small runs led by the designer, much more labour a pair, made on 0, 1 or 2 days of a cordwainer's week (trainees 2), with the designer designing and teaching, bought by people with an interest in shoes at their higher production time.
 - Synthetic and textile mainline shoes beside the leather one ([gap 51](gaps-decided.md#the-economics)). Each has its own recipe and social average. The synthetic upper (polyurethane-coated fabric, from a coating works) and the textile upper (canvas or knit, from a weaving or knitting mill) come through the gate instead of from the tannery. By default about one person in six prefers leather, one in two synthetic and one in three textile. A leather pair lasts 2 years, a synthetic pair 1 and a textile pair 9 months.
 - The slaughterhouse inside the map, applying the by-product method directly.

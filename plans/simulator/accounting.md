@@ -57,7 +57,7 @@ With one shoe factory, the average is that factory's figure. The phase 5 scenari
 
 ## Labour certificates
 
-- Each person's hours are totalled weekly from the work log. Certificates issued = hours worked × payout factor, credited to the household's account.
+- Each person's hours are totalled weekly from the work log. Certificates issued = hours worked × payout factor, credited to the household's account, or to the person's own in a household that doesn't pool, such as a sharehouse ([gap 26](gaps-decided.md#the-data)). A person with several employments has their hours from all of them added together ([gap 25](gaps-decided.md#the-data)).
 - The skill level never changes this ([gap 10](gaps-decided.md#the-economics)).
 - **Child carers and students** from age 12 are paid as public work ([gap 8](gaps-decided.md#the-economics)). Their hours are part of L<sub>p</sub>. Carers' hours, at the centre or at home, are recorded by the child care unit, within its budget; students' hours by the school. Child care uses few means of production (the centre's building and supplies; almost none at home), so it adds to the bottom line of the payout factor and hardly at all to the top. Both are [policies](data-model.md#scenario-and-policies) and can be switched off to compare.
 - **People who don't work** are credited hours without working ([gap 9](gaps-decided.md#the-economics)): a retired person 20 hours a week (retirement is a choice from 65), as a top-up to their hours worked of at most 32 in all, the ill and injured their usual hours until they are fit. Certificates issued = hours credited × payout factor, as for hours worked. Credited hours (H) are not labour, so they are in neither L nor L<sub>p</sub>, but they claim a share of the product, so they go in the bottom line of the payout factor. Each group is a [policy](data-model.md#scenario-and-policies) and can be switched off to compare. Children are provided for by child care and school, and consume out of their household's certificates, with nothing extra per child (the GIC's "great injustice", accepted).
@@ -72,9 +72,8 @@ FIC = (L − {(F<sub>p</sub> + C<sub>p</sub>) − (F'<sub>p</sub> + C'<sub>p</su
 
 H is the hours credited to people who don't work ([gap 9](gaps-decided.md#the-economics)). It is not in the book's formula; it is Marx's "funds for those unable to work", which the GIC never mentions. With H = 0 the formula is the book's.
 
-- Phase 1: the school and the child care unit are public units, and the retired and the ill are credited hours, so the factor is below 1 from the start. There is no expansion (a = 0).
-- Phase 5: a clinic.
-- The factor in use during a period is the last period's (policy `previousPeriod`), or a fixed value. At the close, the actual factor is computed and the difference shown. The book does not say how this is done; its one-year warehouse is a thought experiment, so the period is our choice ([gap 7](gaps-in-the-brief.md#the-economics)).
+- Phase 1: the school, the child care unit and the medical centre are public units ([gap 29](gaps-decided.md#the-data)), and the retired and the ill are credited hours, so the factor is below 1 from the start. There is no expansion (a = 0).
+- The factor in use during a period is the last period's (policy `previousPeriod`), or a fixed value. At the close, the actual factor is computed and the difference shown. The book does not say how this is done; its one-year warehouse is a thought experiment, so the period is our choice ([gap 7](gaps-decided.md#the-economics)).
 - **N and D.** Compute the top line N = L − S and the bottom line D = L + L<sub>p</sub> + H as separate totals, with S the public units' net means of production and any expansion. FIC = N ÷ D. Any group of units reports N and D, and groups combine by adding both, exactly. Never average factors ([note](../../notes-opus5_5/payout-factor-at-scale.md#combining-regions)).
 - Expansion (a), special accumulation and the disaster fund keep their place in the formula but are zero until a later phase ([gap 19](gaps-decided.md#the-economics)).
 

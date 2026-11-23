@@ -12,6 +12,7 @@
 - **Scenario files hold keys, not names.** A scenario made by a user can carry its own names per language. People's names, and units' proper names, are not translated.
 - **Messages use ICU MessageFormat**, so a sentence can vary by number: `{count, plural, one {# pair} other {# pairs}}`.
 - **Numbers and dates** are formatted by the browser's `Intl` for the current language: 3.18 in English, 3,18 in Spanish; 9 November 2026 / 9 de noviembre de 2026.
+- **Units of measure are metric** in every language ([gap 23](gaps-decided.md#the-data)). A US customary display layer may come later: it converts only what is shown, never what is stored.
 - English is British (`en-GB`). *To decide:* which Spanish (`es-ES`, or a Latin American variety).
 
 ## Job titles

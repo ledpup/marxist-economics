@@ -16,6 +16,7 @@ The abstract model the simulation runs over. It is independent of language and s
 - **Ids** are stable strings in scenario files (`role.cordwainer`, `bld.tannery`) and small integers at run time.
 - **Names are translation keys** for anything defined by the scenario (`role.cordwainer` → "Cordwainer" / "Zapatero"). People's names are plain text. See [Internationalisation](internationalisation.md).
 - **Hours are integer seconds**, never floating point. See [Accounting](accounting.md#numbers).
+- **Quantities are metric** ([gap 23](gaps-decided.md#the-data)): m, m², m³, kg, kWh, and counts (pairs, boxes). The engine, the books and scenario files hold nothing else. US customary units, if they come, are a display layer in the interface only.
 - **Every quantity of hours keeps its split** into f, c and l, so the screen can always show where a product's hours came from.
 
 ## Overview
@@ -143,7 +144,7 @@ From the brief.
 | id, name | |
 | unit | The operational unit that runs it. Dwellings have none: they are existing housing, outside the books for now, with no hours and no wear ([gap 43](gaps-decided.md#the-economics)) |
 | location, footprint | Grid cell of the top-left corner; width × height in cells |
-| kind | For drawing only: `dwelling`, `works`, `store`, `public`, `depot`, `power`, `gate` (the edge of the map) |
+| kind | For drawing only: `dwelling`, `works`, `store`, `warehouse`, `depot`, `public`, `power`, `gate` (the edge of the map). What a building does follows from its functions ([gap 28](gaps-decided.md#the-data)) |
 | functions | Functions it hosts, each with a number of workstations |
 | machines | Machine instances in it |
 | stock | Batches held, with a storage capacity |
@@ -198,8 +199,8 @@ From the brief.
 | illness | Current illness or injury, if any: start, expected end. Drawn from the seed |
 | household | Replaces "residence": the household lives in a dwelling |
 | skills | List of [Skill](#skill) |
-| employments | List of [Employment](#employment). Replaces "employer(s)" |
-| activity | What they are doing now: `home`, `travelling`, `working` (with function), `shopping`, `studying`, `atChildCare` (a child under 6 at the centre), `caring`, `absent`. For the selection panel |
+| employments | List of [Employment](#employment). Replaces "employer(s)": a person can work for several units at once ([gap 25](gaps-decided.md#the-data)) |
+| activity | What they are doing now: `home`, `travelling`, `working` (with function), `shopping`, `studying`, `atChildCare` (a child under 6 at the centre), `atMedicalCentre` (as a patient), `caring`, `absent`. For the selection panel ([gap 32](gaps-decided.md#the-data)) |
 | position | Building, or a grid position while travelling |
 | opportunism | *Later* ([gap 45](gaps-decided.md#the-simulation)). How readily they take a dishonest chance; drawn from the seed |
 
@@ -215,7 +216,7 @@ From the brief.
 
 ### Employment
 
-*New.* Replaces "employer(s)" and the hours on the role.
+*New.* Replaces "employer(s)" and the hours on the role. A person can hold several employments at once, with different units ([gap 25](gaps-decided.md#the-data)). The hours from all of them go to the one work log, and are issued as certificates together.
 
 | Field | Notes |
 | --- | --- |
@@ -227,13 +228,15 @@ From the brief.
 
 ### Household
 
-*New.*
+*New* ([gap 26](gaps-decided.md#the-data)). The people who live together in a dwelling.
 
 | Field | Notes |
 | --- | --- |
 | id, dwelling | |
-| members | People |
-| account | Pooled labour certificates |
+| kind | `family` (a nuclear family), `sharehouse`, `commune` |
+| members | People. Children depend on the adults they live with |
+| pooled | Whether members' certificates go into one account. Default by kind: a family and a commune pool; a sharehouse doesn't |
+| account | Labour certificates. Pooled: one account for the household. Not pooled: one per adult, and a child draws on their parent's |
 | holdings | Consumer goods in use: one pair of shoes per member, each with its owner and the day it came into use ([gap 18](gaps-decided.md#the-economics)). At the start, each pair's age is random, from the seed |
 | basket | Daily needs from the rest of the economy: food and the like, as a product in hours. Heat is electric, so it is metered, not in the basket |
 | metered | Electricity (kWh, heating included) and water (m³) used each day. Free to the household; the meter is how the power station and the waterworks split their books ([gap 15](gaps-decided.md#the-economics)) |

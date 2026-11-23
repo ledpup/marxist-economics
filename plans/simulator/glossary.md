@@ -54,7 +54,10 @@ The giro office becomes the **public accounting office**, from the book's own "g
 | Function | función | |
 | Recipe | receta | What a function needs and makes for one batch: inputs, outputs (main or by-product), crew, machines, machine and hand time, power. The standard term in batch manufacturing |
 | Freight | transporte de mercancías | |
-| Household | hogar | |
+| Household | hogar | The people who live together in a dwelling: a family, a sharehouse or a commune ([gap 26](gaps-decided.md#the-data)) |
+| Sharehouse | piso compartido | A household whose adults keep their own certificates |
+| Commune | comuna | A household that pools its members' certificates, as a family does |
+| Medical centre | centro médico | A public unit, free to use |
 | Child care unit | unidad de cuidado infantil | The public unit that runs the child care centre and records child carers' hours |
 | Child care centre | centro de cuidado infantil | |
 | Waterworks | planta de agua | The mixed unit that supplies water and treats sewage: charged to units, free to homes |
@@ -79,6 +82,8 @@ The model holds no gender, so in Spanish a role is named by its trade or activit
 | Child carer | Cuidado infantil |
 | Student | Estudios |
 | Teacher | Docencia |
+| Doctor | Medicina |
+| Nurse | Enfermería |
 
 ---
 

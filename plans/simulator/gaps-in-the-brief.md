@@ -6,8 +6,8 @@
 
 What the [brief](README.md#patricks-brief) leaves out, gets at odds with the GIC's model, or needs to settle before code is written. Gaps keep their numbers when they move from Open to Decided.
 
-**Open: 12.** Each has a proposal that stands as the default until overruled.
-**Decided: 42.** In [Decided gaps](gaps-decided.md), each with the decision and why.
+**Open: 2.** Each has a proposal that stands as the default until overruled.
+**Decided: 52.** In [Decided gaps](gaps-decided.md), each with the decision and why.
 Patrick's answers, which settled them, are in [Patrick's answers on the gaps](gaps-answers.md).
 
 ## Open
@@ -25,17 +25,7 @@ Patrick's answers, which settled them, are in [Patrick's answers on the gaps](ga
 
 ### The data
 
-- **21. "Consumable" mixes the kind of thing with the stock of it.** *Proposal:* **Product** (the kind: "upper leather", unit m², branch "tanning") and **Batch** (a quantity of it, where it is, its production time). "Consumable" becomes a category of product (circulating means of production), alongside machines (fixed) and consumer goods. → [Data model](data-model.md#product)
-- **22. Functions have no recipe.** *Proposal:* a function carries a recipe: inputs, outputs, machine and hand time, crew, machines, power. → [Data model](data-model.md#function)
-- **23. Units of measure.** Pairs, m² of leather, kg of rubber, kWh, metres of thread. → [Data model](data-model.md#product)
-- **24. Operational unit and building overlap.** Both have a location. *Proposal:* the unit keeps the books and runs one or more buildings; the building is the physical place, holds the functions and has the location. → [Data model](data-model.md#operationalunit)
-- **25. Person, role, employer and hours.** *Proposal:* **Skill** (person, role, level, pace) and **Employment** (person, unit, role, hours a week, shift). Hours worked go in a work log, not on the person. → [Data model](data-model.md#employment)
-- **26. Households.** People share homes and children depend on adults. *Proposal:* a **Household** that lives in a dwelling and pools its members' certificates. → [Data model](data-model.md#household)
 - **27. Building capacity, of what?** *Proposal:* separate limits for residents, workers and storage. → [Data model](data-model.md#building)
-- **28. Building types.** Public buildings, warehouses and depots are missing. *Proposal:* a building's kind follows from its functions; keep a kind field only for drawing. → [Data model](data-model.md#building)
-- **29. Buildings missing from the shoe example.** *Proposal:* add the shoe factory, the consumer cooperative's store, the components works (thread, laces, soles), a freight depot, a school and a child care centre. → [Shoe scenario](shoe-scenario.md)
-- **30. Location.** Latitude and longitude don't fit a grid. *Proposal:* a grid cell (x, y) and a footprint; latitude and longitude optional. → [Data model](data-model.md#location)
-- **32. "What they are doing".** *Proposal:* each person has a current activity (at home, travelling, cutting uppers, at school, at the child care centre, caring, shopping). → [Data model](data-model.md#person)
 
 ---
 
