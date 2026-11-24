@@ -16,6 +16,20 @@ A second prompt, on 2026-11-23:
 
 > TNS has a chapter on foreign trade. It covers foreign currency, the black market and drugs. It doesn't consider old currency: that is, the currency that people within the socialist country have retained for whatever reason, nostalgia, former or disgruntled capitalists, and people actively working against a post-capitalist society. We should add a section on the "outside" page about this. I had forgotten to mention the term black market. It's the most obvious term for "outside". Other than a central (or many) giro office, how will an individual's tokens be stored? For the simulation that is easy: in memory. Consider beyond the sim. Does blockchain have any utility here? Write a short section on how it functions. Could someone using a direct transfer use their tokens for illicit substances? How?
 
+A third prompt, on 2026-11-24. *Context:* the first version of [Sex work](#sex-work) answered his question with no: sex work couldn't be a public unit, because "sex can't be made something anyone is obliged to supply", so it would be a productive cooperative charging its production time, or stay off the books.
+
+> "Your read" of sex work is incorrect, or at least not well supported. The sentence fragment "sex can't be made something anyone is obliged to supply" does not fit the category of "public". Health services in our capitalist world and the imagined new world are not necessarily an obligation for the staff. Admittedly, they have a code of conduct, but there are circumstances where aid is withdrawn. Furthermore, doctors and nurses, as a role, are positions that people choose. It's rare that anyone would be obliged to be a doctor.
+>
+> In a capitalist society, many probably do not genuinely choose sex work, but a portion of those who say they have chosen it may well be honest. And who are we to say they are not? In any event, a "decriminalisation model" is entirely insufficient. It needs to be legal. The Second Spanish Republic, which banned prostitution in 1935, was entirely incorrect in doing so. The USA, on the other hand, hates women as policy, clear from its ban of prostitution and abortion.
+>
+> Montseny was incorrect and puritanical to call prostitution a "moral" or "social character" issue. It's not entirely surprising to me that the fascists and anarchists can agree on this matter. For fascists, the role of women is incubator for men (and the state). Anarchists retain a sort of nostalgia for an imagined past not entirely dissimilar to fascists.
+>
+> It's definitely not something going "off the books". Kollontai describing it as "labour desertion" is entirely clueless.
+>
+> I can't see that it could be described as "productive" labour. It will have to be a "public" health service. Those that wish to take up another profession will be encouraged to do so and work will be found for them. If all sex workers decide to leave the job, it ends as a public service.
+
+He cited Temma Kaplan, ["Spanish Anarchism and Women's Liberation"](https://theanarchistlibrary.org/library/temma-kaplan-spanish-anarchism-and-women-s-liberation), and Wikipedia's [Prostitution in the Spanish Civil War](https://en.wikipedia.org/wiki/Prostitution_in_the_Spanish_Civil_War); the passage he quoted from Kaplan is in [Sex work](#sex-work). *Outcome:* sex work is a legal public health service. The section is rewritten around that decision.
+
 ## Summary
 
 - **The economy ends where the books end.** The GIC's boundary is the accounting, not a border: "those who are not members of the social accounting cannot receive raw materials" ([ch. 16](../Documents/fundamental_principles/16_The_Economic_Dictatorship_of_the_Proletariat.md)). So the outside is not only other countries and the past. It is also *inside*: every hour of labour that is done but not recorded, and every exchange that doesn't pass through the giro office.
@@ -28,7 +42,7 @@ A second prompt, on 2026-11-23:
 - **The black market is the outside inside.** TNS cover foreign currency, smuggling and drugs, but neither they nor the GIC say what happens to the old money in people's hands. Some of it is never handed in (12 billion Deutsche Marks still out after the euro). Held by former capitalists and opponents, and still honoured abroad, it is a ready-made currency for the black market. East Germany (1957) and Cuba (1961) swapped their notes by surprise to strip holdings abroad. *My reading:* convert personal holdings once, up to a limit, larger sums only on proof of origin, then never again.
 - **Certificates belong in accounts, not in tokens.** One public accounting office or several federated ones; a card only as the key. A bearer token (paper, a stored-value chip, a crypto key) can be handed on, so it circulates. A **blockchain** solves agreement without a trusted keeper, which this economy has; its transferable tokens, proof of work and public ledger work against the design. Its useful part is the hash-chained, append-only log, which needs no blockchain.
 - **Certificates can't pay a dealer directly**, since they go only to a store and a sale earns the seller nothing. The ways round are indirect: goods as payment, buying for the dealer or lending a card, ghost hours, diverted medicines, transfers abroad, and old money.
-- **Sex work is not a public unit.** A public unit supplies what society budgets as a need, free. In my reading that can't fit sex, which can't be a social obligation to supply. In the GIC's categories it would be a productive unit (a workers' cooperative charging its production time), or it stays off the books. The GIC and TNS say nothing about it.
+- **Sex work is a legal public health service** (Patrick's decision, 2026-11-24). It is free at the point of use, like a clinic, and staffed by people who choose it. Those who want another trade are helped into one; if all of them leave, the service ends. A public unit is obliged to supply, but its workers are not obliged to work there, any more than anyone is obliged to be a doctor. It is not productive work and not off the books. The GIC and TNS say nothing about it.
 
 ## Where the economy ends
 
@@ -246,17 +260,49 @@ The pattern is the same as everywhere in this note. The certificate itself is ha
 
 ## Sex work
 
-Patrick asks whether it would be a public operational unit. *My reading* is no. In the GIC's categories ([10 a](../Documents/fundamental_principles/10_The_General_Social_Work.md#a-two-forms-of-distribution)):
+Patrick asked whether it would be a public operational unit. The first version of this section said no, and he rejected that reading (see the [third prompt](#patricks-prompt)). His decision: **sex work is a legal public health service.** The GIC and TNS say nothing about it.
 
-| Category | What it would mean | Fit |
+### The decision
+
+In the GIC's two forms of distribution ([10 a](../Documents/fundamental_principles/10_The_General_Social_Work.md#a-two-forms-of-distribution)), sex work goes with general social work:
+
+| Category | What it would mean | Patrick's decision |
 | --- | --- | --- |
-| **Public** (general social work) | Society budgets sex as a need and supplies it free, like schools or clinics | No. A public unit supplies on demand within a budget; sex can't be made something anyone is obliged to supply. Sexual health services are public, as health is |
-| **Productive** | A cooperative of sex workers under its own council, recording its hours and charging its production time, bought with certificates | Possible. It is the decriminalisation model (New Zealand's Prostitution Reform Act 2003, *not checked*) in labour-time form |
-| **Off the books** | Paid in goods or a reinvented money | Where it goes if the councils prohibit or stigmatise it. An edge, like any other undeclared labour |
+| **Public** (general social work) | A health service, supplied free from the social fund, like a clinic | **Yes.** Legal, recorded, and staffed by people who choose the work |
+| **Productive** | A cooperative charging its production time, bought with certificates | No. It can't be described as productive labour |
+| **Off the books** | Paid in goods or a reinvented money | No. It is not something that goes off the books |
 
-The Marxist tradition expected prostitution to wither with the economic dependence of women: Engels treats it as the counterpart of monogamous marriage founded on property, and expects it to go with wage labour: once the means of production are social property, "Prostitution disappears; monogamy, instead of collapsing, at last becomes a reality – also for men" (*The Origin of the Family*, 1884, [ch. 2](https://www.marxists.org/archive/marx/works/1884/origin-family/ch02d.htm)). Kollontai's speech "Prostitution and Ways of Fighting It" (1921) puts its causes in "low-paid work, homelessness, acute poverty", and reports the commission's refusal to make it a crime. A professional prostitute was instead to be treated as a labour deserter, like anyone else who avoids work: "A prostitute is not a special case; as with other categories of deserter, she is only sent to do forced labour if she repeatedly avoids work" ([Kollontai, 1921](https://www.marxists.org/archive/kollonta/1921/prostitution.htm)). *My reading:* that is a labour-time answer. The question it asks is not what she does but whether she does social work. The GIC and TNS say nothing about it.
+Those who want to take up another trade are encouraged to, and work is found for them. If all of them do, it ends as a public service.
 
-*My reading.* A labour-time economy reduces the economic compulsion: everyone who works has an equal claim per hour, and those unable to work are credited hours. It doesn't remove it. Under the plans as they stand, those who refuse work receive no certificates ([gap 48](../plans/simulator/gaps-in-the-brief.md#the-economics)), and anyone can want more than their hours buy. So whether sex work persists, and in which column, is partly a test of how well the equal hour does what the tradition hoped. Which column it belongs in is for the councils to decide. For the simulation it is out of scope.
+**Legal, not only decriminalised.** Decriminalisation removes the criminal law and leaves the work to ordinary law, as in New Zealand's Prostitution Reform Act 2003; legalisation makes it lawful work under rules of its own, as in Germany's Prostitution Act 2002 (both *not checked*). Patrick holds decriminalisation to be insufficient. *My reading:* a public unit goes further than either, since the work is then society's own service, budgeted and credited like nursing.
+
+### What follows for the books
+
+*My reading.*
+
+- **Hours are credited like a doctor's.** The workers are members of a public unit, credited by the hour at the same rate as everyone. The unit's costs come out of the social fund through the payout factor ([10 g](../Documents/fundamental_principles/10_The_General_Social_Work.md#g-the-payout-factor)), not from what anyone pays.
+- **Free means not rationed by certificates.** Use is limited by the budget and by the staff, not by what a person can afford. Where use outruns supply, the unit has to allocate, as a clinic does with a waiting list.
+- **Kollontai's category doesn't apply.** Under this decision the work *is* social work, so no one doing it is a labour deserter.
+- **The books need hours, not names.** The unit records hours worked and services given. Who used the service is not something the social accounts need, as with purchases in [Beyond the simulation](#beyond-the-simulation).
+- **An edge remains.** Anyone who wants what the service doesn't give, or wants it unrecorded, can still pay in goods off the books. That is the same edge as other undeclared labour, not the main case.
+
+### In the tradition
+
+The Marxist tradition expected prostitution to wither with the economic dependence of women. Engels treats it as the counterpart of monogamous marriage founded on property, and expects it to go with wage labour: once the means of production are social property, "Prostitution disappears; monogamy, instead of collapsing, at last becomes a reality – also for men" (*The Origin of the Family*, 1884, [ch. 2](https://www.marxists.org/archive/marx/works/1884/origin-family/ch02d.htm)). Kollontai's speech "Prostitution and Ways of Fighting It" (1921) puts its causes in "low-paid work, homelessness, acute poverty", and reports the commission's refusal to make it a crime. A professional prostitute was instead to be treated as a labour deserter, like anyone else who avoids work: "A prostitute is not a special case; as with other categories of deserter, she is only sent to do forced labour if she repeatedly avoids work" ([Kollontai, 1921](https://www.marxists.org/archive/kollonta/1921/prostitution.htm)). Patrick calls the labour-desertion framing "entirely clueless".
+
+**Spain.** The Second Republic passed a law against prostitution on 28 June 1935. Kaplan, who was critical of it: "While it abolished prostitution, it made no provision for alternative employment for prostitutes. Ostensibly a law for women, it was really a punitive action against the most abject among them" (Kaplan, ["Spanish Anarchism and Women's Liberation"](https://theanarchistlibrary.org/library/temma-kaplan-spanish-anarchism-and-women-s-liberation), *Journal of Contemporary History* 6:2, 1971). Before that, from 1931, the Republic had swung between abolishing and regulating it ([Wikipedia](https://en.wikipedia.org/wiki/Prostitution_in_the_Spanish_Civil_War)). In the war, the anarchists opposed it by training rather than penalties. Kaplan:
+
+> Montseny, who viewed the issue as an integral part of social welfare and public health, believed that it could not be ended by decree: 'Prostitution presents a problem of moral, economic, and social character which cannot be resolved juridically. Prostitution will be abolished when sexual relations are liberalized; when Christian and bourgeois morality is transformed; when women have professions and social opportunities to secure their livelihood and that of their children; when society is established in such a way that no one remains at the margin; when society can be organized to secure life and rights for all human beings.'
+>
+> Montseny established refuges open to all women, including prostitutes and unwed mothers in need of treatment, as part of the drive to introduce therapeutic medicine and to establish public health services. Mujeres Libres ran training courses to educate women who might otherwise become prostitutes.
+
+Kaplan's source for the quotation is Montseny, *Mi experiencia en el Ministerio de Sanidad y Asistencia Social* (1937), p. 27. Montseny was Minister of Health from November 1936 to May 1937. Patrick holds the 1935 law to have been "entirely incorrect", and Montseny "incorrect and puritanical" to make it a question of moral and social character; on this, he says, fascists and anarchists agree. Franco's Spain, from memory and *not checked*, first restored regulated brothels (1941) and then abolished them (1956).
+
+**The United States.** Prostitution is a crime in every state, except in licensed brothels in some rural counties of Nevada. Since *Dobbs v. Jackson* (2022), abortion law has been left to the states, and about a dozen ban it at almost every stage (both *not checked*). Patrick reads the two together as policy against women.
+
+### What the equal hour changes
+
+*My reading.* A labour-time economy reduces the economic compulsion: everyone who works has an equal claim per hour, and those unable to work are credited hours. It doesn't remove it. Under the plans as they stand, those who refuse work receive no certificates ([gap 48](../plans/simulator/gaps-in-the-brief.md#the-economics)), and anyone can want more than their hours buy. Patrick's decision doesn't depend on settling who has chosen the work under capitalism: some who say they chose it may well be honest. What the decision does is make the choice real at both ends: the work is legal, and another trade is always open. How many stay is then a test of the equal hour. For the simulation it is out of scope.
 
 ## For the simulation
 
@@ -277,6 +323,7 @@ Nothing here changes a decision. Proposals, for Patrick to accept or not:
 - **Did any council communist write on the black market?** Nothing was found in the *Fundamental Principles*.
 - **Old money.** Should personal holdings convert into certificates at all, and if so, up to what limit? Who judges proof of origin?
 - **Privacy.** Should the books record who bought what, or only what left the store?
+- **Sex work as a public service.** Who may use it, how much, and how is it allocated when use outruns the willing staff? Which council does the unit answer to: health, or a council of its own?
 
 ## Sources
 
@@ -288,7 +335,8 @@ Nothing here changes a decision. Proposals, for Patrick to accept or not:
 - Shadow economy: Leandro Medina and Friedrich Schneider, [*Shadow Economies Around the World: What Did We Learn Over the Last 20 Years?*](https://www.imf.org/en/Publications/WP/Issues/2018/01/25/Shadow-Economies-Around-the-World-What-Did-We-Learn-Over-the-Last-20-Years-45583), IMF Working Paper 18/17 (2018)
 - Old money: Deutsche Bundesbank, [outstanding DM cash](https://www.bundesbank.de/resource/blob/618390/06edcc8c91b804001d1acd4285ad824e/472B63F073F071307366337C94F8C870/ausstehendes-dm-bargeld-data.pdf) and [FAQ on DM banknotes](https://www.bundesbank.de/en/tasks/cash-management/frequently-asked-questions/frequently-asked-questions-dm-banknotes); East Germany 1957: [German History in Documents and Images](https://germanhistorydocs.org/en/occupation-and-the-emergence-of-two-states-1945-1961/interview-with-east-berliners-about-the-currency-reform-in-the-gdr-october-20-1957), [bpb Deutschland Archiv](https://www.bpb.de/themen/deutschlandarchiv/235558/der-waehrungsumtausch-als-marionettenspiel-greta-kuckhoff-der-geldumtausch-in-der-ddr-und-parteiliche-disziplinierung/); Cuba 1961: [*Time*, "Cuba: Keeping Them Poor"](https://time.com/archive/6810309/cuba-keeping-them-poor), [The E-Sylum](https://coinbooks.org/v27/esylum_v27n39a30.html)
 - Marxists Internet Archive: Marx, *Capital*, vol. 1, [ch. 2](https://www.marxists.org/archive/marx/works/1867-c1/ch02.htm), [ch. 3](https://www.marxists.org/archive/marx/works/1867-c1/ch03.htm) and [ch. 31](https://www.marxists.org/archive/marx/works/1867-c1/ch31.htm); Marx, [letter to P. V. Annenkov](https://www.marxists.org/archive/marx/works/1846/letters/46_12_28.htm) (28 December 1846); Engels, *The Origin of the Family, Private Property and the State* (1884), [ch. 2](https://www.marxists.org/archive/marx/works/1884/origin-family/ch02d.htm); Alexandra Kollontai, ["Prostitution and Ways of Fighting It"](https://www.marxists.org/archive/kollonta/1921/prostitution.htm) (1921)
-- From memory, *not checked* for this note: Eric Williams, *Capitalism and Slavery* (1944); Seymour Drescher, *Econocide* (1977); Robert Fogel and Stanley Engerman, *Time on the Cross* (1974); Lynn White, *Medieval Technology and Social Change* (1962); Gregory Grossman, "The 'Second Economy' of the USSR", *Problems of Communism* (1977); R. A. Radford, "The Economic Organisation of a P.O.W. Camp", *Economica* (1945); Satoshi Nakamoto, "Bitcoin: A Peer-to-Peer Electronic Cash System" (2008); New Zealand, Prostitution Reform Act 2003
+- Spain: Temma Kaplan, ["Spanish Anarchism and Women's Liberation"](https://theanarchistlibrary.org/library/temma-kaplan-spanish-anarchism-and-women-s-liberation), *Journal of Contemporary History* 6:2 (1971); Wikipedia, [Prostitution in the Spanish Civil War](https://en.wikipedia.org/wiki/Prostitution_in_the_Spanish_Civil_War)
+- From memory, *not checked* for this note: Eric Williams, *Capitalism and Slavery* (1944); Seymour Drescher, *Econocide* (1977); Robert Fogel and Stanley Engerman, *Time on the Cross* (1974); Lynn White, *Medieval Technology and Social Change* (1962); Gregory Grossman, "The 'Second Economy' of the USSR", *Problems of Communism* (1977); R. A. Radford, "The Economic Organisation of a P.O.W. Camp", *Economica* (1945); Satoshi Nakamoto, "Bitcoin: A Peer-to-Peer Electronic Cash System" (2008); New Zealand, Prostitution Reform Act 2003; Germany, Prostitution Act 2002; Franco's regulation (1941) and abolition (1956) of brothels; United States law on prostitution and, since *Dobbs v. Jackson* (2022), on abortion
 - Related notes: [LETS, Parecon and the GIC](lets-parecon-and-one-country.md); [General social work and productive work](general-social-work.md); [Unemployment, dismissal and those unable to work](unemployment-and-inability-to-work.md); [Money and labour certificates in the Spanish Revolution](spanish-revolution-money.md); [Carbon and labour time](carbon-and-labour-time.md)
 
 ---
