@@ -128,7 +128,7 @@ The simulation already plans for the middle four: theft, false reports, feigned 
 
 Marx's certificate is "no more 'money' than a ticket for the theatre", and the GIC quote him ([9 c](../Documents/fundamental_principles/09_Average_Working_Hour_as_Basis_of_Consumption.md#c-the-consumption-money)). TNS make it explicit: labour credits are non-transferable and cancelled on use, "like train tickets"; individuals "could not hire other individuals to work for them because of the non-transferability of labour credits" ([TNS ch. 14](../Documents/towards_a_new_socialism/14_Property_Relations.md#rights-of-planning-and-economic-projects)).
 
-But goods are transferable. Once a person has bought something, they can give it, swap it or sell it. Any durable, divisible, widely wanted good can become money: cigarettes became the currency of a Second World War prisoners' camp, with prices, credit and inflation (R. A. Radford, "The Economic Organisation of a P.O.W. Camp", *Economica*, 1945, *not checked*). So **money can be reinvented at any time, among consumers**, with or without a blockchain. The question is what it can buy.
+But goods are transferable. Once a person has bought something, they can give it, swap it or sell it. Any durable, divisible, widely wanted good can become money: cigarettes became the currency of a Second World War prisoners' camp, with prices, credit and inflation (R. A. Radford, "The Economic Organisation of a P.O.W. Camp", *Economica*, 1945, *not checked*). So **money can be reinvented at any time, among consumers**. The question is what it can buy.
 
 *My reading.* In the GIC's scheme it can buy:
 
