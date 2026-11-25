@@ -30,8 +30,10 @@ What the script relies on in the Markdown:
 - Images are relative to the Markdown file and are copied into the book.
 
 Needs markdown-it-py and mdit-py-plugins. The cover is the first page of
-the book's PDF, rendered with PyMuPDF; without PyMuPDF, or with --no-cover,
-the book has no cover image.
+the book's PDF, rendered with PyMuPDF (cut to `cover_clip` where BOOKS gives
+one, for a scan that shows back and front side by side), or a JPEG from
+`covers/` for a text that has no PDF; without PyMuPDF, or with --no-cover,
+a PDF-based book has no cover image.
 """
 import argparse
 import html
@@ -58,6 +60,15 @@ BOOKS = {
         "cover": "PDFs/TOWARDS A NEW SOCIALISM.pdf", "split": 1},
     "Documents/Workers_Councils.md": {
         "cover": "PDFs/WORKERS' COUNCILS.pdf", "split": 2},
+    # The text is from marxists.org; the cover is the front (right) half of
+    # the first page of a scan of the 1972 pamphlet, which shows both covers.
+    "Documents/Workers_Councils_and_the_Economics_of_a_Self-Managed_Society.md": {
+        "cover": "PDFs/WORKERS' COUNCILS AND THE ECONOMICS OF A SELF-MANAGED SOCIETY.pdf",
+        "cover_clip": (0.5, 0, 1, 1), "split": 1},
+    # The text is from SI Online; the cover is Elephant Editions' 1990
+    # edition of Sharkey's translation (chapters 1 and 2), from Open Library.
+    "Documents/From_Wildcat_Strike_to_Total_Self-Management.md": {
+        "cover": "covers/From_Wildcat_Strike_to_Total_Self-Management.jpg", "split": 1},
 }
 
 LANGUAGE = "en"
@@ -277,16 +288,26 @@ def build_chapters(md_path, md, split):
     return chapters, images
 
 
-def render_cover(pdf_path):
+def render_cover(path, clip=None):
+    """The cover as JPEG bytes: a JPEG as it is, or the first page of a PDF
+    (or other image), cut to `clip` (fractions x0, y0, x1, y1 of the page)."""
+    path = Path(path)
+    if path.suffix.lower() in (".jpg", ".jpeg") and not clip:
+        return path.read_bytes()
     try:
         import pymupdf
     except ImportError:
         print("  PyMuPDF isn't installed, so no cover", file=sys.stderr)
         return None
-    with pymupdf.open(pdf_path) as doc:
+    with pymupdf.open(path) as doc:
         page = doc[0]
-        zoom = 1600 / page.rect.height
-        return page.get_pixmap(matrix=pymupdf.Matrix(zoom, zoom)).tobytes("jpeg", jpg_quality=85)
+        r = page.rect
+        if clip:
+            r = pymupdf.Rect(r.x0 + clip[0] * r.width, r.y0 + clip[1] * r.height,
+                             r.x0 + clip[2] * r.width, r.y0 + clip[3] * r.height)
+        zoom = 1600 / r.height
+        pix = page.get_pixmap(matrix=pymupdf.Matrix(zoom, zoom), clip=r)
+        return pix.tobytes("jpeg", jpg_quality=85)
 
 
 def title_and_authors(titlepage_md):
@@ -363,14 +384,14 @@ def ncx(items, title, book_id, depth):
 """
 
 
-def build_epub(md_path, out_dir, cover_pdf, split=1):
+def build_epub(md_path, out_dir, cover_file, split=1, cover_clip=None):
     md_path = Path(md_path).resolve()
     slug = md_path.stem
     chapters, images = build_chapters(md_path, make_renderer(), split)
     title, authors = title_and_authors(split_chapters(md_path.read_text(encoding="utf-8"), split)[0])
     book_id = f"urn:uuid:{uuid.uuid5(uuid.NAMESPACE_URL, 'marxist-economics/' + slug)}"
     modified = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
-    cover = render_cover(cover_pdf) if cover_pdf else None
+    cover = render_cover(cover_file, cover_clip) if cover_file else None
 
     manifest = ['<item id="css" href="style.css" media-type="text/css"/>',
                 '<item id="nav" href="text/nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>',
@@ -445,7 +466,7 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__.split("\n\n")[0])
     ap.add_argument("markdown", nargs="*", help="single-file Markdown texts (default: the books in BOOKS)")
     ap.add_argument("--out-dir", default=str(ROOT / "epub"), help="where to write the .epub files")
-    ap.add_argument("--cover-pdf", help="PDF whose first page is the cover (one input file only)")
+    ap.add_argument("--cover-pdf", help="PDF whose first page is the cover, or a cover image (one input file only)")
     ap.add_argument("--no-cover", action="store_true", help="don't add a cover image")
     ap.add_argument("--split", type=int, choices=range(1, 7), metavar="LEVEL",
                     help="deepest heading level that starts a chapter (default: 1, or the book's in BOOKS)")
@@ -459,7 +480,8 @@ def main():
         cover = args.cover_pdf or (ROOT / book["cover"] if "cover" in book else None)
         split = args.split or book.get("split", 1)
         print(f"{path.name}:")
-        out = build_epub(path, Path(args.out_dir), None if args.no_cover else cover, split)
+        clip = None if args.cover_pdf else book.get("cover_clip")
+        out = build_epub(path, Path(args.out_dir), None if args.no_cover else cover, split, clip)
         print(f"  wrote {out}")
 
 

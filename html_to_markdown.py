@@ -14,20 +14,31 @@ What it does with MIA markup:
   headings     levels are mapped by --levels (default h1/h2 -> #, h3 -> ##,
                h4 -> ###); ALL-CAPS words are put in title case unless
                --keep-caps is given; <br> inside a heading becomes a space
-  text         <em>/<i> -> *..*, <strong>/<b> -> **..**, <sup>/<sub> kept
-               as HTML, <blockquote> -> "> ", <ul>/<ol> -> "- " / "1. ",
+  text         <em>/<i> -> *..*, <strong>/<b> -> **..**, <u> -> <ins>..</ins>,
+               <sup>/<sub> kept as HTML, <blockquote> and
+               <p class="quoteb"> -> "> ", <ul>/<ol> -> "- " / "1. ",
                <br> -> hard line break (two trailing spaces); links to
                other pages are kept as absolute URLs, anchors are dropped
   notes        an internal link whose text is a number ("[12]", "12") is a
                note marker -> [^12]; a paragraph that starts with one is
-               the note itself -> "[^12]: ..."
+               the note itself -> "[^12]: ..."; the endnote paragraphs that
+               follow it are indented as its continuation.  A starred number
+               ("[12*]", an editor's annotation) -> [^s12].  A heading with
+               only note definitions under it ("Notes") is dropped, since
+               renderers gather footnotes elsewhere and it would be empty
+  figures      <img> -> ![caption](...), the caption taken from a <th> just
+               before it (MIA's figure tables) or else the alt text; with
+               --figures DIR the image is downloaded into DIR and linked
+               relative to the output file, otherwise linked by URL
   dropped      <head>, scripts, styles, <hr>, empty paragraphs and the
                classes skip, updat, footer, toc, link, title (MIA navigation)
 
 Usage: python html_to_markdown.py <url-or-file> output.md [--base URL]
                                   [--levels h1=1,h2=1,h3=2,h4=3] [--keep-caps]
+                                  [--figures DIR]
 """
 import argparse
+import os
 import re
 import sys
 import urllib.request
@@ -38,7 +49,7 @@ DROP_CLASSES = {"skip", "updat", "footer", "toc", "link", "title"}
 SMALL_WORDS = {"a", "an", "and", "as", "at", "but", "by", "for", "from", "in",
                "into", "nor", "of", "on", "or", "the", "to", "with"}
 ROMAN = re.compile(r"^[IVXLC]+\.?$")
-NOTE_TEXT = re.compile(r"^\[?(\d+)\]?$")
+NOTE_TEXT = re.compile(r"^\[?(\d+)((?:\\?\*)?)\]?$")   # text is escaped: "1\*"
 
 
 def title_case(text):
@@ -66,9 +77,10 @@ def escape(text):
 
 
 class Converter(HTMLParser):
-    def __init__(self, base, levels, keep_caps):
+    def __init__(self, base, levels, keep_caps, figures=None, out_dir="."):
         super().__init__(convert_charrefs=True)
         self.base, self.levels, self.keep_caps = base, levels, keep_caps
+        self.figures, self.out_dir = figures, out_dir
         self.blocks = []          # finished Markdown blocks
         self.buf = None           # inline text of the block being built
         self.kind = None          # "p", "h1".."h6", "li", "info"
@@ -80,6 +92,10 @@ class Converter(HTMLParser):
         self.seen_hr = False
         self.head = []            # title block before the first <hr>
         self.drop_next_list = False
+        self.in_note = False      # the last block was (part of) an endnote
+        self.para_classes = set() # classes of the <p> being built
+        self.caption = None       # text of a <th> figure caption
+        self.images = []          # (url, local path) of figures to download
 
     # ------------------------------------------------------------ helpers
     def start_block(self, kind):
@@ -96,7 +112,7 @@ class Converter(HTMLParser):
             return
         if kind.startswith("h"):
             text = re.sub(r"\s+", " ", text)
-            if re.fullmatch(r"(?i)contents:?", text):
+            if re.fullmatch(r"(?i)(table of )?contents:?", text):
                 self.drop_next_list = True
                 return
             if not self.seen_hr:
@@ -104,7 +120,11 @@ class Converter(HTMLParser):
                 return
             if not self.keep_caps:
                 text = title_case(text)
+            self.in_note = False
             self.blocks.append("#" * self.levels.get(kind, 2) + " " + text)
+            return
+        if kind == "caption":
+            self.caption = re.sub(r"\s+", " ", text)
             return
         if kind == "info":
             self.head.append(("info", text))
@@ -116,11 +136,19 @@ class Converter(HTMLParser):
             indent = "  " * (len(self.lists) - 1)
             items.append(indent + mark + " " + text.replace("\n", "  \n" + indent + "  "))
             return
-        m = re.match(r"^\x00NOTE(\d+)\x00\s*", text)
+        m = re.match(r"^\x00NOTE(s?\d+)\x00\s*", text)
+        continuation = False
         if m:                                  # a note: "[^n]: text"
             text = f"[^{m.group(1)}]: " + text[m.end():]
-        text = re.sub(r"\x00NOTE(\d+)\x00", r"[^\1]", text)
+            self.in_note = True
+        elif self.in_note and "endnote" in self.para_classes:
+            continuation = True                # a further paragraph of it
+        else:
+            self.in_note = False
+        text = re.sub(r"\x00NOTE(s?\d+)\x00", r"[^\1]", text)
         text = text.replace("\n", "  \n")
+        if continuation:
+            text = "\n".join("    " + line for line in text.split("\n"))
         if self.quote:
             text = "\n".join("> " * self.quote + line for line in text.split("\n"))
         self.blocks.append(text)
@@ -139,7 +167,9 @@ class Converter(HTMLParser):
         a = dict(attrs)
         classes = set((a.get("class") or "").split())
         if tag in ("br", "hr", "img", "meta", "link", "input"):
-            if tag == "br":
+            if tag == "img" and not self.skip and a.get("src"):
+                self.figure(a)
+            elif tag == "br":
                 self.emit(" " if self.kind and self.kind.startswith("h") else "\x00BR\x00")
             elif tag == "hr":
                 self.end_block()
@@ -150,7 +180,13 @@ class Converter(HTMLParser):
             self.skip += 1
             return
         if tag == "p":
+            if "quoteb" in classes:
+                self.end_block()
+                self.quote += 1
             self.start_block("info" if "information" in classes else "p")
+            self.para_classes = classes
+        elif tag == "th":
+            self.start_block("caption")
         elif re.fullmatch(r"h[1-6]", tag):
             self.start_block(tag)
         elif tag == "blockquote":
@@ -166,6 +202,8 @@ class Converter(HTMLParser):
             self.emit("*")
         elif tag in ("strong", "b"):
             self.emit("**")
+        elif tag == "u":
+            self.emit("<ins>")
         elif tag in ("sup", "sub"):
             self.emit(f"<{tag}>")
         elif tag == "a":
@@ -186,8 +224,13 @@ class Converter(HTMLParser):
                 return
 
     def close(self, tag):
-        if tag == "p" or re.fullmatch(r"h[1-6]", tag) or tag == "li":
+        if tag == "p" and "quoteb" in self.para_classes:
             self.end_block()
+            self.quote -= 1
+            self.para_classes = set()
+        elif tag in ("p", "th") or re.fullmatch(r"h[1-6]", tag) or tag == "li":
+            self.end_block()
+            self.para_classes = set()
         elif tag == "blockquote":
             self.end_block()
             self.quote -= 1
@@ -205,6 +248,8 @@ class Converter(HTMLParser):
             self.emit("*")
         elif tag in ("strong", "b"):
             self.emit("**")
+        elif tag == "u":
+            self.emit("</ins>")
         elif tag in ("sup", "sub"):
             self.emit(f"</{tag}>")
         elif tag == "a" and self.link and self.buf is not None:
@@ -218,7 +263,8 @@ class Converter(HTMLParser):
                     if self.buf and self.buf[-1] in ("<sup>", "["):
                         self.buf.pop()
                         self._drop_sup = True
-                    self.buf.append(f"\x00NOTE{m.group(1)}\x00")
+                    label = ("s" if m.group(2) else "") + m.group(1)
+                    self.buf.append(f"\x00NOTE{label}\x00")
                 elif self.lists:
                     self._list_is_toc = True   # an in-page contents list
             elif href and not href.startswith(("mailto:", "javascript:")) and text.strip():
@@ -230,6 +276,19 @@ class Converter(HTMLParser):
                 self.buf.pop()
 
     _list_is_toc = False
+
+    def figure(self, a):
+        """An <img>: its own block, captioned by a preceding <th> or its alt."""
+        self.end_block()
+        url = urljoin(self.base, a["src"])
+        caption = self.caption or a.get("alt") or ""
+        self.caption = None
+        target = url
+        if self.figures:
+            local = os.path.join(self.figures, os.path.basename(a["src"]))
+            self.images.append((url, local))
+            target = os.path.relpath(local, self.out_dir).replace(os.sep, "/")
+        self.blocks.append(f"![{caption}]({target.replace(' ', '%20')})")
 
     def handle_data(self, data):
         if self.skip:
@@ -259,17 +318,37 @@ class Converter(HTMLParser):
             out.append("  \n".join(re.sub(r"^([^:]{1,30}):", r"**\1:**", l.strip()) for l in lines))
         if self.base.startswith("http"):
             out.append(f"Source: <{self.base}>")
-        return "\n\n".join(out + self.blocks).strip() + "\n"
+        return "\n\n".join(out + self.without_note_headings()).strip() + "\n"
+
+    def without_note_headings(self):
+        """Drop a heading ("Notes") with nothing under it but note
+        definitions: Markdown renderers gather footnotes elsewhere, so it
+        would be left empty."""
+        blocks = self.blocks
+        keep = []
+        for i, b in enumerate(blocks):
+            if b.startswith("#"):
+                j = i + 1
+                while j < len(blocks) and re.match(r"\[\^|    ", blocks[j]):
+                    j += 1
+                if j > i + 1 and (j == len(blocks) or blocks[j].startswith("#")):
+                    continue
+            keep.append(b)
+        return keep
 
 
-def read(src):
+def fetch(src):
+    """The bytes of a URL or a local file."""
     if re.match(r"https?://", src):
         req = urllib.request.Request(src, headers={"User-Agent": "Mozilla/5.0 (html_to_markdown.py)"})
         with urllib.request.urlopen(req) as r:
-            raw = r.read()
-    else:
-        with open(src, "rb") as f:
-            raw = f.read()
+            return r.read()
+    with open(src, "rb") as f:
+        return f.read()
+
+
+def read(src):
+    raw = fetch(src)
     m = re.search(rb'charset=["\']?([\w-]+)', raw[:2000])
     charset = m.group(1).decode() if m else "utf-8"
     try:
@@ -285,11 +364,20 @@ def main():
     ap.add_argument("--base", help="URL of the page, for links (default: src if a URL)")
     ap.add_argument("--levels", default="h1=1,h2=1,h3=2,h4=3,h5=4,h6=5")
     ap.add_argument("--keep-caps", action="store_true", help="don't title-case ALL-CAPS headings")
+    ap.add_argument("--figures", help="download images into this folder and link them relatively")
     args = ap.parse_args()
     levels = {k: int(v) for k, v in (p.split("=") for p in args.levels.split(","))}
     base = args.base or (args.src if re.match(r"https?://", args.src) else "")
-    conv = Converter(base, levels, args.keep_caps)
+    out_dir = os.path.dirname(os.path.abspath(args.out))
+    figures = os.path.abspath(args.figures) if args.figures else None
+    conv = Converter(base, levels, args.keep_caps, figures, out_dir)
     conv.feed(read(args.src))
+    if conv.images:
+        os.makedirs(figures, exist_ok=True)
+    for url, local in conv.images:
+        with open(local, "wb") as f:
+            f.write(fetch(url if re.match(r"https?://", url) else
+                          os.path.join(os.path.dirname(args.src), url)))
     md = conv.markdown()
     md = re.sub(r"\n{3,}", "\n\n", md)
     with open(args.out, "w", encoding="utf-8", newline="\n") as f:
