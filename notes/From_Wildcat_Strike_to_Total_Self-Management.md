@@ -47,9 +47,20 @@ Ratgeb quotes a long account of sabotage "in 1968 in a car plant near Detroit". 
 
 Not yet verified: the French pamphlet *Lordstown 72*, and what *Solidarity Pamphlet 45* contains.
 
+### Watson's wording put back
+
+Because the original English exists, the repository text now gives the quotation in Watson's words in place of Sharkey's, and says so under the title. Ratgeb's lead-in sentence and his citation of *Lordstown 72* are kept. Sharkey's version is still in the [Anarchist Library copy](From_Wildcat_Strike_to_Total_Self-Management/Contributions_to_the_Revolutionary_Struggle-Anarchist_Library.md), and the table below compares the two.
+
+How the quotation was made:
+
+- It takes the same passages from Watson that Ratgeb's quotation does, in the same order: the start of the six-cylinder sabotage, the cracking of parts in inspection, the V-8 sabotage, the supervisor's interrogation, the rotating sabotage rota, and the paragraphs on cooperation, the rod-blowing contest and the hose fight.
+- Its ellipses mark where Watson's text is actually left out. Ratgeb has ellipses at two places where Watson runs on without a gap (after "the V-8 engine works as a whole" and inside the rota sentence); those are dropped. Watson's paragraphs on cooperation, the contest and the hose fight are consecutive, so they run on without ellipses.
+- The quotation stays as one block, as in the book, rather than in Watson's paragraphs.
+- Scanning errors in libcom's copy were corrected in the quotation: "involved-some" to "involved — some", "company 5" to "company's", "~ to 50" to "1 to 50" (the French has « de 1 à 50 »), "inspector This" to "inspector. This", and "writ ten up" to "written up". The [stored copy of the essay](From_Wildcat_Strike_to_Total_Self-Management/Counter-Planning_on_the_Shop_Floor.md) keeps them as libcom has them.
+
 ### How the text reached Sharkey
 
-Watson's English became French in *Lordstown 72*, then went into Ratgeb's French book, and Sharkey translated that back into English. So the passage in the book isn't Watson's wording, and details have shifted on the way:
+Watson's English became French in *Lordstown 72*, then went into Ratgeb's French book, and Sharkey translated that back into English. So Sharkey's passage wasn't Watson's wording, and details have shifted on the way:
 
 | Watson (1971) | Sharkey's translation of Ratgeb |
 | --- | --- |
@@ -66,7 +77,7 @@ Watson's English became French in *Lordstown 72*, then went into Ratgeb's French
 
 Notes:
 
-- The dash after "the workers concerned" was missing from both online copies of Sharkey's text. It was restored by comparison with Watson and the French (« chez les ouvriers concernés - certains déterminés »).
+- The dash after "the workers concerned" was missing from both online copies of Sharkey's text. It was restored by comparison with Watson and the French (« chez les ouvriers concernés - certains déterminés »), before Watson's wording replaced the passage.
 - "Several weeks" became "several months" in the French (« plusieurs mois »), and Sharkey followed it.
-- Sharkey's "As six cylinder jobs" is a cramped rendering of the French « Comme les six cylindres » ("Like the six-cylinders"), which in turn shortens Watson's "As with the six-cylinder motor sabotage". It was left as it is, because it is the translation's wording.
+- Sharkey's "As six cylinder jobs" is a cramped rendering of the French « Comme les six cylindres » ("Like the six-cylinders"), which in turn shortens Watson's "As with the six-cylinder motor sabotage".
 - The libcom text has its own scanning errors, such as "company 5" for "company's", and "~ to 50" where Sharkey has "from 1 to 50".
