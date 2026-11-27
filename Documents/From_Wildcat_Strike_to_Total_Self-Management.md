@@ -6,7 +6,7 @@
 
 Translated by Paul Sharkey and Ken Knabb (Bratach Dubh, 1981 and Berkeley: Bureau of Public Secrets, 2001)
 
-The quotation in chapter 2, paragraph 64, which Ratgeb took from a French translation, is given in its original English (Bill Watson, "Counter-Planning on the Shop Floor", *Radical America*, 1971), not in Sharkey's translation back from the French.
+Minor corrections have been made: scanning errors, typos and punctuation, and a few mistranslations checked against the French original. The quotation in chapter 2, paragraph 64, which Ratgeb took from a French translation, is given in its original English (Bill Watson, "Counter-Planning on the Shop Floor", *Radical America*, 1971), not in Sharkey's translation back from the French.
 
 Source: <https://www.sionline.researche-editions.cddc.vt.edu/postsi/ratgeb.html>
 
