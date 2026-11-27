@@ -16,9 +16,12 @@ This is a research note by Claude (Opus 5.5), written from prompts by Patrick. P
 
 > This should be more than a draft. It's just more research. Comparison to GIC.
 
+> That last dot point mentions the payout factor. TNS doesn't use that term, but their idea of tax is an equivalent, from what I understand.
+
 ## Summary
 
 - **The accounting is compatible.** If the markup or discount is applied only when goods pass to consumers, every operational unit is still credited with its (f + c) + l, and nothing is gained or lost in its books. Markups and discounts form one separate account. In total it equals Token Consumption minus Consumption, and it can be settled through the next period's payout factor. Patrick's point stands.
+- **TNS's net tax is its payout factor.** Both cancel the share of claims that goes to social provision and accumulation, and TNS also uses its tax to correct an imbalance in the consumer market. They differ in form. The GIC's factor is proportional and calculated from the accounts. TNS's tax is a flat amount per earner, set in advance from a forecast, with the share for accumulation put to a vote. TNS rejects turnover tax for the GIC's own reason, but it allows an excise tax on selected goods, which is price policy in the GIC's sense.
 - **Both books already limit consumers with a scalar.** TNS's argument for prices is that free choice within a limit needs "a scalar (any goods you like up to such a total value) rather than a vector" ([TNS 15](../Documents/towards_a_new_socialism/15_Some_Contrary_Views_Considered.md#distribution-values-and-prices)). The GIC's certificates already do this. The two books differ on one thing only: whether the price a consumer pays may depart from the labour time.
 - **The GIC rejects price policy by name.** Its objection is political, not about accounting. Whoever sets prices controls distribution, and only a fixed relation between producer and product prevents that. Recording both figures answers the GIC's other objection (that a surcharge hides how much work a product takes). It doesn't answer this one.
 - **The GIC has no answer of its own to shortages within a plan period.** It accepts that needs won't be met at first, and it forbids units to expand beyond the plan. So a shortage stays a shortage until the next plan. TNS's markup is one answer to that gap. Rationing or queues are the other answers (*my reading*).
@@ -55,6 +58,22 @@ At the cooperative, each sale records two figures: the hours of product handed o
 
 The GIC already has an instrument for that gap. Its payout factor (FIC) is set so that the certificates issued match the product left for individual consumption ([GIC 10 g](../Documents/fundamental_principles/10_The_General_Social_Work.md#g-the-payout-factor); [E7 in the GIC model note](fundamental-principles-economic-model.md#e7-the-payout-factor-fic)). A net balance in the offset account is carried into the next period's FIC calculation, either as product handed out and not paid for, or as certificates cancelled with nothing handed out.
 
+### TNS's tax does the payout factor's job
+
+TNS doesn't use the term "payout factor". Its net tax does the same job. In both books, workers can't be given claims on the whole of what they produce, because part of the product goes to social provision and accumulation. TNS: "consumption must fall short of Net Value Product, and therefore must also fall short of Current Labour Tokens … One way to arrange for this is to tax the labour-token income of the workers". Its example: if the plan gives 55 per cent of the Net Value Product to consumer goods and nobody saves, "the state must 'cancel out', via net taxation, 45 percent of the basic issue of labour tokens" ([TNS 7, Macro accounting in labour-time](../Documents/towards_a_new_socialism/07_Macroeconomic_Planning_and_Budgetary_Policy.md#macro-accounting-in-labour-time)). In GIC terms, that is a payout factor of 0.55 (*my reading*). TNS also gives the tax the job this note gives the payout factor: "tax policy will play the important role of balancing the macro plan". If Token Consumption overshoots Consumption, the planners "may respond in the next period by raising taxation" ([TNS 7, Tax policy](../Documents/towards_a_new_socialism/07_Macroeconomic_Planning_and_Budgetary_Policy.md#tax-policy); [TNS 8](../Documents/towards_a_new_socialism/08_The_Marketing_of_Consumer_Goods.md#consumer-goods-and-the-macro-plan)).
+
+So the offset account closes the same way in both books: through the GIC's next payout factor, or through TNS's next net tax. The two instruments do differ:
+
+| | GIC payout factor | TNS net tax |
+| --- | --- | --- |
+| When it applies | Before issue: each hour is credited with FIC × 1 hour of certificates | After issue: one token per hour, then tax cancels part of them |
+| Shape | Proportional: the same fraction of every hour | Flat: "so many labour tokens per month or year per earner". The marginal rate is zero, so an extra hour earns a whole token, and someone working short hours gives up a larger share |
+| How it is set | Calculated from the period's accounts: the giro office "has in a simple way all the data necessary to determine the payout factor" ([GIC 10 g](../Documents/fundamental_principles/10_The_General_Social_Work.md#g-the-payout-factor)) | Set in advance from the plan: revenue of *x* − *z* tokens, where *z* is forecast net saving. The share for accumulation is put to a plebiscite: "all tax levels must flow from democratic votes" |
+| What it covers | Public (GSW) units, and expansion ([GIC 13 e](../Documents/fundamental_principles/13_The_Expansion_of_Production.md#e-the-influence-on-the-payout-factor)) | Social provision, accumulation, lending abroad, and tokens transferred to non-workers |
+| Saving | Not discussed | Part of the calculation: saving deposits and retirement assets reduce the tax needed |
+
+For this note the difference that matters is the third row. The GIC's factor is a calculation from the accounts, so an offset balance would enter it automatically and openly. TNS's tax is a forecast and a vote, so a balance would be one input among several. Either way it is the same order of correction, a share of all hours, not a price on particular goods (*my reading*).
+
 ### A worked period (*my illustration*)
 
 A cooperative receives two goods, each 100 units at 10 hours: 2,000 hours of product. Consumers hold 2,000 hours of certificates after the payout factor.
@@ -90,6 +109,13 @@ It rejects Varga's "social cost of production" even though Varga added the same 
 
 There is a third objection, from the GIC's growth argument: "the 'social costs' [must] be determined by a payout factor and not by the detour of 'price increases' since this would directly limit self-activity" ([GIC 10 h](../Documents/fundamental_principles/10_The_General_Social_Work.md#h-the-growth-process-of-communism)). This is aimed at funding public services through prices. It would apply to the offset account if the account were ever spent.
 
+TNS agrees on this principle. It rejects the Soviet turnover tax because "it would involve systematically pricing consumer goods at values greater than their true labour content", and it prefers a tax on token income ([TNS 7, Tax policy](../Documents/towards_a_new_socialism/07_Macroeconomic_Planning_and_Budgetary_Policy.md#tax-policy)). That is the GIC's case against Varga in other words. But TNS makes two exceptions the GIC wouldn't:
+
+- **An excise tax**, "a specific charge on selected consumer goods" (alcohol, tobacco) whose consumption the state wants to limit ([TNS 7, Excise tax](../Documents/towards_a_new_socialism/07_Macroeconomic_Planning_and_Budgetary_Policy.md#excise-tax)). Unlike the ch. 8 markup, this one is permanent and set by policy, not by demand. It is price policy in exactly the GIC's sense.
+- **Ground rent paid in tokens**, which TNS calls "one exception to the general principle that these tokens buy only the products of labour, priced according to their labour content" ([TNS 7, Ground rent](../Documents/towards_a_new_socialism/07_Macroeconomic_Planning_and_Budgetary_Policy.md#ground-rent)).
+
+So the ch. 8 markup is the milder of TNS's departures from labour-time pricing. It is temporary and driven by demand, and meant to converge on value. The excise tax is the one the GIC's objection fits fully (*my reading*).
+
 ### Shortages within a plan period
 
 The GIC admits that at first "it will certainly not be possible to satisfy needs", and that units "are not supposed to expand production on their own authority … because they cannot go beyond the general framework established in the general production plan" ([GIC 12 g](../Documents/fundamental_principles/12_The_Abolition_of_the_Market.md#g-the-cooperatives-and-the-benchmark-of-needs)). It doesn't say what the cooperative does when a good runs out before the period ends. With prices fixed at labour time, the possibilities are first come first served, queues, or rationing by the cooperative (*my reading*). TNS's ch. 15 makes the same point against a priceless system: without a price, "the practical result [will] simply be 'first come, first served'" ([TNS 15](../Documents/towards_a_new_socialism/15_Some_Contrary_Views_Considered.md#distribution-values-and-prices)). TNS's Table 8.1 prefers market prices to rationing when incomes are equal. The GIC doesn't consider the choice.
@@ -116,7 +142,7 @@ So expiry is part of the TNS design, not something the GIC already has. Without 
 2. **Both figures marked on every good and published,** with the offset account public in the giro office's social accounts.
 3. **Prices set by a published mechanical rule,** for example from stock levels against the period's order. The cooperatives apply it, not a central marketing authority. This is the GIC's answer to price policy: control by rules, not by persons ([GIC 13 c](../Documents/fundamental_principles/13_The_Expansion_of_Production.md#c-the-general-rule-for-the-expansion-of-the-operational-unit) calls for "generally valid rules").
 4. **An expiry date on certificates,** with saving only through accounts the giro office can see.
-5. **The net balance is never spent.** It is used only to correct the next payout factor. Otherwise it becomes a hidden tax, the route of Leichter and Varga ([GIC 10 f](../Documents/fundamental_principles/10_The_General_Social_Work.md#f-the-marxist-solution)).
+5. **The net balance is never spent.** It is used only to correct the next payout factor (in TNS's terms, the next net tax). Otherwise it becomes a hidden tax, the route of Leichter and Varga ([GIC 10 f](../Documents/fundamental_principles/10_The_General_Social_Work.md#f-the-marxist-solution)).
 
 With these conditions, the idea is an addition to the GIC's model, not something already in it. A strict GIC reader could still object that any deliberate departure from labour time breaks "the law of average production time" ([GIC 10 f](../Documents/fundamental_principles/10_The_General_Social_Work.md#f-the-marxist-solution)). The reply would be that the cooperatives face shortages either way, and a published price rule is more open than an unwritten queue (*my reading*).
 
