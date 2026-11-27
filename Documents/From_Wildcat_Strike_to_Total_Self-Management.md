@@ -268,7 +268,7 @@ So you see, already you are fighting, consciously or otherwise, for a society in
 
 > f) The way in which the ruling system construes everything turns everything into commodity. Ideology is the artificial eyes of the authorities, enabling it to see life in what is already dead, what has already been turned into a commodity.
 
-So you see, you are already fighting, consciously or otherwise, for a society in which your wish to escape the clutches of the town planners and of ideology will be realized through freedom to organize according to your preference, the space and time of your everyday life and to build your own homes and the nomads, should you wish, and to make your towns places of passion and play.
+So you see, you are already fighting, consciously or otherwise, for a society in which your wish to escape the clutches of the town planners and of ideology will be realized through freedom to organize according to your preference, the space and time of your everyday life and to build your own homes and to be nomads, should you wish, and to make your towns places of passion and play.
 
 17\. Have you ever felt the urge to make love (not as a matter of routine but with great passion) to your partner or to the first man or woman to come along, or to your daughter, or your parents, or your men and women friends, or your brothers and sisters? In that case, you have realized that:
 
@@ -480,7 +480,7 @@ D. By choosing delegates (who are subject to instant recall and mandated to coll
 
 18\. Cherishing no illusions about that which awaits us in the event of defeat and determined, once our victory has been assured, to wreak no vengeance on former enemies, we stand ready to deploy all forms of dissuasion whilst the struggle persists — especially to destroy machinery, reserves and hostages with the aim of compelling the statist forces to retreat and disarm. Should the struggle be at a less drastic pitch, it will be to sever water, gas, electricity and fuel supply lines to bourgeois districts where the leaders reside and to dump rubbish there instead and sabotage the lifts at their residential tower blocks, etc.
 
-19\. The voice of the masses is not easily heard above the din of battle. The ingenuity of each individual will create new and effective weapons for the use of the self-defense commandos. As rapidly as possible, pilfering will give way to the conversion of whatever machinery may be available within our factories, in keeping with a rapid armament program laid down by the universal self-managing assemblies.
+19\. The voice of the masses is only really heard in the din of battle. The ingenuity of each individual will create new and effective weapons for the use of the self-defense commandos. As rapidly as possible, pilfering will give way to the conversion of whatever machinery may be available within our factories, in keeping with a rapid armament program laid down by the universal self-managing assemblies.
 
 20\. Among weapons suitable for immediate deployment one might predict rocket launchers made out of tubing (as tried out in Venezuela in the 1960's), ground-to-air missiles (tried out by young scientists' clubs), grenade launchers and catapults for molotov cocktails, flame-throwers, mortars, ultra-sonic equipment, lasers, etc. A study will also be made of various methods of armor plating, converted trucks and bull-dozers, as well as bulletproof vests, gas masks (products that will counteract the effects of incapacitating weapons). Also of the possibility of dosing the enemy's water supply with LSD, etc.
 
@@ -494,7 +494,7 @@ D. By choosing delegates (who are subject to instant recall and mandated to coll
 
 ## Hastening the passage from subsistence conditions to living conditions
 
-25\. We shall carry the day for sure if we can make significant for everyone the changeover from subsistence to life meaningful for everyone. This does not mean that we are going to beat the commodity system in our first engagement. It means only that the earliest measures adopted and implemented by the self-managing assemblies must render every reversion to former circumstances doubly impossible... by doing away with the old conditions and creating such advantages that no one will consent to being dispossessed of them.
+25\. We shall carry the day for sure if we can make the changeover from subsistence to life meaningful for everyone. This does not mean that we are going to beat the commodity system in our first engagement. It means only that the earliest measures adopted and implemented by the self-managing assemblies must render every reversion to former circumstances doubly impossible... by doing away with the old conditions and creating such advantages that no one will consent to being dispossessed of them.
 
 26\. The primary benefits of the system of generalized self-management will of necessity have the following results:
 
@@ -560,7 +560,7 @@ D. By choosing delegates (who are subject to instant recall and mandated to coll
 
 49\. Over living hostages such as bosses, ministers, bishops, bankers, generals, highly-placed officials, prefects, police chiefs, etc. preference should be given to material hostages such as stocks, prototypes, gold and silver reserves, expensive machinery, electronic equipment, blast furnaces, etc.
 
-50\. We must know how to tailor our means of pressurizing and dissuasion to the nature of our demands. For instance, it is absurd to threaten, as the workers of the Slee company in Liege did (in September 1973) to blow up the plant unless they were given an interview with their members of parliament. Recourse to extreme measures should lead to radical measures (e.g. to the liquidation of the Statist enemy, or the disarming of the forces of repression, or to the evacuation of a town or entire region by the cops and the armed forces).
+50\. We must know how to tailor our means of pressurizing and dissuasion to the nature of our demands. For instance, it is absurd to threaten, as the workers of the Salée company in Liege did (in September 1973) to blow up the plant unless they were given an interview with their members of parliament. Recourse to extreme measures should lead to radical measures (e.g. to the liquidation of the Statist enemy, or the disarming of the forces of repression, or to the evacuation of a town or entire region by the cops and the armed forces).
 
 51\. Risks are to be avoided except for worthwhile results. If isolation threatens, better to evacuate with an eye to the future endeavors, thereby avoiding the repression and turning each tactical withdrawal to the advantage of the revolutionaries.
 
